@@ -1,0 +1,62 @@
+[
+  {
+    "query": "Take me to the library.",
+    "gold": 1
+  },
+  {
+    "query": "Take me to the cafeteria.",
+    "gold": 2
+  },
+  {
+    "query": "Take me to the clinic.",
+    "gold": 3
+  },
+  {
+    "query": "Take me to the gym.",
+    "gold": 4
+  },
+  {
+    "query": "Take me to the bookstore.",
+    "gold": 5
+  },
+  {
+    "query": "Take me to the research lab.",
+    "gold": 6
+  },
+  {
+    "query": "Take me to the lecture hall.",
+    "gold": 7
+  },
+  {
+    "query": "Take me to the garden.",
+    "gold": 8
+  },
+  {
+    "query": "Take me to the security office.",
+    "gold": 9
+  },
+  {
+    "query": "Take me to the main gate.",
+    "gold": 0
+  },
+  {
+    "query": "I need a place to study in the library.",
+    "gold": 1
+  },
+  {
+    "query": "I want to buy books in the bookstore.",
+    "gold": 5
+  },
+  {
+    "query": "I need emergency first aid at the clinic.",
+    "gold": 3
+  },
+  {
+    "query": "I want to eat a hot meal in the cafeteria.",
+    "gold": 2
+  },
+  {
+    "query": "I need to attend a lecture in the lecture hall.",
+    "gold": 7
+  }
+]

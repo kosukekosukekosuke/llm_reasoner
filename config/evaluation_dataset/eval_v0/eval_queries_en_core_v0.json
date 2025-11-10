@@ -1,0 +1,122 @@
+[
+  {
+    "query": "I want to return a book.",
+    "gold": 1
+  },
+  {
+    "query": "I need a quiet place to study.",
+    "gold": 1
+  },
+  {
+    "query": "Where can I grab lunch with friends?",
+    "gold": 2
+  },
+  {
+    "query": "I feel sick and need first aid.",
+    "gold": 3
+  },
+  {
+    "query": "I want to work out for 30 minutes.",
+    "gold": 4
+  },
+  {
+    "query": "I need to buy a notebook and pen.",
+    "gold": 5
+  },
+  {
+    "query": "Take me to the research area with experiments.",
+    "gold": 6
+  },
+  {
+    "query": "I have a lecture now.",
+    "gold": 7
+  },
+  {
+    "query": "I want to relax in a green space.",
+    "gold": 8
+  },
+  {
+    "query": "I lost my wallet and need help.",
+    "gold": 9
+  },
+  {
+    "query": "I want some snacks and a place to chat.",
+    "gold": 2
+  },
+  {
+    "query": "Where can I get information about books?",
+    "gold": 1
+  },
+  {
+    "query": "I need safety assistance.",
+    "gold": 9
+  },
+  {
+    "query": "I need medical help.",
+    "gold": 3
+  },
+  {
+    "query": "I want to buy a textbook.",
+    "gold": 5
+  },
+  {
+    "query": "I want to practice basketball.",
+    "gold": 4
+  },
+  {
+    "query": "I need a large room for a presentation.",
+    "gold": 7
+  },
+  {
+    "query": "I need experimental equipment.",
+    "gold": 6
+  },
+  {
+    "query": "I want to read quietly.",
+    "gold": 1
+  },
+  {
+    "query": "I want coffee and a quick lunch.",
+    "gold": 2
+  },
+  {
+    "query": "Where is the lost and found?",
+    "gold": 9
+  },
+  {
+    "query": "Where can I find academic resources?",
+    "gold": 1
+  },
+  {
+    "query": "I need a meal.",
+    "gold": 2
+  },
+  {
+    "query": "I want medical assistance.",
+    "gold": 3
+  },
+  {
+    "query": "I want to exercise.",
+    "gold": 4
+  },
+  {
+    "query": "I need to buy stationery.",
+    "gold": 5
+  },
+  {
+    "query": "I want to conduct an experiment.",
+    "gold": 6
+  },
+  {
+    "query": "I have a class now.",
+    "gold": 7
+  },
+  {
+    "query": "I want to sit quietly in nature.",
+    "gold": 8
+  },
+  {
+    "query": "I need campus security support.",
+    "gold": 9
+  }
+]

@@ -1,0 +1,48 @@
+<launch>
+    <!-- ===== Args you typically change per experiment ===== -->
+    <!-- LLM model file (under llm_reasoner/scripts/llama.cpp/models) -->
+    <arg name="model_name" default="Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf" />
+    <!-- Map (semantic graph) -->
+    <arg name="map_yaml"   default="$(find rover_navigator)/map/graph/ikuta_graph_eval_v0.yaml" />
+    <!-- Decision mode: "and" or "weighted" -->
+    <arg name="decision_mode" default="weighted" />
+    <!-- Max extra attempts (so total calls = max_retries + 1) -->
+    <arg name="max_retries" default="2" />
+    <!-- Embedding model name -->
+    <arg name="embed_model_name" default="BAAI/bge-m3" />
+
+    <node pkg="llm_reasoner" type="llm_reasoner.py" name="llm_reasoner" output="screen">
+        <!-- Paths -->
+        <param name="model_path"     value="$(find llm_reasoner)/scripts/llama.cpp/models/$(arg model_name)" />
+        <param name="map_yaml_path"  value="$(arg map_yaml)" />
+
+        <!-- LLM generation -->
+        <param name="ctx_size"   value="2048" />
+        <param name="threads"    value="4" />
+        <param name="temperature" value="0.0" />
+        <param name="top_k"      value="10" />
+        <param name="top_p"      value="0.0" />
+        <param name="max_tokens" value="32" />
+
+        <!-- Decision / trust -->
+        <param name="decision_mode"      value="$(arg decision_mode)" />
+        <param name="max_retries"        value="$(arg max_retries)" />
+        <param name="conf_threshold"     value="0.5" />
+        <param name="cosine_threshold"   value="0.5" />
+        <param name="combined_threshold" value="0.6" />
+        <param name="alpha"              value="0.5" />
+        <param name="fallback_node"      value="0" />
+
+        <!-- Embedding -->
+        <param name="use_embedding"    value="true" />
+        <param name="embed_model_name" value="$(arg embed_model_name)" />
+        <param name="topk_semantic"    value="3" />
+
+        <!-- Topics (keep default names for consistency) -->
+        <param name="sub_query" value="/llm_reasoner/query" />
+        <param name="pub_node"  value="/llm_reasoner/chosen_node_id" />
+        <param name="pub_conf"  value="/llm_reasoner/confidence" />
+        <param name="pub_cos"   value="/llm_reasoner/cosine" />
+        <param name="pub_meta"  value="/llm_reasoner/meta" />
+    </node>
+</launch>

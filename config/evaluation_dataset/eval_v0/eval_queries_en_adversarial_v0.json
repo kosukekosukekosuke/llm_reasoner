@@ -1,0 +1,62 @@
+[
+  {
+    "query": "Wher can I retun a bok?",
+    "gold": 1
+  },
+  {
+    "query": "Need sum food n a place to hang out.",
+    "gold": 2
+  },
+  {
+    "query": "Feeling dizzy, where for first aid?",
+    "gold": 3
+  },
+  {
+    "query": "Where to workout for 20min?",
+    "gold": 4
+  },
+  {
+    "query": "Where to buy a pencil and paper?",
+    "gold": 5
+  },
+  {
+    "query": "Where to do experiments?",
+    "gold": 6
+  },
+  {
+    "query": "Big room for talk pls.",
+    "gold": 7
+  },
+  {
+    "query": "Green quiet corner to rest.",
+    "gold": 8
+  },
+  {
+    "query": "I lost my ID card.",
+    "gold": 9
+  },
+  {
+    "query": "Meeting point at campus entry.",
+    "gold": 0
+  },
+  {
+    "query": "A place for reading materials.",
+    "gold": 1
+  },
+  {
+    "query": "Snack place nearby?",
+    "gold": 2
+  },
+  {
+    "query": "Health support now!",
+    "gold": 3
+  },
+  {
+    "query": "Place to lift weights.",
+    "gold": 4
+  },
+  {
+    "query": "Where to purchase textbooks?",
+    "gold": 5
+  }
+]
