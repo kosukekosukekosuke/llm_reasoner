@@ -1,0 +1,2823 @@
+[
+    {
+        "id": "core_0001",
+        "query": "I finished reading a book I borrowed from the campus library. Where should I go to return it?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "clear book return request"
+        }
+    },
+    {
+        "id": "core_0002",
+        "query": "I need to buy a new textbook for my class. Which place on campus sells books?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "clear book purchase request"
+        }
+    },
+    {
+        "id": "core_0003",
+        "query": "Where can I return the library book that is due today?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "library return, due date mentioned"
+        }
+    },
+    {
+        "id": "core_0004",
+        "query": "I want to buy some stationery and maybe a new notebook for class. Where should I go?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "general campus shop / bookstore"
+        }
+    },
+    {
+        "id": "core_0005",
+        "query": "I don't want to buy a new book, I just need to return the one I borrowed. Where do I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "explicit negation of buying"
+        }
+    },
+    {
+        "id": "core_0006",
+        "query": "I'm not returning anything, I actually want to purchase a copy of the textbook. Which place should I head to?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of returning, wants to buy"
+        }
+    },
+    {
+        "id": "core_0007",
+        "query": "I'm really worried because my library book is almost overdue. Where can I go to give it back right now?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "emotion + return intent"
+        }
+    },
+    {
+        "id": "core_0008",
+        "query": "Uh, I kinda need to pick up a new workbook for my English class, where should I buy it?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "filler"
+            ],
+            "lang": "en",
+            "notes": "filler words, buy intent"
+        }
+    },
+    {
+        "id": "core_0009",
+        "query": "This book I borrowed for my seminar is due soon; where do I bring it back?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "returning without explicitly saying library"
+        }
+    },
+    {
+        "id": "core_0010",
+        "query": "I need a fresh copy of the textbook because the one I rented is missing pages. Where on campus can I get a new one?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "buying new copy vs borrowing"
+        }
+    },
+    {
+        "id": "core_0011",
+        "query": "図書館で借りた本を返したいんだけど、どこに持っていけばいい？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "clean"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, clear return intent"
+        }
+    },
+    {
+        "id": "core_0012",
+        "query": "授業で使う教科書を新しく買いたいんだけど、キャンパスのどこに行けばいい？",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "clean"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, buy intent"
+        }
+    },
+    {
+        "id": "core_0013",
+        "query": "I'm hungry and want to have a proper meal on campus. Where can I get lunch?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "clear meal request"
+        }
+    },
+    {
+        "id": "core_0014",
+        "query": "I just want to sit outside and relax somewhere quiet with some fresh air. Where should I go?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "clear relax/outdoor request"
+        }
+    },
+    {
+        "id": "core_0015",
+        "query": "Where is the campus cafeteria where I can get some hot food?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "cafeteria, hot food"
+        }
+    },
+    {
+        "id": "core_0016",
+        "query": "Is there a garden or some kind of green space where I can chill for a bit?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "garden, relax"
+        }
+    },
+    {
+        "id": "core_0017",
+        "query": "I'm not looking for food, I just want a calm place to sit outside and clear my head. Where should I go?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "negation of food, relax intent"
+        }
+    },
+    {
+        "id": "core_0018",
+        "query": "I don't want to sit around, I really need to get something to eat quickly. Where can I grab a meal?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of relaxing, eat intent"
+        }
+    },
+    {
+        "id": "core_0019",
+        "query": "I'm exhausted after class and would love a quiet spot with some trees to just breathe for a while. Where is good?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "emotion + relax, not food"
+        }
+    },
+    {
+        "id": "core_0020",
+        "query": "Umm, kinda starving right now... where on campus can I get something more like a proper lunch, not just snacks?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "filler"
+            ],
+            "lang": "en",
+            "notes": "filler + lunch intent"
+        }
+    },
+    {
+        "id": "core_0021",
+        "query": "I don't need a meal, just a peaceful outdoor spot to sit and maybe look at some plants. Where should I head?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "clear relax vs eat contrast"
+        }
+    },
+    {
+        "id": "core_0022",
+        "query": "I skipped breakfast and I'm shaking a bit, I really need to eat something substantial on campus. Where can I go?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "emotion + strong food need"
+        }
+    },
+    {
+        "id": "core_0023",
+        "query": "お腹が空いたから、ちゃんとご飯が食べられるところに行きたい。キャンパスのどこがいい？",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "clean"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, clear meal request"
+        }
+    },
+    {
+        "id": "core_0024",
+        "query": "今日は頭が疲れたので、外でぼーっとできる静かな場所に行きたい。どこがおすすめ？",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, relax intent"
+        }
+    },
+    {
+        "id": "core_0025",
+        "query": "I feel sick and need to see a doctor on campus. Where should I go?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "easy",
+            "tags": [
+                "emotion",
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "clear health problem"
+        }
+    },
+    {
+        "id": "core_0026",
+        "query": "I want to work out and use some exercise machines. Where is the gym?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "clear fitness request"
+        }
+    },
+    {
+        "id": "core_0027",
+        "query": "Where is the campus health center where I can get checked by a doctor?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "clinic / health center"
+        }
+    },
+    {
+        "id": "core_0028",
+        "query": "Is there a place on campus with treadmills or weights where I can exercise?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "gym, equipment mentioned"
+        }
+    },
+    {
+        "id": "core_0029",
+        "query": "I don't want to exercise, I actually feel kind of ill and need medical help. Where should I go?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "negation of gym, clinic intent"
+        }
+    },
+    {
+        "id": "core_0030",
+        "query": "I'm not sick or anything, I just want to burn some calories and move my body. Where can I do that?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of illness"
+        }
+    },
+    {
+        "id": "core_0031",
+        "query": "I'm a bit anxious because my stomach has been hurting since this morning. Where on campus can I talk to a doctor?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "emotion + health problem"
+        }
+    },
+    {
+        "id": "core_0032",
+        "query": "Uh, I kinda feel like doing some light training between classes, is there a place with machines or a training room?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "filler"
+            ],
+            "lang": "en",
+            "notes": "filler + workout intent"
+        }
+    },
+    {
+        "id": "core_0033",
+        "query": "I thought it was just fatigue, but my headache is getting worse and I want someone medical to check it. Where should I head?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "emotion",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "health vs simple rest"
+        }
+    },
+    {
+        "id": "core_0034",
+        "query": "I'm feeling kind of stressed and want to sweat a bit on a treadmill or something. Where on campus can I go?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "stress relief via exercise"
+        }
+    },
+    {
+        "id": "core_0035",
+        "query": "体調が悪いので、キャンパス内でお医者さんに診てもらえるところに行きたい。どこ？",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, clinic"
+        }
+    },
+    {
+        "id": "core_0036",
+        "query": "最近運動不足だから、ちょっと汗をかける施設に行きたいんだけど、どこがいい？",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "clean"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, gym"
+        }
+    },
+    {
+        "id": "core_0037",
+        "query": "I want a quiet place to study alone with my notes. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "self-study"
+        }
+    },
+    {
+        "id": "core_0038",
+        "query": "I need to attend a lecture for my course. Where are the lecture rooms?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "class attendance"
+        }
+    },
+    {
+        "id": "core_0039",
+        "query": "Where can I find a quiet space on campus to review slides and work on assignments by myself?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "independent study"
+        }
+    },
+    {
+        "id": "core_0040",
+        "query": "I have a class starting soon and I need to get to the room where the lecture is held. Where should I go?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "lecture_hall"
+        }
+    },
+    {
+        "id": "core_0041",
+        "query": "I'm not trying to join a lecture, I just want a spot where I can quietly read and study by myself. Where is good?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of class"
+        }
+    },
+    {
+        "id": "core_0042",
+        "query": "I don't want to sit alone; I actually need to go to the room where today's class is happening. Where is that?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of self-study"
+        }
+    },
+    {
+        "id": "core_0043",
+        "query": "I'm a bit nervous about the exam, so I want a really quiet place to concentrate on past papers. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "emotion + self-study"
+        }
+    },
+    {
+        "id": "core_0044",
+        "query": "Uh, I think my next lecture is starting soon, where can I go to actually sit in the class?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "filler"
+            ],
+            "lang": "en",
+            "notes": "filler + lecture intent"
+        }
+    },
+    {
+        "id": "core_0045",
+        "query": "For revising the material quietly on my own, I need somewhere calm, not the place where the lecture is held. Where should I head?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "contrast self-study vs lecture"
+        }
+    },
+    {
+        "id": "core_0046",
+        "query": "I'm supposed to attend the actual class session, not just read the slides alone. Where on campus are the lectures given?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "contrast class vs self-study"
+        }
+    },
+    {
+        "id": "core_0047",
+        "query": "レポートを落ち着いて書ける静かな場所に行きたい。授業ではなく、自習したいだけ。どこがおすすめ？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, self-study vs class"
+        }
+    },
+    {
+        "id": "core_0048",
+        "query": "このあと講義があるから、授業を受ける教室に行きたいんだけど、どこ？",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "clean"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, lecture hall"
+        }
+    },
+    {
+        "id": "core_0049",
+        "query": "I want to work on my research experiment and use the lab equipment. Where is the research lab?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "clear research_lab"
+        }
+    },
+    {
+        "id": "core_0050",
+        "query": "I just need a place to read general reference books and look things up for my report. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "library, general study"
+        }
+    },
+    {
+        "id": "core_0051",
+        "query": "Where is the lab where students run experiments and use specialized equipment?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "research_lab"
+        }
+    },
+    {
+        "id": "core_0052",
+        "query": "I want to browse academic books and maybe find some papers for my essay. Which place should I go to?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "library, academic reading"
+        }
+    },
+    {
+        "id": "core_0053",
+        "query": "I'm not just reading about experiments, I actually need to run one and use the lab tools. Where do I need to go?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of just reading"
+        }
+    },
+    {
+        "id": "core_0054",
+        "query": "I don't need lab equipment; I just want to look up information and read materials for my assignment. Where is good?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of lab usage"
+        }
+    },
+    {
+        "id": "core_0055",
+        "query": "I'm a bit nervous about starting my project experiment and want to go to the place where I can actually perform it. Where is that?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "emotion + lab"
+        }
+    },
+    {
+        "id": "core_0056",
+        "query": "Uh, for my term paper I kinda just need somewhere with lots of books and references, not machines. Where should I head?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "filler"
+            ],
+            "lang": "en",
+            "notes": "filler + library"
+        }
+    },
+    {
+        "id": "core_0057",
+        "query": "For running actual experiments on my project, I need a place with equipment and benches, not just shelves of books. Where is that?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "contrast lab vs library"
+        }
+    },
+    {
+        "id": "core_0058",
+        "query": "To collect background information and read related work for my project, I want a space with lots of academic resources rather than lab tools. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "contrast reading vs experiments"
+        }
+    },
+    {
+        "id": "core_0059",
+        "query": "実験の準備をしたいので、装置が置いてある研究室に行きたい。どこに行けばいい？",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "clean"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, research_lab"
+        }
+    },
+    {
+        "id": "core_0060",
+        "query": "レポートのために文献を読みたいだけで、実験をするわけではない。どこに行くのがいい？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, library vs lab"
+        }
+    },
+    {
+        "id": "core_0061",
+        "query": "I don't know where to go for my issue and I want to ask someone in person. Where is the information desk or help desk on campus?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "explicit help desk request"
+        }
+    },
+    {
+        "id": "core_0062",
+        "query": "I'm confused about where my classroom is and I'd like to talk to someone who can guide me. Where should I go?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "easy",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "general guidance, help_desk"
+        }
+    },
+    {
+        "id": "core_0063",
+        "query": "Where can I find a place on campus where staff can answer general questions about facilities and procedures?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "general info questions"
+        }
+    },
+    {
+        "id": "core_0064",
+        "query": "I need to ask someone about how to register for a campus service, not go to a specific classroom or office yet. Where can I talk to someone?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of specific office"
+        }
+    },
+    {
+        "id": "core_0065",
+        "query": "I'm a bit lost and not sure which building I need, so I'd like to ask the staff at the main counter. Where should I head?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "lost, wants counter/help desk"
+        }
+    },
+    {
+        "id": "core_0066",
+        "query": "Uh, I kinda have a question about several different things on campus and I'm not sure which office they belong to. Where can I ask first?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "filler"
+            ],
+            "lang": "en",
+            "notes": "filler + general info"
+        }
+    },
+    {
+        "id": "core_0067",
+        "query": "I don't really know which specific place handles my problem, so I just want to talk to someone at a central service desk. Where is that?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "central help desk"
+        }
+    },
+    {
+        "id": "core_0068",
+        "query": "I'm worried because I might have missed an important deadline and I don't know who to talk to. Where on campus can I ask about this in person?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "emotion + info desk"
+        }
+    },
+    {
+        "id": "core_0069",
+        "query": "どこに相談すればいいのか分からないから、とりあえず窓口みたいなところで聞きたい。キャンパスのどこに行けばいい？",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, generic help desk"
+        }
+    },
+    {
+        "id": "core_0070",
+        "query": "授業の手続きとか施設の使い方をまとめて聞ける案内カウンターみたいなところはある？ あるならそこに行きたい。",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "clean"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, wants information counter"
+        }
+    },
+    {
+        "id": "core_0071",
+        "query": "I'm not asking for a specific office yet, I just want to go to the main place where I can ask any questions about the campus. Where is that desk?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "hard",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of specific office, generic info desk"
+        }
+    },
+    {
+        "id": "core_0072",
+        "query": "色々分からないことがあって、まずは何でも聞ける総合受付みたいなところに行きたいんだけど、どこ？",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, general info desk with mild emotion"
+        }
+    },
+    {
+        "id": "core_0073",
+        "query": "I renewed this book once, but now I really have to give it back. Where on campus do I return library books?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "renewed book, stressed about return"
+        }
+    },
+    {
+        "id": "core_0074",
+        "query": "My professor told us to buy the textbook instead of borrowing it. Where can I purchase it on campus?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "explicitly told to buy"
+        }
+    },
+    {
+        "id": "core_0075",
+        "query": "I just found a library book in my bag that I totally forgot to return. Where do I drop it off?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "forgot to return, return intent"
+        }
+    },
+    {
+        "id": "core_0076",
+        "query": "I need a brand new copy of the textbook because I want to keep it after the course. Where can I buy it?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "wants own copy, buy intent"
+        }
+    },
+    {
+        "id": "core_0077",
+        "query": "I'm not looking for a place to buy anything, I just want to hand back the book I borrowed for my report. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "negates buying, returning borrowed book"
+        }
+    },
+    {
+        "id": "core_0078",
+        "query": "I don't need to return a book, I actually want to get a copy that I can keep. Which campus shop handles that?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "hard",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of return, permanent copy"
+        }
+    },
+    {
+        "id": "core_0079",
+        "query": "図書館から借りっぱなしになっている本があって、そろそろ返さないとまずい。返却するときはどこに行けばいい？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, overdue worry, return"
+        }
+    },
+    {
+        "id": "core_0080",
+        "query": "授業でずっと使うから、自分用の教科書を買っておきたい。キャンパス内のどこで売ってる？",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "clean"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, wants to buy own copy"
+        }
+    },
+    {
+        "id": "core_0081",
+        "query": "I extended the loan once, but now I just want to get this book off my hands. Where do I physically bring it back?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "implicit library return"
+        }
+    },
+    {
+        "id": "core_0082",
+        "query": "The rental copy from the library is fine, but for this exam I want a fresh book I can highlight freely. Where can I buy one?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "contrast rental vs personal copy"
+        }
+    },
+    {
+        "id": "core_0083",
+        "query": "I already returned my previous loan, now I just need to return this one last library book. Where is the return counter again?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "simple return, repetition"
+        }
+    },
+    {
+        "id": "core_0084",
+        "query": "Hey, I wanna grab a new textbook instead of borrowing it this time. Which place on campus sells course books?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "filler"
+            ],
+            "lang": "en",
+            "notes": "filler, buy intent"
+        }
+    },
+    {
+        "id": "core_0085",
+        "query": "図書館に返さないといけない本を持ってきたんだけど、返却ポストとかカウンターってどこ？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, return slot or counter"
+        }
+    },
+    {
+        "id": "core_0086",
+        "query": "買う用の教科書を探してて、レンタルじゃないやつが欲しい。そういうのってキャンパスのどこで買える？",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, permanent copy vs rental"
+        }
+    },
+    {
+        "id": "core_0087",
+        "query": "I'm not trying to borrow anything new, I just want to get rid of the book that's due. Where should I hand it in?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "hard",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of borrowing, return"
+        }
+    },
+    {
+        "id": "core_0088",
+        "query": "I don't want to deal with returning books this term, so I'd rather just buy the main textbook. Where can I do that?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "hard",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of returning, buy intent"
+        }
+    },
+    {
+        "id": "core_0089",
+        "query": "図書館で借りていた小説を読み終わったから返却したいんだけど、どこに持っていけばいいんだっけ？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, simple return"
+        }
+    },
+    {
+        "id": "core_0090",
+        "query": "新しい参考書を「自分のものとして」持っておきたいから、買える場所を教えて。キャンパス内のどこ？",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, emphasizes owning"
+        }
+    },
+    {
+        "id": "core_0091",
+        "query": "I renewed all my loans online, except this one that I actually have to return in person. Where on campus do I bring it?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "return in person, library implied"
+        }
+    },
+    {
+        "id": "core_0092",
+        "query": "For the main course book, I want a copy that's mine, not something I have to give back later. Where can I get that?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "personal copy vs borrow"
+        }
+    },
+    {
+        "id": "core_0093",
+        "query": "I just want a quick, proper meal between classes. Where on campus can I actually sit down and have lunch?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "sit-down lunch"
+        }
+    },
+    {
+        "id": "core_0094",
+        "query": "I don't need food right now; I just want a quiet place with trees to relax for a bit. Where should I go?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "explicitly not food, relax"
+        }
+    },
+    {
+        "id": "core_0095",
+        "query": "I'm starving and want something more than snacks, like a real meal. Which place on campus is best for that?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "strong hunger, meal intent"
+        }
+    },
+    {
+        "id": "core_0096",
+        "query": "I just want to clear my head somewhere green and quiet, not in a crowded building. Where can I sit outside?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "outdoor rest, garden"
+        }
+    },
+    {
+        "id": "core_0097",
+        "query": "お腹が減ってて、ちゃんとした定食みたいなものを食べたい。キャンパスのどこに行けばいい？",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, proper meal"
+        }
+    },
+    {
+        "id": "core_0098",
+        "query": "ご飯はいらなくて、外でぼーっと座れる静かな場所に行きたいだけなんだよね。どこがいい？",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, negation of food, relax"
+        }
+    },
+    {
+        "id": "core_0099",
+        "query": "Uh, kinda hungry and tired at the same time... is there a place where I can sit down and have a proper lunch?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "filler"
+            ],
+            "lang": "en",
+            "notes": "filler, meal intent"
+        }
+    },
+    {
+        "id": "core_0100",
+        "query": "I'm not looking for a restaurant, I just want somewhere quiet outdoors where I can sit on a bench and relax. Any suggestions?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "negation of restaurant, garden"
+        }
+    },
+    {
+        "id": "core_0101",
+        "query": "今日一日バタバタしてて、座ってちゃんとご飯が食べられるところに行きたい。学食みたいなところってどこ？",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, busy day, wants cafeteria"
+        }
+    },
+    {
+        "id": "core_0102",
+        "query": "教室とかじゃなくて、外で植物を眺めながらぼーっとできる場所に行きたい。キャンパス内にそういう所ある？",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, explicit outdoor relax"
+        }
+    },
+    {
+        "id": "core_0103",
+        "query": "I skipped lunch and I'm starting to feel a bit weak. Where on campus can I quickly get a filling meal?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "weak from hunger, cafeteria"
+        }
+    },
+    {
+        "id": "core_0104",
+        "query": "Rather than eating, I just want a peaceful green area to reset my mood. Where could I go for that?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "explicitly mood reset, garden"
+        }
+    },
+    {
+        "id": "core_0105",
+        "query": "I don't care about snacks or vending machines, I want an actual place that serves lunch. Where should I go?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "hard",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of snacks/vending, cafeteria"
+        }
+    },
+    {
+        "id": "core_0106",
+        "query": "お弁当とかじゃなくて、ちゃんとした食堂みたいなところで温かいご飯を食べたい。どこがいい？",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, wants cafeteria not bento"
+        }
+    },
+    {
+        "id": "core_0107",
+        "query": "静かで、ベンチに座って空とか木を眺められる場所があればそこに行きたい。ご飯は今はいいや。",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, explicit not food, wants garden"
+        }
+    },
+    {
+        "id": "core_0108",
+        "query": "I'm really not in the mood to just sit; I need to eat something proper. Where is the main cafeteria?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negates sitting/relax, cafeteria"
+        }
+    },
+    {
+        "id": "core_0109",
+        "query": "Instead of grabbing food, I'd rather sit somewhere calm and green to relax my mind. Where on campus can I do that?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "prefers relax over food"
+        }
+    },
+    {
+        "id": "core_0110",
+        "query": "I need to sit down, have a tray of food, and properly eat before my next class. Where should I head?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "tray of food, cafeteria"
+        }
+    },
+    {
+        "id": "core_0111",
+        "query": "ぼーっと空を見ながら一息つきたいだけで、食事は別にいい。キャンパスのどこに行くのがよさそう？",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, negation of meal"
+        }
+    },
+    {
+        "id": "core_0112",
+        "query": "I feel a bit dizzy and think I just need some proper food. Where can I get a decent meal on campus?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "dizzy, needs meal"
+        }
+    },
+    {
+        "id": "core_0113",
+        "query": "My throat really hurts and I feel feverish. Where on campus can I see a doctor?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "easy",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "clear illness, clinic"
+        }
+    },
+    {
+        "id": "core_0114",
+        "query": "I feel fine, I just want to use some machines and do a workout. Where is the gym?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "no illness, gym"
+        }
+    },
+    {
+        "id": "core_0115",
+        "query": "I'm not looking to exercise at all, I actually feel sick and want to be examined. Where should I go?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of exercise, clinic"
+        }
+    },
+    {
+        "id": "core_0116",
+        "query": "I'm not really sick, I just want to run on a treadmill and maybe lift some weights. Which place is good for that?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of illness, gym"
+        }
+    },
+    {
+        "id": "core_0117",
+        "query": "朝から頭が重くて、ちょっと診てもらいたい。キャンパス内でお医者さんがいる場所はどこ？",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, wants doctor"
+        }
+    },
+    {
+        "id": "core_0118",
+        "query": "最近運動不足だから、軽く汗をかけるトレーニングルームみたいなところに行きたいんだけど、どこがいい？",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "clean"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, wants gym"
+        }
+    },
+    {
+        "id": "core_0119",
+        "query": "Uh, my chest feels a bit tight and I'm kind of worried. Where can I talk to a medical professional on campus?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "emotion",
+                "filler"
+            ],
+            "lang": "en",
+            "notes": "worry + filler, clinic"
+        }
+    },
+    {
+        "id": "core_0120",
+        "query": "I'm stressed from studying and want to blow off steam by working out with some equipment. Where should I go?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "stress relief via gym"
+        }
+    },
+    {
+        "id": "core_0121",
+        "query": "運動したいわけじゃなくて、体調を診てもらいたい。そういうときに行くところってキャンパスのどこ？",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, negation of exercise"
+        }
+    },
+    {
+        "id": "core_0122",
+        "query": "病気とかじゃなくて、ちょっと体を動かしてリフレッシュしたい。トレーニングできる施設ってどこ？",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, negation of illness, gym"
+        }
+    },
+    {
+        "id": "core_0123",
+        "query": "I thought it was just fatigue, but now my symptoms are getting worse. Where can I get a proper health check on campus?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "worsening symptoms, clinic"
+        }
+    },
+    {
+        "id": "core_0124",
+        "query": "I don't need a doctor, I just want a place with machines where I can do some cardio and weights. Where is that?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "negates clinic, gym"
+        }
+    },
+    {
+        "id": "core_0125",
+        "query": "熱っぽい感じが続いていて心配だから、ちゃんと診てもらいたい。どこに行けばいい？",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, fever, clinic"
+        }
+    },
+    {
+        "id": "core_0126",
+        "query": "体調は悪くないんだけど、筋トレできる場所を探してる。キャンパスのどこにある？",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, wants gym, no illness"
+        }
+    },
+    {
+        "id": "core_0127",
+        "query": "I'm feeling light-headed and a bit scared, so I want someone medical to check me. Where should I head on campus?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "light-headed, fear, clinic"
+        }
+    },
+    {
+        "id": "core_0128",
+        "query": "Rather than resting, I want to push my body a little and do some training. Which facility is good for that?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "training facility, gym"
+        }
+    },
+    {
+        "id": "core_0129",
+        "query": "運動するより、とにかく症状を相談したい。そういう相談に乗ってくれるところはどこ？",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, prefers medical consult"
+        }
+    },
+    {
+        "id": "core_0130",
+        "query": "運動不足を解消したいだけで、病院に行くほどではない。どこなら運動できる？",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, not hospital, gym"
+        }
+    },
+    {
+        "id": "core_0131",
+        "query": "I really need someone to check my symptoms today, not just tell me to rest. Where can I get examined?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "explicit exam vs rest, clinic"
+        }
+    },
+    {
+        "id": "core_0132",
+        "query": "I want to change clothes and do a proper workout using equipment. Where is the campus gym again?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "equipment workout, gym"
+        }
+    },
+    {
+        "id": "core_0133",
+        "query": "I want a quiet place to spread out my notes and study by myself. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "self-study, library"
+        }
+    },
+    {
+        "id": "core_0134",
+        "query": "My next lecture is starting soon and I need to get to the classroom. Where are the lecture rooms?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "lecture attendance"
+        }
+    },
+    {
+        "id": "core_0135",
+        "query": "I'm not going to class right now; I just want a calm spot to review slides alone. Where is good for that?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of class, library"
+        }
+    },
+    {
+        "id": "core_0136",
+        "query": "I'm not trying to find a quiet study space; I actually need to attend the scheduled lecture. Where should I go?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of self-study, lecture_hall"
+        }
+    },
+    {
+        "id": "core_0137",
+        "query": "一人でレポートを書きたいから、落ち着いて作業できる場所に行きたい。授業ではなく自習したいだけ。どこがいい？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, self-study vs class"
+        }
+    },
+    {
+        "id": "core_0138",
+        "query": "このあと講義に出ないといけないから、授業を受ける教室のあるところに行きたい。キャンパスのどこ？",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "clean"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, lecture attendance"
+        }
+    },
+    {
+        "id": "core_0139",
+        "query": "Uh, I'm kind of anxious about the test, so I want a really quiet place to go over past papers alone. Where should I head?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "emotion",
+                "filler"
+            ],
+            "lang": "en",
+            "notes": "anxiety, self-study, library"
+        }
+    },
+    {
+        "id": "core_0140",
+        "query": "I don't want to sit somewhere by myself; I need to be where the professor is actually teaching. Where are lectures held?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "explicitly wants lecture, not self-study"
+        }
+    },
+    {
+        "id": "core_0141",
+        "query": "授業を聞くんじゃなくて、テキストを読み込みたいだけなんだよね。静かに自習できる場所はどこ？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, wants library not lecture"
+        }
+    },
+    {
+        "id": "core_0142",
+        "query": "スライドを見るだけじゃなくて、ちゃんと対面の講義を受けたい。そういう授業をやっているところはどこ？",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, wants lecture hall"
+        }
+    },
+    {
+        "id": "core_0143",
+        "query": "I need a place where I can quietly review notes and solve problem sets on my own, not a classroom with a lecture. Where is that?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "contrast self-study vs lecture"
+        }
+    },
+    {
+        "id": "core_0144",
+        "query": "For this period, I have an actual class to attend, not just self-study. Where should I go to sit in the lecture?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "explicit lecture attendance"
+        }
+    },
+    {
+        "id": "core_0145",
+        "query": "テスト前でちょっと不安だから、静かで集中できる勉強場所に行きたい。どこがいい？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, exam anxiety, library"
+        }
+    },
+    {
+        "id": "core_0146",
+        "query": "先生の話をちゃんと聞きたいから、授業をやっている教室に行きたい。キャンパスのどこ？",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, wants lecture hall"
+        }
+    },
+    {
+        "id": "core_0147",
+        "query": "I'm not trying to join a class, I just need somewhere to quietly read articles and write my report. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of class, library"
+        }
+    },
+    {
+        "id": "core_0148",
+        "query": "I actually have to be present in the room where today's lecture is taking place. Where are classes usually held?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "implied lecture hall"
+        }
+    },
+    {
+        "id": "core_0149",
+        "query": "課題を一人で進めたいので、静かで長く居座っても迷惑にならない場所に行きたい。どこがいい？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, long self-study, library"
+        }
+    },
+    {
+        "id": "core_0150",
+        "query": "シラバスに書いてある講義教室に行く前に、そもそも講義が行われるエリアがどこか知りたい。どこに向かえばいい？",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, lecture area, lecture_hall"
+        }
+    },
+    {
+        "id": "core_0151",
+        "query": "I want somewhere quiet to read through the textbook and take notes, not the place where the professor teaches. Any suggestions?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "library vs teaching room"
+        }
+    },
+    {
+        "id": "core_0152",
+        "query": "For the next period, I need to go where the actual course is taught live. Where should I go on campus?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "lecture_hall, live course"
+        }
+    },
+    {
+        "id": "core_0153",
+        "query": "I want to run an experiment and need access to lab equipment and benches. Where is the research lab?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "research_lab, experiment"
+        }
+    },
+    {
+        "id": "core_0154",
+        "query": "I just need to look up some reference books and articles for my essay. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "library, reference reading"
+        }
+    },
+    {
+        "id": "core_0155",
+        "query": "I'm not trying to do a hands-on experiment, I only want to read about previous work. Where on campus is best for that?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of experiment, library"
+        }
+    },
+    {
+        "id": "core_0156",
+        "query": "I don't just want to read papers; I actually need to perform the experiment itself with equipment. Where should I go?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of just reading, lab"
+        }
+    },
+    {
+        "id": "core_0157",
+        "query": "文献を集めてレポートの背景を書きたいだけで、実験をするつもりはない。どこに行くのがいい？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, library vs experiment"
+        }
+    },
+    {
+        "id": "core_0158",
+        "query": "装置を使う実験を始めたいから、研究用の部屋に行きたい。キャンパス内のどこ？",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, research_lab"
+        }
+    },
+    {
+        "id": "core_0159",
+        "query": "Uh, for my project I kinda just need a place with lots of books and papers to read, not machines. Where should I head?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "filler"
+            ],
+            "lang": "en",
+            "notes": "filler, library not lab"
+        }
+    },
+    {
+        "id": "core_0160",
+        "query": "I'm a bit nervous about starting my experiment and want to go to the place with lab benches and equipment. Where is that?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "nervous, research_lab"
+        }
+    },
+    {
+        "id": "core_0161",
+        "query": "実験機器は使わずに、論文とか専門書を読みたいだけなんだよね。そういう場所ってどこ？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, negation of lab tools"
+        }
+    },
+    {
+        "id": "core_0162",
+        "query": "資料を読むだけじゃなくて、実際に測定や操作をしたい。そういうことができるところに行きたいんだけど、どこ？",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, wants lab experiment"
+        }
+    },
+    {
+        "id": "core_0163",
+        "query": "For collecting background information, I want shelves full of academic books rather than lab instruments. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "library vs instruments"
+        }
+    },
+    {
+        "id": "core_0164",
+        "query": "For the experimental part of my thesis, I need a place where I can actually set up and run experiments. Where is that?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "research_lab for thesis experiment"
+        }
+    },
+    {
+        "id": "core_0165",
+        "query": "レポートの関連研究を集めたいだけで、実験器具には用事がない。どこに行けば文献を探せる？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, wants library, no instruments"
+        }
+    },
+    {
+        "id": "core_0166",
+        "query": "研究テーマの実験を始めるために、まず実験装置が置いてある場所に行きたい。キャンパス内のどこ？",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "clean"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, research_lab for experiment"
+        }
+    },
+    {
+        "id": "core_0167",
+        "query": "I'm not going to run experiments today; I just want to read and take notes on previous studies. Where's the best place for that?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "no experiments, library"
+        }
+    },
+    {
+        "id": "core_0168",
+        "query": "I'm done reading, now I actually want to use lab equipment to test my idea. Where on campus can I do that?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "from reading to lab"
+        }
+    },
+    {
+        "id": "core_0169",
+        "query": "資料を読むフェーズにいるから、とりあえず本と論文がたくさんある場所に行きたい。どこ？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, reading phase, library"
+        }
+    },
+    {
+        "id": "core_0170",
+        "query": "今は実験の準備が整ったので、装置がある部屋で試してみたい。キャンパス内のどこに向かえばいい？",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, ready to experiment, lab"
+        }
+    },
+    {
+        "id": "core_0171",
+        "query": "I need a place to dig through technical books and journals, not somewhere with lab benches. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "library vs lab benches"
+        }
+    },
+    {
+        "id": "core_0172",
+        "query": "For running measurements and experiments on my prototype, I need access to specialized equipment. Where is that facility?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "research_lab, specialized equipment"
+        }
+    },
+    {
+        "id": "core_0173",
+        "query": "I'm confused about which office handles my issue and just want to ask someone at a central counter. Where is the help desk?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "easy",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "confused, wants help desk"
+        }
+    },
+    {
+        "id": "core_0174",
+        "query": "I don't know who to talk to about a few different campus procedures, so I'd like to go to a place where I can ask anything. Where should I go?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "general info counter"
+        }
+    },
+    {
+        "id": "core_0175",
+        "query": "I'm not trying to visit a specific classroom or office yet; I just need a general information counter. Where is that?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of specific office, help_desk"
+        }
+    },
+    {
+        "id": "core_0176",
+        "query": "I feel a bit lost about everything from classes to facilities, and I want to ask a staff member in person. Where can I do that?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "lost, in-person help"
+        }
+    },
+    {
+        "id": "core_0177",
+        "query": "どこに相談すればいいのか全然分からなくて、とりあえず何でも聞ける窓口に行きたい。キャンパスのどこ？",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, wants general counter"
+        }
+    },
+    {
+        "id": "core_0178",
+        "query": "特定の部署じゃなくて、まず総合案内みたいなところで大まかな話を聞きたい。どこに行けばいい？",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, negation of specific dept."
+        }
+    },
+    {
+        "id": "core_0179",
+        "query": "Uh, I kinda have questions about registration, facilities, and a bunch of other stuff all at once. Where can I ask first?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "filler"
+            ],
+            "lang": "en",
+            "notes": "filler, multiple topics, help_desk"
+        }
+    },
+    {
+        "id": "core_0180",
+        "query": "I'm worried I might have messed up some paperwork and I want to check with someone. Where on campus can I ask about that in person?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "paperwork worry, help_desk"
+        }
+    },
+    {
+        "id": "core_0181",
+        "query": "授業のことも施設のことも、まずはざっくり相談できる場所に行きたい。学内に総合受付みたいなところある？",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, general consultation"
+        }
+    },
+    {
+        "id": "core_0182",
+        "query": "とりあえず、何でも質問できるカウンターに行ければ、そのあと各部署を紹介してもらえそうな気がする。そういう場所はどこ？",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, expects routing from help desk"
+        }
+    },
+    {
+        "id": "core_0183",
+        "query": "I'm not asking for a classroom or a lab yet, I just want to find the main place where I can ask general questions about the campus. Where is it?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of classroom/lab, help_desk"
+        }
+    },
+    {
+        "id": "core_0184",
+        "query": "Rather than emailing around randomly, I'd like to talk to someone face to face about my situation. Where on campus is a good starting point?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "face to face, starting point, help_desk"
+        }
+    },
+    {
+        "id": "core_0185",
+        "query": "とりあえず、何か困ったときに最初に行けばいい“窓口”的な場所が知りたい。キャンパスのどこ？",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "easy",
+            "tags": [
+                "clean"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, first-stop window"
+        }
+    },
+    {
+        "id": "core_0186",
+        "query": "特定の教員やオフィスじゃなくて、まず事情を話して相談できるカウンターに行きたい。どこに向かえばいい？",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "negation of specific office, help_desk"
+        }
+    },
+    {
+        "id": "core_0187",
+        "query": "I feel a bit overwhelmed by different deadlines and rules, so I'd like to go somewhere I can ask a staff member to explain things. Where should I go?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "overwhelmed, explanation, help_desk"
+        }
+    },
+    {
+        "id": "core_0188",
+        "query": "I don't want to guess which office is right; I'd rather ask at a general information desk first. Where is that?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "negation of guessing office"
+        }
+    },
+    {
+        "id": "core_0189",
+        "query": "どの部署に聞けばいいか分からない書類の件があって、まずは総合案内で相談したい。キャンパスのどこ？",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, paperwork, help_desk"
+        }
+    },
+    {
+        "id": "core_0190",
+        "query": "施設の使い方から履修のことまで、最初に全部ざっくり聞けるところに行きたい。そういうところってある？",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, broad question set"
+        }
+    },
+    {
+        "id": "core_0191",
+        "query": "Instead of walking around and guessing, I just want to start at a main counter where staff can point me in the right direction. Where is that?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "wants routing from main counter"
+        }
+    },
+    {
+        "id": "core_0192",
+        "query": "I'm confused about what to do next and would feel better if I could ask someone at a central service desk. Where on campus can I find that?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "confused, central service desk"
+        }
+    },
+    {
+        "id": "core_0193",
+        "query": "I lost track of which office handles my scholarship questions, so I just want to talk to someone at a general counter first. Where should I go?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "scholarship topic but user wants a generic info counter, not a specific office"
+        }
+    },
+    {
+        "id": "core_0194",
+        "query": "I'm not sure if this is about classes or campus facilities, so I'd like to ask at the main information desk. Where is that?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "easy",
+            "tags": [
+                "negation",
+                "clean"
+            ],
+            "lang": "en",
+            "notes": "negates specific category, wants central info desk"
+        }
+    },
+    {
+        "id": "core_0195",
+        "query": "授業のことなのか事務手続きなのかよく分からないから、とりあえず何でも相談できる窓口に行きたい。キャンパスのどこ？",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, confused about category, wants general help desk"
+        }
+    },
+    {
+        "id": "core_0196",
+        "query": "I want to start an experiment for my project and need to actually use lab equipment, not just read about it. Where should I go?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "explicitly contrasts reading vs doing experiments, goes to lab"
+        }
+    },
+    {
+        "id": "core_0197",
+        "query": "For my report, I just need a place with lots of books and papers to read quietly, rather than a lab with instruments. Where is good?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "wants reading space, not lab"
+        }
+    },
+    {
+        "id": "core_0198",
+        "query": "実験装置を動かしたいんじゃなくて、論文や参考書を読み込んで背景知識を整理したいだけ。そういう場所はどこ？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, explicitly not using equipment, wants library for background reading"
+        }
+    },
+    {
+        "id": "core_0199",
+        "query": "装置を使う本格的な実験を始めたいから、本や資料を読む場所じゃなくて、実際に手を動かせる研究室に行きたい。どこに向かえばいい？",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "Japanese, contrasts library vs lab, emotional motivation to start experiment"
+        }
+    },
+    {
+        "id": "core_0200",
+        "query": "I have several questions about campus procedures and I'm not even sure which office is responsible, so I just want to start at a place where I can ask anything. Where on campus is that?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "easy",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "generic 'ask anything' front desk"
+        }
+    }
+]

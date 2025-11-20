@@ -1,0 +1,122 @@
+[
+    {
+        "query": "I need to BORROW a book for my class.",
+        "gold_node_id": 1,
+        "gold_label": "library"
+    },
+    {
+        "query": "I need to BUY a book for my class.",
+        "gold_node_id": 5,
+        "gold_label": "bookstore"
+    },
+    {
+        "query": "I’m looking for a quiet place to READ and study.",
+        "gold_node_id": 1,
+        "gold_label": "library"
+    },
+    {
+        "query": "I’m looking for a place to PURCHASE study supplies.",
+        "gold_node_id": 5,
+        "gold_label": "bookstore"
+    },
+    {
+        "query": "I want to have a MEAL with friends.",
+        "gold_node_id": 2,
+        "gold_label": "cafeteria"
+    },
+    {
+        "query": "I want to REST quietly among plants.",
+        "gold_node_id": 8,
+        "gold_label": "garden"
+    },
+    {
+        "query": "I need a place to EAT something warm.",
+        "gold_node_id": 2,
+        "gold_label": "cafeteria"
+    },
+    {
+        "query": "I need a place to RELAX and breathe fresh air.",
+        "gold_node_id": 8,
+        "gold_label": "garden"
+    },
+    {
+        "query": "I will present my slides to an audience.",
+        "gold_node_id": 7,
+        "gold_label": "lecture_hall"
+    },
+    {
+        "query": "I will run an EXPERIMENT with equipment.",
+        "gold_node_id": 6,
+        "gold_label": "research_lab"
+    },
+    {
+        "query": "We have a TALK scheduled for many people.",
+        "gold_node_id": 7,
+        "gold_label": "lecture_hall"
+    },
+    {
+        "query": "We have a TEST that needs lab instruments.",
+        "gold_node_id": 6,
+        "gold_label": "research_lab"
+    },
+    {
+        "query": "I have a minor INJURY and need care.",
+        "gold_node_id": 3,
+        "gold_label": "clinic"
+    },
+    {
+        "query": "I want to TRAIN my body with machines.",
+        "gold_node_id": 4,
+        "gold_label": "gym"
+    },
+    {
+        "query": "I feel unwell and need a DOCTOR.",
+        "gold_node_id": 3,
+        "gold_label": "clinic"
+    },
+    {
+        "query": "I want to WORK OUT for thirty minutes.",
+        "gold_node_id": 4,
+        "gold_label": "gym"
+    },
+    {
+        "query": "I lost my schedule and need GUIDANCE.",
+        "gold_node_id": 9,
+        "gold_label": "help_desk"
+    },
+    {
+        "query": "I need a PICKUP spot at the entrance.",
+        "gold_node_id": 0,
+        "gold_label": "main_gate"
+    },
+    {
+        "query": "Please direct me to someone who can ASSIST.",
+        "gold_node_id": 9,
+        "gold_label": "help_desk"
+    },
+    {
+        "query": "Please lead me to the main meeting POINT outside.",
+        "gold_node_id": 0,
+        "gold_label": "main_gate"
+    },
+    {
+        "query": "I want a seat to quietly REST outdoors.",
+        "gold_node_id": 8,
+        "gold_label": "garden"
+    },
+    {
+        "query": "I want a place to EAT a quick lunch.",
+        "gold_node_id": 2,
+        "gold_label": "cafeteria"
+    },
+    {
+        "query": "I need course MATERIALS to buy.",
+        "gold_node_id": 5,
+        "gold_label": "bookstore"
+    },
+    {
+        "query": "I need course MATERIALS to read.",
+        "gold_node_id": 1,
+        "gold_label": "library"
+    }
+]

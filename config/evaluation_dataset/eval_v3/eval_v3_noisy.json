@@ -1,0 +1,2904 @@
+[
+    {
+        "id": "noisy_0001",
+        "query": "uhh I just finished this library book and I'm kinda wandering around, where do I dump it back so I don't get in trouble?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat",
+                "filler"
+            ],
+            "lang": "en",
+            "notes": "casual return request with filler"
+        }
+    },
+    {
+        "id": "noisy_0002",
+        "query": "My stomach is yelling at me lol, where on campus can I grab a quick proper lunch, not just vending-machine junk?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "hungry, wants real lunch"
+        }
+    },
+    {
+        "id": "noisy_0003",
+        "query": "Kind of exhausted from class… is there some quiet-ish place outside where I can just sit and stare at trees for a bit?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "easy",
+            "tags": [
+                "emotion",
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "wants outdoor relaxing place"
+        }
+    },
+    {
+        "id": "noisy_0004",
+        "query": "頭がちょっと痛くてさ…授業サボりたいとかじゃなくて、ちゃんと診てもらいたいんだけど、どこ行けばいい？",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "easy",
+            "tags": [
+                "emotion",
+                "noisy_chat"
+            ],
+            "lang": "ja",
+            "notes": "clear health check, not exercise"
+        }
+    },
+    {
+        "id": "noisy_0005",
+        "query": "I wanna stretch a bit and maybe hit a treadmill or something, where’s the place for working out on campus?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "workout place"
+        }
+    },
+    {
+        "id": "noisy_0006",
+        "query": "Hey, I lost my student ID somewhere between classes… where’s the spot I should go to ask if someone turned it in?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "lost_and_found",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "lost ID -> help desk"
+        }
+    },
+    {
+        "id": "noisy_0007",
+        "query": "I just got to campus and I'm supposed to meet my friend right at the main entrance thingy… where is that again?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "entry_meeting",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "meeting at main gate"
+        }
+    },
+    {
+        "id": "noisy_0008",
+        "query": "教科書まだ買ってなくてさ、図書館で借りるんじゃなくて、ちゃんと自分のを買いたいんだけど、どこで売ってる？",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat",
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "buy textbook, not borrow"
+        }
+    },
+    {
+        "id": "noisy_0009",
+        "query": "I need a really quiet corner to cram for an exam, not a café vibe, more like shhh library mode, where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "easy",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "quiet self-study"
+        }
+    },
+    {
+        "id": "noisy_0010",
+        "query": "There’s a big lecture in like 10 minutes, the kind where the prof talks at 200 people… which place is that on campus?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "large lecture"
+        }
+    },
+    {
+        "id": "noisy_0011",
+        "query": "hey so my research advisor wants me to start playing with the equipment for our project, where’s the actual lab space we use?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "go to research lab"
+        }
+    },
+    {
+        "id": "noisy_0012",
+        "query": "お腹すいたけど、のんびり外で食べるっていうよりは、とりあえずガッとご飯食べたい。どこ行くのが手っ取り早い？",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "easy",
+            "tags": [
+                "emotion",
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "wants quick meal indoors"
+        }
+    },
+    {
+        "id": "noisy_0013",
+        "query": "Need to ask about scholarship stuff and some random admin things, not really about classes themselves… which counter do I bother?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_info",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "admin/general info"
+        }
+    },
+    {
+        "id": "noisy_0014",
+        "query": "Kind of wanna just chill alone with my headphones in a green place, not noisy food smells… where’s good for that?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "easy",
+            "tags": [
+                "emotion",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "relax alone outdoors"
+        }
+    },
+    {
+        "id": "noisy_0015",
+        "query": "I forgot where we usually buy stationery on campus… pens, notebooks, that kind of stuff, not borrowing. Where is the shop again?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "buy stationery"
+        }
+    },
+    {
+        "id": "noisy_0016",
+        "query": "授業で使う本をコピーじゃなくてちゃんと読みに行きたいんだけど、静かに読める場所ってどこ？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "easy",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "wants reading place (library)"
+        }
+    },
+    {
+        "id": "noisy_0017",
+        "query": "My friend is kind of freaking out about a fever, campus-wise where’s the place with actual doctors, not just Google?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "easy",
+            "tags": [
+                "emotion",
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "go to clinic"
+        }
+    },
+    {
+        "id": "noisy_0018",
+        "query": "I feel like doing some weights or maybe a bike, def not walking loops outside, where’s the indoor training spot here?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "indoor training"
+        }
+    },
+    {
+        "id": "noisy_0019",
+        "query": "wifiつながらなくてレポート提出できないんだけど、こういうのってどこに泣きつけばいいんだろ…？",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_info",
+            "difficulty": "easy",
+            "tags": [
+                "emotion",
+                "noisy_chat"
+            ],
+            "lang": "ja",
+            "notes": "IT/help issue -> help desk"
+        }
+    },
+    {
+        "id": "noisy_0020",
+        "query": "I’m meeting a ride-share driver, they said “wait at the main gate”? I have zero sense of direction, where is that spot?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "entry_meeting",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "pickup at main gate"
+        }
+    },
+    {
+        "id": "noisy_0021",
+        "query": "So I kinda overslept, class is about to start, like the big lecture, not a small seminar… which building/room am I sprinting to?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "late for big lecture"
+        }
+    },
+    {
+        "id": "noisy_0022",
+        "query": "I was gonna just buy another copy of this textbook, but actually I only need it for a week… where should I go if I just want to borrow it instead?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "plan_change",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "changed mind from buy to borrow"
+        }
+    },
+    {
+        "id": "noisy_0023",
+        "query": "教科書、買うほどじゃないんだけど、授業で必要なとこだけ読みたいんだよね。そういうときって、どこに行くのが普通？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument",
+                "noisy_chat"
+            ],
+            "lang": "ja",
+            "notes": "wants to read, not buy"
+        }
+    },
+    {
+        "id": "noisy_0024",
+        "query": "I’m starving but also kinda in a mood where I don’t wanna talk to anyone… still, I need actual food, not a bench. Where should I head?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "food needed despite mood"
+        }
+    },
+    {
+        "id": "noisy_0025",
+        "query": "外でぼーっとしたいけど、ちゃんと座れるベンチとかあるところがいい。ご飯をガッツリ食べたいわけじゃない。どこが良さげ？",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "relaxing bench outdoors"
+        }
+    },
+    {
+        "id": "noisy_0026",
+        "query": "My knee’s been acting up and I was thinking maybe gym exercises could help, but I probably should talk to a pro first. Which place should I go to ask?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "plan_change",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "decides to consult clinic before gym"
+        }
+    },
+    {
+        "id": "noisy_0027",
+        "query": "I don’t wanna sit in a waiting room for ages, I just wanna sweat a bit and clear my head. On campus, where’s that gym-ish place?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "chooses gym over clinic"
+        }
+    },
+    {
+        "id": "noisy_0028",
+        "query": "えっと、研究の実験で使う装置を触れる場所…授業の教室じゃなくて、本格的に実験するあの部屋、どこだっけ？",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "wants experiment room"
+        }
+    },
+    {
+        "id": "noisy_0029",
+        "query": "I need somewhere to rehearse my presentation out loud with slides, more like a lecture vibe than just sitting quietly. Which place fits that?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "presentation rehearsal in hall"
+        }
+    },
+    {
+        "id": "noisy_0030",
+        "query": "I already downloaded the PDF, I just need a chill spot with desks and outlets to work on my laptop, not a loud cafeteria. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "study area with outlets, quiet"
+        }
+    },
+    {
+        "id": "noisy_0031",
+        "query": "I’m kinda lost about course registration and part-time job paperwork, it’s not something the professor can fix. Who on campus do I even talk to?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_info",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument",
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "needs admin help"
+        }
+    },
+    {
+        "id": "noisy_0032",
+        "query": "キャンパス入ったはいいけど、友だちと合流するって言った入口がどこだったか忘れた…みんながよく待ち合わせに使うあそこってどこ？",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "entry_meeting",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat",
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "common meeting spot = main gate"
+        }
+    },
+    {
+        "id": "noisy_0033",
+        "query": "I need to buy a new notebook and maybe a campus hoodie while I’m at it, not borrow anything. What’s the campus store called again?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "campus store for buying"
+        }
+    },
+    {
+        "id": "noisy_0034",
+        "query": "I kinda wanna hang out with friends where we can eat and talk loudly, not a “shut up and study” spot. Where's good for that?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "social eating place"
+        }
+    },
+    {
+        "id": "noisy_0035",
+        "query": "レポートの締切前で頭パンクしそうなんだけど、人の声があんまり聞こえないところで落ち着いて作業したい。どこにこもる？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "needs quiet study"
+        }
+    },
+    {
+        "id": "noisy_0036",
+        "query": "My stomach is weird, not like “I need to bulk up at the gym”, more like “this might be a problem”… which campus place handles that kind of thing?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "health problem not exercise"
+        }
+    },
+    {
+        "id": "noisy_0037",
+        "query": "I wanna burn some calories, not get a checkup or talk about symptoms. Where do I go to actually move my body?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "exercise vs clinic"
+        }
+    },
+    {
+        "id": "noisy_0038",
+        "query": "さっきまで教室で授業聞いてたんだけど、そのあと自分の研究の実験やらないといけなくて…装置が置いてある本格的な部屋ってどこだっけ？",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "plan_change",
+                "noisy_chat"
+            ],
+            "lang": "ja",
+            "notes": "switch from class to lab"
+        }
+    },
+    {
+        "id": "noisy_0039",
+        "query": "I left my umbrella somewhere on campus and I have no clue where to ask if someone gave it back, not a random classroom though. Any central desk?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "lost_and_found",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "lost umbrella -> help desk"
+        }
+    },
+    {
+        "id": "noisy_0040",
+        "query": "I was gonna just sit on the grass, but it rained yesterday and I don’t feel like getting soaked… is there some covered outdoor-ish area or should I pick the garden benches?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "plan_change",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "still chooses garden benches"
+        }
+    },
+    {
+        "id": "noisy_0041",
+        "query": "ok so, I kinda need to photocopy a chapter for reference, but I also might wanna just read the whole thing if I have time… where do people usually go for that on campus?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "hard",
+            "tags": [
+                "noisy_chat",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "ambiguous use but library"
+        }
+    },
+    {
+        "id": "noisy_0042",
+        "query": "I was thinking of buying the book, but if the library has it and I can just keep renewing it, I don’t really need to own it, you know? Which place should I check first?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "hard",
+            "tags": [
+                "plan_change",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "prioritize borrowing"
+        }
+    },
+    {
+        "id": "noisy_0043",
+        "query": "本を読み込んで卒論のネタ探したいんだけど、みんながワイワイご飯食べてるとこじゃなくて、静かにこもれる場所…どこがベスト？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "emotion",
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "not cafeteria, library for research reading"
+        }
+    },
+    {
+        "id": "noisy_0044",
+        "query": "I don’t actually wanna attend a class right now, I just need a big room with a projector where I can practice my talk with a friend. Where would make sense?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "large lecture hall for practice"
+        }
+    },
+    {
+        "id": "noisy_0045",
+        "query": "honestly I’m too tired for proper exercise, but I feel guilty just going to the cafeteria again… somewhere I can kind of move but not die? maybe just, idk, still the gym?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "emotion",
+                "noisy_chat",
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "chooses light workout at gym"
+        }
+    },
+    {
+        "id": "noisy_0046",
+        "query": "my stomach’s been weird all week and I keep telling myself it’s fine, but I probably shouldn’t just ignore it and go lift weights… which place should I go BEFORE the gym?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "plan_change",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "clinic before gym"
+        }
+    },
+    {
+        "id": "noisy_0047",
+        "query": "ゼミの実験で使う機材を触る前に、レポート用に文献も読みたいんだよね。授業の教室じゃなくて、実験と文献調査どっちも近い感じの動きにしたいとき、まずどこ行く？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "plan_change",
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "first go to library for papers"
+        }
+    },
+    {
+        "id": "noisy_0048",
+        "query": "So I kind of lost my wallet… somewhere between grabbing lunch and spacing out on a bench. I don’t think the cafeteria staff specifically has it. Is there some central place I report this?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "lost_and_found",
+            "difficulty": "hard",
+            "tags": [
+                "noisy_chat",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "lost wallet -> help desk"
+        }
+    },
+    {
+        "id": "noisy_0049",
+        "query": "I was gonna just crash in the library, but honestly I’m too frazzled to be super quiet and I might call a friend… still don’t wanna be in a full-on restaurant vibe though. Where could I flop down?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "hard",
+            "tags": [
+                "emotion",
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "chooses garden as middle ground"
+        }
+    },
+    {
+        "id": "noisy_0050",
+        "query": "授業に出るっていうよりは、自分のペースで課題を片付けたいんだけど、人としゃべりながらじゃ多分無理で…そういうときにみんながこもる場所ってどこ？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument",
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "self-study rather than class"
+        }
+    },
+    {
+        "id": "noisy_0051",
+        "query": "yo I’m like super late to class and also kinda hungry, but I can’t skip this big lecture… which place am I actually supposed to run to first?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "noisy_chat",
+                "plan_change",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "conflict between food and class, chooses lecture hall"
+        }
+    },
+    {
+        "id": "noisy_0052",
+        "query": "I need to buy SOME books and borrow SOME others, but right now I mainly need the one I absolutely must own for the exam. Where do I go for the one I should flat-out purchase?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "focus on must-own book -> bookstore"
+        }
+    },
+    {
+        "id": "noisy_0053",
+        "query": "libraryは静かでいいんだけど、今日は本を返すだけで中で長居するつもりはないんだよね。とりあえず返却だけパッと済ませたいとき、どこに行けばいい？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "ja",
+            "notes": "return-only but still library"
+        }
+    },
+    {
+        "id": "noisy_0054",
+        "query": "my brain is mush, I kinda wanna snack and chat with friends but I also have my laptop with me and might stare at slides a bit… still, main goal is food+talking. where do we land?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "social cafeteria hangout"
+        }
+    },
+    {
+        "id": "noisy_0055",
+        "query": "やる気出ないけど、家に帰る前にちょっとだけでも体を動かしておきたい…本気のトレーニングじゃなくて、軽く汗かくくらいの場所ってどこ？",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "light exercise at gym"
+        }
+    },
+    {
+        "id": "noisy_0056",
+        "query": "I keep coughing and I was like “maybe it’s just dust in the library”, but it’s been days… I guess I shouldn’t be asking the librarian about this. Where should I actually go?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "health issue -> clinic, not library"
+        }
+    },
+    {
+        "id": "noisy_0057",
+        "query": "I’ve got this group project where we need both a whiteboard-ish space and access to reference books. We’ll be talking, but not super loudly. Where’s the best compromise?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "group study but library fits best"
+        }
+    },
+    {
+        "id": "noisy_0058",
+        "query": "学生証なくしたかもって気づいたけど、授業の教室を一個ずつ回るのはさすがに現実的じゃないよね…こういうのって、どこにまず相談するのが定番？",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "lost_and_found",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat",
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "lost student card -> help desk"
+        }
+    },
+    {
+        "id": "noisy_0059",
+        "query": "ok this is dumb but I’m already at the main gate waiting for my friend and they’re like “let’s eat first, I’m starving” — where’s the obvious place to drag them for food from here?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "entry_meeting",
+            "difficulty": "medium",
+            "tags": [
+                "plan_change",
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "from gate to cafeteria"
+        }
+    },
+    {
+        "id": "noisy_0060",
+        "query": "図書館で自習しようと思ったけど、今日は本とか資料よりも、まず授業にちゃんと出ないとマズい気がしてきた…このあとすぐ始まる講義ってどこでやってる？",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "plan_change",
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "decides to attend lecture instead"
+        }
+    },
+    {
+        "id": "noisy_0061",
+        "query": "btw where do I go if I need to talk about lost keys AND ask something about tuition payment? feels like not a classroom problem…",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_info",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument",
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "multiple admin topics -> help desk"
+        }
+    },
+    {
+        "id": "noisy_0062",
+        "query": "I was gonna just chill in the cafeteria, but it’s way too loud for me today and I’m kind of on edge… is there somewhere quieter where I can still sit down and breathe?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "hard",
+            "tags": [
+                "emotion",
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "moves from cafeteria to garden"
+        }
+    },
+    {
+        "id": "noisy_0063",
+        "query": "正直お腹はそんなに空いてないんだけど、ずっと教室にいて疲れたから、外で空気吸いながら少し何かつまめる場所があったらいいな…どこがいい？",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "hard",
+            "tags": [
+                "emotion",
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "outdoor light snack/relax -> garden"
+        }
+    },
+    {
+        "id": "noisy_0064",
+        "query": "I need some place where I can ask about how to officially register my research project AND maybe where to find the lab space later. Which counter do I start with?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_info",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "start at help desk for admin & info"
+        }
+    },
+    {
+        "id": "noisy_0065",
+        "query": "I kinda wanna look at some reference books for my experiment design before I actually start touching any machines. On campus, where’s the best place to dig into literature?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "literature review -> library"
+        }
+    },
+    {
+        "id": "noisy_0066",
+        "query": "頭痛いしちょっとだるいけど、でも授業も休みたくないんだよな…とはいえまずは体調確認したいとき、どこ寄る？",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "emotion",
+                "plan_change"
+            ],
+            "lang": "ja",
+            "notes": "check health at clinic before class"
+        }
+    },
+    {
+        "id": "noisy_0067",
+        "query": "I thought about just running outside a bit, but it’s raining and I still wanna move… which indoor place is meant for that kind of thing on campus?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "rain -> gym"
+        }
+    },
+    {
+        "id": "noisy_0068",
+        "query": "本を買うか借りるか迷ってたけど、結局どうせ何回も使うから、自分のを持っておいた方が良さそうなんだよね。そういうときって、どこで買う？",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "plan_change"
+            ],
+            "lang": "ja",
+            "notes": "decides to buy -> bookstore"
+        }
+    },
+    {
+        "id": "noisy_0069",
+        "query": "I need somewhere to kinda half-study, half-rant to my friend about this assignment… not dead silent, but not full-on cafeteria chaos either. Where’s a decent compromise?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "hard",
+            "tags": [
+                "emotion",
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "noisy compromise chosen as cafeteria"
+        }
+    },
+    {
+        "id": "noisy_0070",
+        "query": "ゼミの資料読みたいけど、友だちとちょっとしゃべりながら進めたいから、完全な自習室じゃなくて、多少ざわざわしててもいい場所がいい。どこがちょうどいい？",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "group-ish work in cafeteria"
+        }
+    },
+    {
+        "id": "noisy_0071",
+        "query": "Okay so, like, I was gonna go to class but my friend just texted that the prof is only doing Q&A today and it’s recorded anyway… if I bail and just study on my own, where should I camp out?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "plan_change",
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "skips class, self-study in library"
+        }
+    },
+    {
+        "id": "noisy_0072",
+        "query": "あのさ、授業で使う本をちゃんと読み込みたいんだけど、飲み物ちょっと飲みながらでもOKな静かな場所ってどこかある？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat",
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "quiet reading place"
+        }
+    },
+    {
+        "id": "noisy_0073",
+        "query": "I kinda wanna just flop somewhere and scroll on my phone for a bit, but not in the middle of everybody eating… any chill outdoor-ish corner?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "time_kill",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "time killing outdoors"
+        }
+    },
+    {
+        "id": "noisy_0074",
+        "query": "I’m meeting someone who’s never been here before, so I told them “just wait at the big main entrance”. Now I’m like, wait, where is that exactly…?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "entry_meeting",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "main entrance clarification"
+        }
+    },
+    {
+        "id": "noisy_0075",
+        "query": "教科書の版が変わったらしくて、とりあえず新しいのを買っておきたいんだけど、図書館じゃなくて“売ってる”ところってどこ？",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "easy",
+            "tags": [
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "wants to buy new edition"
+        }
+    },
+    {
+        "id": "noisy_0076",
+        "query": "my group wants to check some references AND maybe poke around the equipment later. first stop should probably be the place with books and papers, right? where is that?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "first go to library"
+        }
+    },
+    {
+        "id": "noisy_0077",
+        "query": "お腹も空いてるし、ちょっと人としゃべりたい気分でもあるんだけど、外は雨だしベンチも濡れてそう…そうなると、どこ行くのが無難？",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "plan_change"
+            ],
+            "lang": "ja",
+            "notes": "rain -> cafeteria"
+        }
+    },
+    {
+        "id": "noisy_0078",
+        "query": "My head hurts and I kinda feel like lying down, but I also promised I’d meet my friend near the gate later… before that, which place should I go to get checked?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "plan_change",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "clinic first"
+        }
+    },
+    {
+        "id": "noisy_0079",
+        "query": "I wanna blow off some steam, not talk to a doctor or anything, just sweat and zone out with music. Where’s the campus spot for that?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "gym for stress relief"
+        }
+    },
+    {
+        "id": "noisy_0080",
+        "query": "えーと、履修登録の締切とか奨学金のこととか、色々いっぺんに相談したいんだけど、教員じゃなくて事務系の人がいる窓口ってどこ？",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_info",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "admin help desk"
+        }
+    },
+    {
+        "id": "noisy_0081",
+        "query": "Okay, so, long story short: lost card, maybe lost somewhere between class and lunch, no clue. Is there like a one-stop “help me” counter on campus?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "lost_and_found",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat",
+                "filler"
+            ],
+            "lang": "en",
+            "notes": "central help for lost card"
+        }
+    },
+    {
+        "id": "noisy_0082",
+        "query": "I was hanging out in the garden and now I suddenly remember I need to grab a proper meal before my next class… from here, where’s the obvious place to eat?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "garden -> cafeteria for meal"
+        }
+    },
+    {
+        "id": "noisy_0083",
+        "query": "図書館にこもるほどガチじゃないんだけど、さすがに外は寒いし、ちょっと落ち着いて課題できる室内ってない？",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "time_kill",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "chooses cafeteria as semi-quiet indoor"
+        }
+    },
+    {
+        "id": "noisy_0084",
+        "query": "I kinda wanna half-study, half people-watch, so not the quiet zone. Somewhere with tables where I can open my laptop but it’s okay if it’s noisy?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "time_kill",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "noisy study in cafeteria"
+        }
+    },
+    {
+        "id": "noisy_0085",
+        "query": "my Japanese is kinda dying rn but, um, 本読みたい… quiet place, not so many people talking, doko ikeba ii? lol",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "mixed_lang_slang",
+                "noisy_chat"
+            ],
+            "lang": "mixed",
+            "notes": "mixed language request for quiet reading"
+        }
+    },
+    {
+        "id": "noisy_0086",
+        "query": "今日は筋トレっていうよりは、軽く体を動かしてリフレッシュしたい感じなんだよね。そういう適度な運動したいときってどこに行く？",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "light exercise at gym"
+        }
+    },
+    {
+        "id": "noisy_0087",
+        "query": "I’ve got a headache and kinda feel dizzy, and I keep wondering if it’s just stress from studying or something else… on campus, where should I get that checked instead of just guessing?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "clinic for dizziness"
+        }
+    },
+    {
+        "id": "noisy_0088",
+        "query": "授業の教室がどこか分からなくてさ、しかも今日は大人数が集まる講義っぽいんだよね。そういうとき、どの建物を目指すのが正解？",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "ja",
+            "notes": "big class -> lecture hall"
+        }
+    },
+    {
+        "id": "noisy_0089",
+        "query": "I need to talk about fees AND maybe ask if there’s any help with housing, and I’m pretty sure my professor isn’t the right person… which campus desk handles that kind of life stuff?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_info",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "life/admin consultation"
+        }
+    },
+    {
+        "id": "noisy_0090",
+        "query": "I was chilling at the main gate waiting for someone, but they canceled on me, and now I’m just hungry and annoyed… where should I walk to get food and cool down a bit?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "entry_meeting",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "gate -> cafeteria"
+        }
+    },
+    {
+        "id": "noisy_0091",
+        "query": "えっと、課題の調べ物もしないといけないし、実験の相談もしたいんだけど、今日のところはまず文献を当たるのが先かなって気がしてて…最初はどこ行く？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "plan_change",
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "prioritise library before lab"
+        }
+    },
+    {
+        "id": "noisy_0092",
+        "query": "I was gonna just ask my friends about which classes to take, but this is more like official graduation requirement stuff. Who on campus actually knows the rules?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_info",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "rules -> admin/help desk"
+        }
+    },
+    {
+        "id": "noisy_0093",
+        "query": "my brain: go to the gym. my body: lol no. I still wanna at least walk over to the gym area and maybe just do something light though. Where exactly is that?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "still chooses gym"
+        }
+    },
+    {
+        "id": "noisy_0094",
+        "query": "お腹空いてるけど、あんまり人と話す元気がないから、静かめにご飯を済ませたいんだよね。とはいえ、ちゃんと食べたい。どこがまだマシ？",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "quiet-ish meal in cafeteria"
+        }
+    },
+    {
+        "id": "noisy_0095",
+        "query": "I kinda wanna sit under some trees and maybe snack a bit, not a full meal, just kill some time between classes. Any nice green spot?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "time_kill",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "green spot -> garden"
+        }
+    },
+    {
+        "id": "noisy_0096",
+        "query": "I’m not sure if I should talk to a doctor or just chill, but this chest tightness thing is freaking me out more than any exam… where’s the medical place again?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "clinic for serious symptom"
+        }
+    },
+    {
+        "id": "noisy_0097",
+        "query": "教科書を毎回借りに行くのも面倒になってきたから、そろそろ自分用を買おうかなって思ってて…そういう“買う系”はどこに行くんだっけ？",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "plan_change"
+            ],
+            "lang": "ja",
+            "notes": "decides to buy textbook"
+        }
+    },
+    {
+        "id": "noisy_0098",
+        "query": "I’ve got like 40 minutes to kill, too short to go home, too long to just stand around… somewhere I can sit, maybe look at my notes, but I don’t want full intense study mode.",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "time_kill",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "time killing with light study"
+        }
+    },
+    {
+        "id": "noisy_0099",
+        "query": "授業の合間で、がっつり勉強するほどじゃないけど、少し課題は進めたい。外でボーッとするのと、軽く机がある場所だとしたら、どこがちょうどいい？",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "time_kill",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "chooses cafeteria as compromise"
+        }
+    },
+    {
+        "id": "noisy_0100",
+        "query": "I lost my headphones somewhere between the library and the cafeteria and I’m low-key annoyed… before I start walking all over, is there a campus spot where lost stuff usually ends up?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "lost_and_found",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "lost item -> help desk"
+        }
+    },
+    {
+        "id": "noisy_0101",
+        "query": "btw, my friend’s like “let’s study together but somewhere we can still talk and not get shushed”, sooo probably not the super quiet area… where do we go?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "wants talkative study space"
+        }
+    },
+    {
+        "id": "noisy_0102",
+        "query": "図書館のガチ静かなゾーンまではいらないけど、軽く本読んだりノート広げたりできる、そこそこ静かな場所ってどこかある？ご飯メインじゃないところ。",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "still library but not strict zone"
+        }
+    },
+    {
+        "id": "noisy_0103",
+        "query": "I need to talk to someone about my course load, maybe also ask about study abroad later, it’s bigger than just “which class is next”. Who on campus handles that kind of planning talk?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_info",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "admin/advising at help desk"
+        }
+    },
+    {
+        "id": "noisy_0104",
+        "query": "I was chilling in the garden but now bugs are kind of ruining the vibe… still wanna be away from crowds though. Between staying here and moving somewhere else, where should I move if I still want some air?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "hard",
+            "tags": [
+                "emotion",
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "still garden-type place"
+        }
+    },
+    {
+        "id": "noisy_0105",
+        "query": "体調が微妙で、運動してスッキリさせたい気もするけど、悪化させたくもないんだよね…とりあえず相談するとしたら、どこ行くのが安全？",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "consult clinic first"
+        }
+    },
+    {
+        "id": "noisy_0106",
+        "query": "I wanna actually DO some experiments, not just read about them, like hands-on stuff with equipment and maybe chemicals or electronics. Which room is that kind of space?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "hands-on lab"
+        }
+    },
+    {
+        "id": "noisy_0107",
+        "query": "教科書の細かい内容を確認したいけど、買うほどではないし、印刷しまくるのもちょっと…とりあえず現物を見て判断したいとき、どこ行く？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "check physical book in library"
+        }
+    },
+    {
+        "id": "noisy_0108",
+        "query": "my head is full of static from today’s classes, I just wanna walk to somewhere with trees, sit down, and maybe complain in my group chat for a bit. what spot fits that mood?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "time_kill",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "garden for venting"
+        }
+    },
+    {
+        "id": "noisy_0109",
+        "query": "I’m meeting my group before class to go in together, so I told them “let’s meet where everyone usually meets when they first arrive at campus”. Where is that in practice?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "entry_meeting",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "meeting at main gate"
+        }
+    },
+    {
+        "id": "noisy_0110",
+        "query": "I was in the cafeteria and I’m pretty sure I left my student ID on the tray or something… before I panic, is there a central spot for lost cards I should check?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "lost_and_found",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "lost card -> help desk"
+        }
+    },
+    {
+        "id": "noisy_0111",
+        "query": "library is too quiet, cafeteria is too chaotic, my brain wants some place in between where I can open my laptop and not feel weird. what’s the least bad option?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "time_kill",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "compromise -> cafeteria"
+        }
+    },
+    {
+        "id": "noisy_0112",
+        "query": "授業中じゃなくて、自分で勉強したいんだけど、人の声がガンガン聞こえると集中できないタイプで…どこに避難するのが一番マシ？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "quiet self-study"
+        }
+    },
+    {
+        "id": "noisy_0113",
+        "query": "I need to buy pens, a notebook, and maybe check if they have that fancy calculator the prof mentioned. Which campus place sells all that stuff?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "buy supplies"
+        }
+    },
+    {
+        "id": "noisy_0114",
+        "query": "実験レポート書く前に、関連論文をざっと眺めたいんだけど、PCだけじゃなくて紙の本とかも見たいんだよね。そういうときってどこに行く？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "papers & books -> library"
+        }
+    },
+    {
+        "id": "noisy_0115",
+        "query": "my knee hurts, my brain hurts, and I’m not sure if I should just skip moving entirely or check with someone… if I decide to actually ask a professional, where on campus is that?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "clinic for professional advice"
+        }
+    },
+    {
+        "id": "noisy_0116",
+        "query": "I’ve been sitting all day and I feel gross, but I don’t wanna overdo it and be sore tomorrow. Is there a place where I can just do a light workout and then bail?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "light workout in gym"
+        }
+    },
+    {
+        "id": "noisy_0117",
+        "query": "授業の資料について質問したいんだけど、先生に聞く前に、まず自分で調べられそうな本とか資料がある場所に行きたい。どこから攻める？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "self research -> library"
+        }
+    },
+    {
+        "id": "noisy_0118",
+        "query": "I was gonna just wander around looking for the big lecture room, but I’m already late… for those huge talks, which hall do they normally use?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "big lecture hall"
+        }
+    },
+    {
+        "id": "noisy_0119",
+        "query": "I kinda wanna whine about this assignment to a friend, grab something to eat, and maybe open the slides if we feel like it. where on campus fits that chaotic mood best?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "cafeteria for emotional vent + food"
+        }
+    },
+    {
+        "id": "noisy_0120",
+        "query": "授業の合間にちょっとだけ外の空気を吸ってリセットしたいんだけど、あんまり人通りが激しくない緑のある場所ってどこ？",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "time_kill",
+            "difficulty": "easy",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "calm green area"
+        }
+    },
+    {
+        "id": "noisy_0121",
+        "query": "I’ve been sitting in class all morning and my back is screaming, I just wanna lie down somewhere quiet for a bit… not eat, not chat, just rest. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "emotion",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "quiet resting/reading space -> library"
+        }
+    },
+    {
+        "id": "noisy_0122",
+        "query": "外でぼーっとしたいんだけど、教室とかカフェみたいに人がガヤガヤしてる感じじゃなくて、木とかベンチがあるところがいいんだよね。どこがそれっぽい？",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "time_kill",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "wants quiet green bench -> garden"
+        }
+    },
+    {
+        "id": "noisy_0123",
+        "query": "I need to buy one of those official-looking notebooks the professor showed us in class, not borrow it, like actually own it. Where on campus sells that stuff?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "explicitly wants to buy"
+        }
+    },
+    {
+        "id": "noisy_0124",
+        "query": "図書館で本借りっぱなしになってて、そろそろ怒られそうだから返したいんだけど、返却だけサッと済ませたいときってどこに持っていけばいい？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "ja",
+            "notes": "simple return to library"
+        }
+    },
+    {
+        "id": "noisy_0125",
+        "query": "my brain is fried, I don’t wanna be shushed but I also don’t wanna feel like I’m at a party… somewhere I can eat, complain, and maybe pretend to study?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "hard",
+            "tags": [
+                "emotion",
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "social noisy-ish space -> cafeteria"
+        }
+    },
+    {
+        "id": "noisy_0126",
+        "query": "とりあえず軽くご飯食べて、それから課題を進めたいんだけど、最初の一歩として「ご飯」がメインな場所ってどこ？",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "plan_change",
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "food first -> cafeteria"
+        }
+    },
+    {
+        "id": "noisy_0127",
+        "query": "My chest feels kinda tight and I’m trying to decide if I’m just anxious or actually sick, but either way I shouldn’t ask a trainer about this… where’s the medical place?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "clinic not gym"
+        }
+    },
+    {
+        "id": "noisy_0128",
+        "query": "運動不足すぎてやばいから、診察とかじゃなくて、とにかく体を動かしたいんだよね。ランニングマシンとか筋トレマシンがあるところってどこ？",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "ja",
+            "notes": "wants machines -> gym"
+        }
+    },
+    {
+        "id": "noisy_0129",
+        "query": "I don’t need a doctor, I just wanna sweat out some stress and maybe do a bit of cardio. On campus, where do people usually go for that?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "explicitly not doctor -> gym"
+        }
+    },
+    {
+        "id": "noisy_0130",
+        "query": "体調崩してて、授業よりまずは自分の体を確認しないとヤバそうな感じなんだよね…講義室じゃなくて、診てもらえるところってどこ？",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "emotion",
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "clinic not classroom"
+        }
+    },
+    {
+        "id": "noisy_0131",
+        "query": "I’ve got this big exam coming up and I need a super quiet place to drill past papers, not somewhere with food smells… where should I set up camp?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "wants quiet, not cafeteria"
+        }
+    },
+    {
+        "id": "noisy_0132",
+        "query": "先生の話をちゃんと聞かないとやばいタイプの授業がこのあとあって、大人数がどーっと集まるあの教室に行きたいんだけど、どこだっけ？",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "ja",
+            "notes": "big lecture hall"
+        }
+    },
+    {
+        "id": "noisy_0133",
+        "query": "my group needs to give a practice talk like it’s the real thing, with a big screen and rows of seats, not just a tiny room. which place works best for that?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "lecture hall for rehearsal"
+        }
+    },
+    {
+        "id": "noisy_0134",
+        "query": "授業って感じじゃなくて、自分のペースで黙々と勉強したいんだけど、人が話してると集中できないタイプなので、できるだけ静かな場所がいい。どこ？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "quiet self-study"
+        }
+    },
+    {
+        "id": "noisy_0135",
+        "query": "I’m thinking about my thesis topic and I kinda need a place with access to serious books and papers, not just my own notes. What’s the go-to spot for that?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "literature search -> library"
+        }
+    },
+    {
+        "id": "noisy_0136",
+        "query": "実験装置を実際に触りながら、先輩に相談したいんだよね。本読んでるだけじゃ分からない感じのやつで…そういうときに行く部屋ってどこ？",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "hands-on consultation -> lab"
+        }
+    },
+    {
+        "id": "noisy_0137",
+        "query": "I wanna check some literature first and THEN maybe go mess with the lab equipment, but step one is definitely reading. Where’s the best place to bury myself in papers?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "first step: library"
+        }
+    },
+    {
+        "id": "noisy_0138",
+        "query": "家賃とか奨学金とか、生活寄りの相談をまとめてしたいんだけど、授業の担当教員じゃなくて、もっと事務的な人に話すべきかなって思ってて…どこ行く？",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_info",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "life/admin相談 -> help desk"
+        }
+    },
+    {
+        "id": "noisy_0139",
+        "query": "I’m confused about visa stuff and also some enrollment forms, and I really don’t think a random professor can help with that… which office handles that kind of paperwork?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_info",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "admin/visa -> help desk"
+        }
+    },
+    {
+        "id": "noisy_0140",
+        "query": "財布をどこかで落としたっぽくて、教室とかカフェを一個ずつ見て回るのはさすがに無理なんだけど、とりあえず最初に聞きに行くべき窓口ってある？",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "lost_and_found",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "noisy_chat"
+            ],
+            "lang": "ja",
+            "notes": "lost wallet -> help desk"
+        }
+    },
+    {
+        "id": "noisy_0141",
+        "query": "I’m supposed to meet someone “at the entrance” but I have no idea which entrance they mean, I assume the main one? Where is that main gate thing on campus?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "entry_meeting",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "clarifying main gate"
+        }
+    },
+    {
+        "id": "noisy_0142",
+        "query": "友だちとキャンパスの“いつもの入り口”で待ち合わせってことになってるんだけど、みんながだいたい想像するあの場所ってどこ？",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "entry_meeting",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "usual meeting spot -> main gate"
+        }
+    },
+    {
+        "id": "noisy_0143",
+        "query": "I left my umbrella somewhere and it could be literally anywhere I passed through today… is there a campus-wide place that collects lost stuff?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "lost_and_found",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "central lost&found"
+        }
+    },
+    {
+        "id": "noisy_0144",
+        "query": "I was planning to just watch the lecture recording later, so I kinda wanna skip class and study my own way. If I do that, where’s the best self-study spot?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "plan_change",
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "skips class -> library"
+        }
+    },
+    {
+        "id": "noisy_0145",
+        "query": "今日は授業に出るより、実験の準備を進めた方がいい気がしてきててさ…本読むだけじゃなくて、装置も触れる場所ってどこだったっけ？",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "plan_change"
+            ],
+            "lang": "ja",
+            "notes": "choose lab over class"
+        }
+    },
+    {
+        "id": "noisy_0146",
+        "query": "I wanna half nap, half skim some notes, definitely not where people are shouting over lunch… any spot that’s calm but not super formal?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "time_kill",
+            "difficulty": "hard",
+            "tags": [
+                "emotion",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "quiet-ish -> library"
+        }
+    },
+    {
+        "id": "noisy_0147",
+        "query": "お腹はそこまで空いてないけど、外の空気を吸いながらちょっと何か飲んだりつまんだりしたいんだよね。教室でもカフェでもない感じの場所、どこが合う？",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "light snack+air -> garden"
+        }
+    },
+    {
+        "id": "noisy_0148",
+        "query": "I’m low-key freaking out about some chest pain, I thought maybe working out would help but that’s probably dumb… before doing anything intense, who should I see on campus?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "plan_change",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "clinic before gym"
+        }
+    },
+    {
+        "id": "noisy_0149",
+        "query": "体を動かしたいんだけど、診察とか悩み相談っていうよりは、とにかく走ったり筋トレしたりしてストレス発散したい感じなんだよね。どこ行けばいい？",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "stress relief -> gym"
+        }
+    },
+    {
+        "id": "noisy_0150",
+        "query": "hey, I kinda wanna just rant to a friend IRL about this assignment while picking at some food, and maybe open the slides if we feel like it… what’s the obvious campus spot for that?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "rant+food -> cafeteria"
+        }
+    },
+    {
+        "id": "noisy_0151",
+        "query": "図書館って完全に静かすぎる日もあって、今日はそこまでガチじゃないんだけど、とはいえ外は寒くて…軽く本読める室内で、少しざわざわしてるくらいの場所ってある？",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "time_kill",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "semi-quiet indoor -> cafeteria"
+        }
+    },
+    {
+        "id": "noisy_0152",
+        "query": "I’ve got like 20 minutes to kill between classes, which is too short for hardcore studying but too long to just stand around… somewhere I can sit and scroll a bit?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "time_kill",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "short break -> cafeteria seats"
+        }
+    },
+    {
+        "id": "noisy_0153",
+        "query": "実験のアイデアを練るのに、PCと論文を一気に広げたいんだけど、机とコンセントがあって、あんまり騒がしくない場所が欲しい。どこにこもる？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "desk+outlet+quiet -> library"
+        }
+    },
+    {
+        "id": "noisy_0154",
+        "query": "My Japanese is kinda dying again but, uhh, 図書館みたいな super quiet じゃなくて、でもちゃんと座ってノート広げたい…どこいけばいいのかな lol",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "time_kill",
+            "difficulty": "medium",
+            "tags": [
+                "mixed_lang_slang",
+                "noisy_chat"
+            ],
+            "lang": "mixed",
+            "notes": "wants semi-quiet, ends up cafeteria"
+        }
+    },
+    {
+        "id": "noisy_0155",
+        "query": "I need to talk about scholarship options AND maybe ask about part-time work rules for international students… that’s not really a library question, right? who on campus handles that?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_info",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "admin consultation"
+        }
+    },
+    {
+        "id": "noisy_0156",
+        "query": "授業のこともそうなんだけど、生活費とか奨学金とか、ちょっと将来の話もまとめて相談したくてさ…そういう“とりあえず聞いてみる窓口”ってどこ？",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_info",
+            "difficulty": "hard",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "ja",
+            "notes": "broad相談 -> help desk"
+        }
+    },
+    {
+        "id": "noisy_0157",
+        "query": "I was gonna head straight home, but I realized I borrowed a book that’s due today… before I forget again, where can I drop it off quickly on campus?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "easy",
+            "tags": [
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "quick return -> library"
+        }
+    },
+    {
+        "id": "noisy_0158",
+        "query": "体育会系のガチなトレーニングじゃなくて、軽く体を動かすくらいでいいんだけど、外は雨だし…そういうときにふらっと行ける場所ってどこ？",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "plan_change"
+            ],
+            "lang": "ja",
+            "notes": "light exercise, indoor -> gym"
+        }
+    },
+    {
+        "id": "noisy_0159",
+        "query": "I need an actual doctor, not a YouTube video, to ask about this weird pain I’ve been ignoring… where’s the clinic thing on campus again?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "doctor vs online"
+        }
+    },
+    {
+        "id": "noisy_0160",
+        "query": "本屋さんでグッズとかも見たいんだけど、まずは教科書をちゃんと買うのが先なんだよね。そういう“買う用”の本が置いてある場所ってどこ？",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "ja",
+            "notes": "buying textbooks"
+        }
+    },
+    {
+        "id": "noisy_0161",
+        "query": "I’m gonna meet a friend who’s never been here and I don’t wanna overcomplicate it, so I told them “main gate”. For the robot, where exactly is that?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "entry_meeting",
+            "difficulty": "easy",
+            "tags": [
+                "filler"
+            ],
+            "lang": "en",
+            "notes": "simple main gate reference"
+        }
+    },
+    {
+        "id": "noisy_0162",
+        "query": "朝イチの授業に間に合うかギリギリなんだけど、少人数の教室じゃなくて、大きな講義室の方なんだよね。そういうときに向かう建物ってどこ？",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "big lecture"
+        }
+    },
+    {
+        "id": "noisy_0163",
+        "query": "my brain: study. my body: nap. I guess the compromise is a quiet place with chairs where I CAN study if I magically find the willpower… where should I drag myself?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "emotion",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "nap+study compromise -> library"
+        }
+    },
+    {
+        "id": "noisy_0164",
+        "query": "授業資料のプリントをもう一部もらいに行くんじゃなくて、自分でちゃんと内容を調べたいから、本や論文があるところがいいんだよね。まずどこ行く？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "self-research instead of teacher"
+        }
+    },
+    {
+        "id": "noisy_0165",
+        "query": "I was chilling in the cafeteria but it’s way too loud to think, I still wanna stay indoors though. Is there a quieter place with tables I can move to?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "time_kill",
+            "difficulty": "medium",
+            "tags": [
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "cafeteria -> library"
+        }
+    },
+    {
+        "id": "noisy_0166",
+        "query": "外で友だちとだべりたいけど、教室の前とかじゃなくて、もうちょっと落ち着いた緑がある場所がいいなって感じで…どこ行くのがちょうどいい？",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "ja",
+            "notes": "social outdoor -> garden"
+        }
+    },
+    {
+        "id": "noisy_0167",
+        "query": "I lost my student card and I really hope someone turned it in somewhere… instead of wandering around classrooms, is there a main place where lost IDs go?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "lost_and_found",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "central lost IDs -> help desk"
+        }
+    },
+    {
+        "id": "noisy_0168",
+        "query": "I need to talk about changing my course plan and maybe also ask about paying tuition in installments or something… who on campus even knows about that kind of stuff?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_info",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "course+fee相談 -> help desk"
+        }
+    },
+    {
+        "id": "noisy_0169",
+        "query": "ジムに行って汗かきたい気持ちもあるけど、ここ数日ずっと体調がイマイチでさ…無理して悪化させるのも怖いから、まずは専門の人に相談したい。どこ？",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "clinic vs gym, chooses clinic"
+        }
+    },
+    {
+        "id": "noisy_0170",
+        "query": "my legs feel heavy from sitting, I don’t need a diagnosis, I just wanna move a bit and listen to music on a treadmill. where’s the campus gym again?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "explicitly not diagnosis"
+        }
+    },
+    {
+        "id": "noisy_0171",
+        "query": "本をガッツリ読むっていうより、外の空気を吸いながら軽くノート見直したいだけなんだけど、机とかベンチがあって、のんびりできる場所ってある？",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "time_kill",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "light review outdoors"
+        }
+    },
+    {
+        "id": "noisy_0172",
+        "query": "I need a spot to meet my group before we head into a huge lecture together, somewhere obvious that everyone recognizes as the starting point… that’s the main gate, right?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "entry_meeting",
+            "difficulty": "medium",
+            "tags": [
+                "filler"
+            ],
+            "lang": "en",
+            "notes": "group meeting at gate"
+        }
+    },
+    {
+        "id": "noisy_0173",
+        "query": "教科書を借りるんじゃなくて、マーカーで書き込みまくりたいタイプだから、自分用を一冊ちゃんと買いたいんだよね。そういうのはどこで手に入る？",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "ja",
+            "notes": "wants own copy -> bookstore"
+        }
+    },
+    {
+        "id": "noisy_0174",
+        "query": "I was gonna just read the PDF on my phone, but this assignment is bigger than I thought and I need a desk and maybe a power outlet too… which quiet place fits that?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "upgrade to proper study -> library"
+        }
+    },
+    {
+        "id": "noisy_0175",
+        "query": "研究の方式について先生に聞く前に、自分で関連論文をいくつかあたっておきたいんだよね。紙でも電子でもいいから、そういう資料が集まってる場所ってどこ？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "literature review first"
+        }
+    },
+    {
+        "id": "noisy_0176",
+        "query": "I kinda wanna try out some of the lab equipment before I decide my project topic, like see what’s actually possible… that hands-on space is where?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "exploratory lab visit"
+        }
+    },
+    {
+        "id": "noisy_0177",
+        "query": "cafeteria is way too loud today, but I’m not in the mood for hardcore silence either… I still need a place to sit and maybe nibble something. where should I end up?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "still cafeteria as answer"
+        }
+    },
+    {
+        "id": "noisy_0178",
+        "query": "外で人の目をあんまり気にせずに、ちょっと座ってぼーっとできる場所が欲しくてさ…教室の前とかじゃないところなら、どこがいい？",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "time_kill",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "quiet outdoor bench"
+        }
+    },
+    {
+        "id": "noisy_0179",
+        "query": "I realized I might have dropped my keys somewhere between the gym and the cafeteria, and I really don’t wanna go back and forth asking every person… is there a central help point?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "lost_and_found",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "lost keys -> help desk"
+        }
+    },
+    {
+        "id": "noisy_0180",
+        "query": "履修のこともそうだし、留学とか将来のプランも含めて、誰かにちゃんと相談したいんだけど、ゼミの先生に全部聞くのも違う気がしてて…まずはどこ行く？",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_info",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "broad planning相談 -> help desk"
+        }
+    },
+    {
+        "id": "noisy_0181",
+        "query": "my stomach’s grumbling but I’m also super drained socially; I still need actual food though, not just a vending machine snack. which place is best for just eating and escaping for a bit?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "needs proper meal -> cafeteria"
+        }
+    },
+    {
+        "id": "noisy_0182",
+        "query": "今日は運動っていうより、ちゃんと診てもらわないと不安が消えない感じで…汗かきに行く場所じゃなくて、お医者さんがいるところってどこ？",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "clinic not gym"
+        }
+    },
+    {
+        "id": "noisy_0183",
+        "query": "I wanna move my body before I go home, but not like full training mode, just enough to feel alive again. where’s the best casual workout spot on campus?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "casual workout"
+        }
+    },
+    {
+        "id": "noisy_0184",
+        "query": "本気で集中してレポート書きたいってほどじゃないんだけど、さすがに家に帰る前に少しは進めておきたくて…軽くPC広げられる場所ってどこ？",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "time_kill",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "light work -> cafeteria"
+        }
+    },
+    {
+        "id": "noisy_0185",
+        "query": "I need a place to sit with my laptop and maybe complain on Discord between classes, not super strict study mode but not standing in a hallway either. where should I flop down?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "time_kill",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "indoor seating -> cafeteria"
+        }
+    },
+    {
+        "id": "noisy_0186",
+        "query": "授業のスライドを読むだけじゃなくて、教科書もちゃんとめくって確認したいから、紙の本が置いてあるところがいいんだよね。そういう場所ってどこ？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument"
+            ],
+            "lang": "ja",
+            "notes": "paper books -> library"
+        }
+    },
+    {
+        "id": "noisy_0187",
+        "query": "I honestly don’t know if I should register for more classes or fewer next semester and it’s stressing me out… is there some admin place where I can talk about that kinda planning?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_info",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "course load相談 -> help desk"
+        }
+    },
+    {
+        "id": "noisy_0188",
+        "query": "外で空気吸ってリフレッシュしたい気分なんだけど、完全に人がいないところじゃなくて、ちょっと人はいるけど落ち着いてる場所がいい。どこが合う？",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "time_kill",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "calm but not empty -> garden"
+        }
+    },
+    {
+        "id": "noisy_0189",
+        "query": "I was gonna grab food first, but actually I’m more worried about making it to that giant lecture on time… if I have to pick one right now, which place am I running to?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "choose lecture over food"
+        }
+    },
+    {
+        "id": "noisy_0190",
+        "query": "図書館で勉強しようと思ってたんだけど、急にお腹が空いてきて、集中以前の問題な気がしてきた…とりあえず何か食べるとしたら、どこ行く？",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "plan_change"
+            ],
+            "lang": "ja",
+            "notes": "switch from study to food"
+        }
+    },
+    {
+        "id": "noisy_0191",
+        "query": "my head hurts, my schedule is a mess, and I’m low-key panicking about everything… I at least wanna make sure the health part isn’t serious. where’s the campus clinic again?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "clinic for reassurance"
+        }
+    },
+    {
+        "id": "noisy_0192",
+        "query": "I need to grab a notebook, some pens, and maybe a campus-logo mug lol, nothing to borrow, all to buy. which shop has that kind of stuff?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "buy goods -> bookstore"
+        }
+    },
+    {
+        "id": "noisy_0193",
+        "query": "授業の教室に行く前に、みんなで一回集まろうって話になっててさ、“とりあえずここ集合”って言いやすい入口ってどこ？",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "entry_meeting",
+            "difficulty": "medium",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "ja",
+            "notes": "集合しやすい入口 -> main_gate"
+        }
+    },
+    {
+        "id": "noisy_0194",
+        "query": "I was scrolling in the garden and now I suddenly remembered I need a quiet place with outlets to finish a report… if I move, where should I move to?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "time_kill",
+            "difficulty": "medium",
+            "tags": [
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "garden -> library for serious work"
+        }
+    },
+    {
+        "id": "noisy_0195",
+        "query": "外でちょっとだけ空気吸ったら、今度はちゃんと教科書読みたくなってきたんだよね。静かに読書モードに入れる場所ってどこ？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "plan_change"
+            ],
+            "lang": "ja",
+            "notes": "switch to reading -> library"
+        }
+    },
+    {
+        "id": "noisy_0196",
+        "query": "食堂でわいわいする気分でもないし、教室で待つのもなんか違うから、ほどよく静かで息抜きできる場所に行きたいんだよね。どこがちょうどいい？",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "hard",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "moderately quiet relax -> garden"
+        }
+    },
+    {
+        "id": "noisy_0197",
+        "query": "I lost my wallet, my keys, and maybe my sanity, and I don’t even know where to start… instead of chasing every place I visited, what’s the first help point I should go to?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "lost_and_found",
+            "difficulty": "hard",
+            "tags": [
+                "emotion",
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "overwhelmed -> help desk"
+        }
+    },
+    {
+        "id": "noisy_0198",
+        "query": "my Japanese is scuffed but like, 体調ちょっとヘンで、運動する気分じゃない… doctor-type place wa doko desu ka…？",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "mixed_lang_slang",
+                "emotion"
+            ],
+            "lang": "mixed",
+            "notes": "mixed-language clinic request"
+        }
+    },
+    {
+        "id": "noisy_0199",
+        "query": "今日はちゃんと勉強したいけど、人の話し声が完全にゼロってほどじゃなくてもいいから、そこそこ静かで机がある場所がいい。どこが無難？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "prefers moderately quiet study -> library"
+        }
+    },
+    {
+        "id": "noisy_0200",
+        "query": "I kinda just wanna sit somewhere green, breathe, and maybe snack a little before heading to my next class, nothing fancy. which outdoor-ish spot should I pick?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "time_kill",
+            "difficulty": "easy",
+            "tags": [
+                "noisy_chat"
+            ],
+            "lang": "en",
+            "notes": "simple green snack spot -> garden"
+        }
+    }
+]

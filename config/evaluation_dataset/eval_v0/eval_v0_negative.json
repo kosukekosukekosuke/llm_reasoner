@@ -1,0 +1,92 @@
+[
+    {
+        "id": 2,
+        "label": "cafeteria",
+        "query": "Find a place to have dinner at 9 PM on Sunday.",
+        "tags": [
+            "oos_time",
+            "food"
+        ]
+    },
+    {
+        "id": 6,
+        "label": "research_lab",
+        "query": "Take me to the robotics club workshop.",
+        "tags": [
+            "oos_place",
+            "lab_like"
+        ]
+    },
+    {
+        "id": 7,
+        "label": "lecture_hall",
+        "query": "Bring me to the film theater on campus.",
+        "tags": [
+            "oos_place",
+            "hall_like"
+        ]
+    },
+    {
+        "id": 8,
+        "label": "garden",
+        "query": "I want a lakeside bench to watch the sunset.",
+        "tags": [
+            "oos_env",
+            "relax_like"
+        ]
+    },
+    {
+        "id": 9,
+        "label": "security_office",
+        "query": "Where can I renew my parking permit?",
+        "tags": [
+            "oos_admin",
+            "security_like"
+        ]
+    },
+    {
+        "id": 3,
+        "label": "clinic",
+        "query": "I need a COVID PCR test station.",
+        "tags": [
+            "oos_med",
+            "clinic_like"
+        ]
+    },
+    {
+        "id": 0,
+        "label": "main_gate",
+        "query": "Lead me to the visitor information center before entering the campus.",
+        "tags": [
+            "oos_gate",
+            "info_like"
+        ]
+    },
+    {
+        "id": 5,
+        "label": "bookstore",
+        "query": "I want to buy a laptop.",
+        "tags": [
+            "oos_shop",
+            "bookstore_like"
+        ]
+    },
+    {
+        "id": 1,
+        "label": "library",
+        "query": "Direct me to the digital archive terminal.",
+        "tags": [
+            "oos_library",
+            "info_like"
+        ]
+    },
+    {
+        "id": 4,
+        "label": "gym",
+        "query": "Go to the swimming pool.",
+        "tags": [
+            "oos_sports",
+            "gym_like"
+        ]
+    }
+]

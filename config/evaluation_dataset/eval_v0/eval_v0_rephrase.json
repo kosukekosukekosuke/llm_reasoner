@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "label": "library",
+        "query": "Could you guide me to the place where I can quietly read and borrow materials for my research?",
+        "tags": [
+            "long",
+            "books"
+        ]
+    },
+    {
+        "id": 1,
+        "label": "library",
+        "query": "I finished reading and want to give the book back to the campus facility.",
+        "tags": [
+            "rephrase",
+            "return_book"
+        ]
+    },
+    {
+        "id": 2,
+        "label": "cafeteria",
+        "query": "Please navigate to the facility on campus that serves meals around lunchtime.",
+        "tags": [
+            "long",
+            "food"
+        ]
+    },
+    {
+        "id": 2,
+        "label": "cafeteria",
+        "query": "I'm hungry; bring me to where people usually eat together.",
+        "tags": [
+            "soft",
+            "food"
+        ]
+    },
+    {
+        "id": 5,
+        "label": "bookstore",
+        "query": "Navigate to a campus location where I can purchase printed materials and writing tools.",
+        "tags": [
+            "long",
+            "purchase"
+        ]
+    },
+    {
+        "id": 5,
+        "label": "bookstore",
+        "query": "I need to buy a textbook right now—take me to the most suitable shop on campus.",
+        "tags": [
+            "urgent",
+            "purchase"
+        ]
+    },
+    {
+        "id": 7,
+        "label": "lecture_hall",
+        "query": "Lead me to the educational space designed for large presentations and courses.",
+        "tags": [
+            "long",
+            "lecture"
+        ]
+    },
+    {
+        "id": 7,
+        "label": "lecture_hall",
+        "query": "I have class starting soon; go to the big lecture venue.",
+        "tags": [
+            "rephrase",
+            "lecture"
+        ]
+    },
+    {
+        "id": 3,
+        "label": "clinic",
+        "query": "Take me to the service that provides basic medical treatment and health assistance.",
+        "tags": [
+            "long",
+            "health"
+        ]
+    },
+    {
+        "id": 3,
+        "label": "clinic",
+        "query": "I might have an injury; bring me to first-aid support on campus.",
+        "tags": [
+            "soft",
+            "health"
+        ]
+    },
+    {
+        "id": 4,
+        "label": "gym",
+        "query": "I plan to work out; guide me to the facility used for sports and training.",
+        "tags": [
+            "rephrase",
+            "fitness"
+        ]
+    },
+    {
+        "id": 4,
+        "label": "gym",
+        "query": "Please go to the campus building equipped for exercise.",
+        "tags": [
+            "soft",
+            "fitness"
+        ]
+    },
+    {
+        "id": 6,
+        "label": "research_lab",
+        "query": "Navigate to a place with instruments for experiments and research activities.",
+        "tags": [
+            "long",
+            "lab"
+        ]
+    },
+    {
+        "id": 6,
+        "label": "research_lab",
+        "query": "I have to do lab work; take me to the scientific workspace.",
+        "tags": [
+            "rephrase",
+            "lab"
+        ]
+    },
+    {
+        "id": 8,
+        "label": "garden",
+        "query": "Guide me to a calm outdoor area intended for rest and relaxation.",
+        "tags": [
+            "long",
+            "relax"
+        ]
+    },
+    {
+        "id": 8,
+        "label": "garden",
+        "query": "I need a quiet natural place to take a break.",
+        "tags": [
+            "soft",
+            "relax"
+        ]
+    },
+    {
+        "id": 0,
+        "label": "main_gate",
+        "query": "Bring me to the main area where visitors first enter the campus.",
+        "tags": [
+            "rephrase",
+            "gate"
+        ]
+    },
+    {
+        "id": 0,
+        "label": "main_gate",
+        "query": "Let's meet at the front gate outside.",
+        "tags": [
+            "soft",
+            "gate"
+        ]
+    },
+    {
+        "id": 9,
+        "label": "security_office",
+        "query": "Please take me to the campus service that handles lost items and safety issues.",
+        "tags": [
+            "long",
+            "security"
+        ]
+    },
+    {
+        "id": 9,
+        "label": "security_office",
+        "query": "I need assistance—go to security.",
+        "tags": [
+            "short",
+            "security"
+        ]
+    }
+]

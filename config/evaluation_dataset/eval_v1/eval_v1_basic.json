@@ -1,0 +1,252 @@
+[
+    {
+        "query": "Guide me to the main entrance.",
+        "gold_node_id": 0,
+        "gold_label": "main_gate"
+    },
+    {
+        "query": "Take me to the primary entry gate.",
+        "gold_node_id": 0,
+        "gold_label": "main_gate"
+    },
+    {
+        "query": "I will meet someone at the front gate.",
+        "gold_node_id": 0,
+        "gold_label": "main_gate"
+    },
+    {
+        "query": "Bring me to the facility entrance.",
+        "gold_node_id": 0,
+        "gold_label": "main_gate"
+    },
+    {
+        "query": "Where is the main gate?",
+        "gold_node_id": 0,
+        "gold_label": "main_gate"
+    },
+    {
+        "query": "I want to borrow a book.",
+        "gold_node_id": 1,
+        "gold_label": "library"
+    },
+    {
+        "query": "Take me to the quiet study area.",
+        "gold_node_id": 1,
+        "gold_label": "library"
+    },
+    {
+        "query": "Where can I find academic resources?",
+        "gold_node_id": 1,
+        "gold_label": "library"
+    },
+    {
+        "query": "Guide me to the place for research and reading.",
+        "gold_node_id": 1,
+        "gold_label": "library"
+    },
+    {
+        "query": "I need a place to study in silence.",
+        "gold_node_id": 1,
+        "gold_label": "library"
+    },
+    {
+        "query": "I want to eat lunch.",
+        "gold_node_id": 2,
+        "gold_label": "cafeteria"
+    },
+    {
+        "query": "Take me to the dining area.",
+        "gold_node_id": 2,
+        "gold_label": "cafeteria"
+    },
+    {
+        "query": "Where can I get a meal?",
+        "gold_node_id": 2,
+        "gold_label": "cafeteria"
+    },
+    {
+        "query": "Guide me to the place where food is served.",
+        "gold_node_id": 2,
+        "gold_label": "cafeteria"
+    },
+    {
+        "query": "Bring me to the restaurant.",
+        "gold_node_id": 2,
+        "gold_label": "cafeteria"
+    },
+    {
+        "query": "I need first aid.",
+        "gold_node_id": 3,
+        "gold_label": "clinic"
+    },
+    {
+        "query": "Take me to the medical service.",
+        "gold_node_id": 3,
+        "gold_label": "clinic"
+    },
+    {
+        "query": "Where can I see a doctor?",
+        "gold_node_id": 3,
+        "gold_label": "clinic"
+    },
+    {
+        "query": "Guide me to the health support office.",
+        "gold_node_id": 3,
+        "gold_label": "clinic"
+    },
+    {
+        "query": "I feel sick. Please take me to medical care.",
+        "gold_node_id": 3,
+        "gold_label": "clinic"
+    },
+    {
+        "query": "I want to exercise.",
+        "gold_node_id": 4,
+        "gold_label": "gym"
+    },
+    {
+        "query": "Take me to the fitness area.",
+        "gold_node_id": 4,
+        "gold_label": "gym"
+    },
+    {
+        "query": "Where can I work out?",
+        "gold_node_id": 4,
+        "gold_label": "gym"
+    },
+    {
+        "query": "Guide me to the sports facility.",
+        "gold_node_id": 4,
+        "gold_label": "gym"
+    },
+    {
+        "query": "Bring me to the gym.",
+        "gold_node_id": 4,
+        "gold_label": "gym"
+    },
+    {
+        "query": "I want to buy a book.",
+        "gold_node_id": 5,
+        "gold_label": "bookstore"
+    },
+    {
+        "query": "Take me to the shop for books and stationery.",
+        "gold_node_id": 5,
+        "gold_label": "bookstore"
+    },
+    {
+        "query": "Where can I purchase supplies for a class?",
+        "gold_node_id": 5,
+        "gold_label": "bookstore"
+    },
+    {
+        "query": "Guide me to the bookstore.",
+        "gold_node_id": 5,
+        "gold_label": "bookstore"
+    },
+    {
+        "query": "I need to buy a course textbook.",
+        "gold_node_id": 5,
+        "gold_label": "bookstore"
+    },
+    {
+        "query": "Take me to the laboratory.",
+        "gold_node_id": 6,
+        "gold_label": "research_lab"
+    },
+    {
+        "query": "I need a place for experiments.",
+        "gold_node_id": 6,
+        "gold_label": "research_lab"
+    },
+    {
+        "query": "Guide me to the room with research equipment.",
+        "gold_node_id": 6,
+        "gold_label": "research_lab"
+    },
+    {
+        "query": "Where can I run an experiment?",
+        "gold_node_id": 6,
+        "gold_label": "research_lab"
+    },
+    {
+        "query": "Bring me to the research lab.",
+        "gold_node_id": 6,
+        "gold_label": "research_lab"
+    },
+    {
+        "query": "Take me to the presentation hall.",
+        "gold_node_id": 7,
+        "gold_label": "lecture_hall"
+    },
+    {
+        "query": "Where do lectures happen?",
+        "gold_node_id": 7,
+        "gold_label": "lecture_hall"
+    },
+    {
+        "query": "Guide me to the large room for talks.",
+        "gold_node_id": 7,
+        "gold_label": "lecture_hall"
+    },
+    {
+        "query": "I need the auditorium for a presentation.",
+        "gold_node_id": 7,
+        "gold_label": "lecture_hall"
+    },
+    {
+        "query": "Bring me to the lecture hall.",
+        "gold_node_id": 7,
+        "gold_label": "lecture_hall"
+    },
+    {
+        "query": "I want to relax in nature.",
+        "gold_node_id": 8,
+        "gold_label": "garden"
+    },
+    {
+        "query": "Take me to the outdoor resting area.",
+        "gold_node_id": 8,
+        "gold_label": "garden"
+    },
+    {
+        "query": "Where can I sit among trees and rest?",
+        "gold_node_id": 8,
+        "gold_label": "garden"
+    },
+    {
+        "query": "Guide me to the garden.",
+        "gold_node_id": 8,
+        "gold_label": "garden"
+    },
+    {
+        "query": "Bring me to a quiet place outside.",
+        "gold_node_id": 8,
+        "gold_label": "garden"
+    },
+    {
+        "query": "I need general assistance.",
+        "gold_node_id": 9,
+        "gold_label": "help_desk"
+    },
+    {
+        "query": "Take me to the place for guidance and support.",
+        "gold_node_id": 9,
+        "gold_label": "help_desk"
+    },
+    {
+        "query": "Where can I ask for help with a problem?",
+        "gold_node_id": 9,
+        "gold_label": "help_desk"
+    },
+    {
+        "query": "Guide me to the information desk.",
+        "gold_node_id": 9,
+        "gold_label": "help_desk"
+    },
+    {
+        "query": "Bring me to the help desk.",
+        "gold_node_id": 9,
+        "gold_label": "help_desk"
+    }
+]

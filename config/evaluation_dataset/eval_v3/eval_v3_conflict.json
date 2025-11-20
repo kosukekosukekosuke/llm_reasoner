@@ -1,0 +1,3012 @@
+[
+    {
+        "id": "conflict_0001",
+        "query": "I lost the textbook I borrowed last semester, and now I need to borrow the same title again instead of buying a new one. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy_conflict",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Mentions loss and buy vs borrow, but final intent is to borrow again."
+        }
+    },
+    {
+        "id": "conflict_0002",
+        "query": "I’m thinking about getting a copy of a reference book for my report, but I don’t want to buy it if I can just borrow it on campus. Where should I go first?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy_conflict",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "User explicitly prefers borrowing over buying."
+        }
+    },
+    {
+        "id": "conflict_0003",
+        "query": "I need a brand-new notebook and some pens for class tomorrow, not something to borrow. Which place on campus should I visit?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy_conflict",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Clear preference for buying new supplies."
+        }
+    },
+    {
+        "id": "conflict_0004",
+        "query": "I’ve already borrowed the novel I’m reading, but I liked it so much that I want to own my own copy. Where can I go on campus to buy the book?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy_conflict",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Mentions borrowed book but final intent is purchase."
+        }
+    },
+    {
+        "id": "conflict_0005",
+        "query": "For this exam, I don’t really care about owning the textbook forever. I just need to use it for a week or two and give it back later. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy_conflict",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "Borrow/return pattern implies library even though not named."
+        }
+    },
+    {
+        "id": "conflict_0006",
+        "query": "I want to buy a fresh copy of the lab manual so I can write directly in it, not just borrow a copy that I have to keep clean. Where should I head?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy_conflict",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Buying emphasized; cannot write in a borrowed copy."
+        }
+    },
+    {
+        "id": "conflict_0007",
+        "query": "I’m not sure whether I’ll really need this statistics book after this semester, so I’d rather not spend money on it if I can avoid it. Is there a place where I can just borrow it on campus?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy_conflict",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Cost-sensitive, prefers borrowing over buying."
+        }
+    },
+    {
+        "id": "conflict_0008",
+        "query": "My friend told me I could either buy the textbook or just check it out here at school. I definitely want my own new copy to keep. Where should I go?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy_conflict",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Clear intent to own a new copy."
+        }
+    },
+    {
+        "id": "conflict_0009",
+        "query": "I previously bought an old edition of a programming book, but now the teacher said we must use the newest edition. I want to purchase the latest version on campus. Where do I go?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy_conflict",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Clear need to buy latest edition."
+        }
+    },
+    {
+        "id": "conflict_0010",
+        "query": "I already bought too many books this semester and I’m short on money, so I’d like to get this new title without paying if possible and return it when I’m done. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy_conflict",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Cost complaint and desire to avoid buying → borrow."
+        }
+    },
+    {
+        "id": "conflict_0011",
+        "query": "For my graduation project I need a book that I’ll keep annotating and carrying around everywhere for months, so I don’t want a copy that I have to return. On campus, where should I go to get my own copy?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy_conflict",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Long-term ownership and annotation → buy."
+        }
+    },
+    {
+        "id": "conflict_0012",
+        "query": "I’m checking where I should go if I just want to flip through a few different books on a topic for a day, without buying them or keeping them. What’s the best place on campus for that?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy_conflict",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "Browsing multiple books with no buying, no ownership → library."
+        }
+    },
+    {
+        "id": "conflict_0013",
+        "query": "I’m torn between buying the textbook and just borrowing it. If I decide to only use it temporarily this semester and then give it back, where should I actually go on campus?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy_conflict",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Explicitly chooses temporary use and return."
+        }
+    },
+    {
+        "id": "conflict_0014",
+        "query": "この授業の教科書、新品が欲しいんだけど、誰かから借りるんじゃなくて、自分のものとして手に入れたい。キャンパス内ならどこに行けば買える？",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy_conflict",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "ja",
+            "notes": "Japanese; clearly wants to buy a new personal copy."
+        }
+    },
+    {
+        "id": "conflict_0015",
+        "query": "I already have a copy of the book at home that I bought years ago, but for this assignment I just need to borrow a campus copy for a short while instead of purchasing anything new. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy_conflict",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Has purchased before but current intent is borrowing."
+        }
+    },
+    {
+        "id": "conflict_0016",
+        "query": "I was going to borrow the textbook, but I realized I want to highlight all over it and keep it after the semester ends. So now I’ve decided I actually want to buy it. Where should I go?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy_conflict",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "Plan change: borrow → buy; final intent is buying."
+        }
+    },
+    {
+        "id": "conflict_0017",
+        "query": "I’m comparing two options: either I buy all my reference books, or I just borrow what I need and return them when the report is done. If I go with the second option, which place on campus should I visit?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy_conflict",
+            "difficulty": "hard",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "User explicitly chooses the borrowing option."
+        }
+    },
+    {
+        "id": "conflict_0018",
+        "query": "I don’t want a copy that other people have written in or used before; I’d feel better starting with a completely new textbook that I own. Where is that on campus?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy_conflict",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Strong preference for new/owned → bookstore."
+        }
+    },
+    {
+        "id": "conflict_0019",
+        "query": "I’m okay with returning the textbook at the end and I really don’t want to spend any more money this month. Is there a place where I can just check it out instead of buying it?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy_conflict",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Return + avoid spending → borrowing."
+        }
+    },
+    {
+        "id": "conflict_0020",
+        "query": "I was thinking of going to the place where you can borrow books, but actually I want to pick up a new notebook and a fresh copy of the textbook that I can keep. Which place fits that better?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy_conflict",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "Mentions library implicitly but final intent is buying new items."
+        }
+    },
+    {
+        "id": "conflict_0021",
+        "query": "I’m exhausted from group work and just want a quiet place to focus alone on reading for a few hours, not chatting or eating. Where on campus should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "quiet_study_vs_killtime",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "emotion",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Quiet, focused reading, explicitly not chatting or eating → library."
+        }
+    },
+    {
+        "id": "conflict_0022",
+        "query": "I want to hang out with some classmates and casually talk over snacks between lectures, not necessarily study seriously. Which place would be better for that?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "quiet_study_vs_killtime",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Social, snacks, chatting → cafeteria."
+        }
+    },
+    {
+        "id": "conflict_0023",
+        "query": "I need to review for a big test and I really don’t want a noisy environment with people laughing and eating around me. Where can I study in peace?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "quiet_study_vs_killtime",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Explicitly avoids noisy/eating environment → library."
+        }
+    },
+    {
+        "id": "conflict_0024",
+        "query": "I don’t feel like studying seriously right now. I just want to sit somewhere on campus, kill some time, maybe chat and look at my phone for a while. Where’s a good place?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "quiet_study_vs_killtime",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Time-killing, chatting; cafeteria is more appropriate than library."
+        }
+    },
+    {
+        "id": "conflict_0025",
+        "query": "I want to read quietly, but being stuck inside all day is making me tired. Is there a place outdoors on campus where I can relax and read without too much noise?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "quiet_study_vs_killtime",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Outdoor quiet reading → garden fits better than cafeteria."
+        }
+    },
+    {
+        "id": "conflict_0026",
+        "query": "I thought about going to the cafeteria, but I’m afraid I’ll just end up chatting and not studying. I really need to focus on this report. Where should I actually go instead?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "quiet_study_vs_killtime",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "plan_change",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Plan change from cafeteria to serious study → library."
+        }
+    },
+    {
+        "id": "conflict_0027",
+        "query": "友達とちょっとだべりながら課題も少しだけ進めたい。図書館みたいに静かすぎるところじゃなくて、多少うるさくても大丈夫な場所に行きたい。どこがいい？",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "quiet_study_vs_killtime",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "emotion",
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "Wants chatting + light work, explicitly not too quiet → cafeteria."
+        }
+    },
+    {
+        "id": "conflict_0028",
+        "query": "I need to join an online meeting with my research supervisor and I really need a place where background noise and chatter will be minimal. Where on campus should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "quiet_study_vs_killtime",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Low-noise environment → library."
+        }
+    },
+    {
+        "id": "conflict_0029",
+        "query": "I have a gap of two hours before my next lecture and I don’t feel like doing heavy studying, just relaxing and maybe chatting a bit with friends over something to drink. Where would you send me?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "quiet_study_vs_killtime",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Gap time, light chatting, drinks → cafeteria."
+        }
+    },
+    {
+        "id": "conflict_0030",
+        "query": "I’m completely burned out from noisy group projects and I want somewhere calm where people won’t come up and start talking to me. I just want to read in silence. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "quiet_study_vs_killtime",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "emotion",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Strong preference for silence and less social interaction → library."
+        }
+    },
+    {
+        "id": "conflict_0031",
+        "query": "I brought my own lunch and I want a place where I can casually eat and chat a bit without worrying about being told off for talking. Where on campus is suitable?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "quiet_study_vs_killtime",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Eating and chatting allowed → cafeteria."
+        }
+    },
+    {
+        "id": "conflict_0032",
+        "query": "I was going to head to the library, but then I realized I just want to hang out and not concentrate on anything serious. Is there a better spot for just killing time?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "quiet_study_vs_killtime",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "Plan change from study to hanging out → cafeteria."
+        }
+    },
+    {
+        "id": "conflict_0033",
+        "query": "I want to review lecture slides, but I also need somewhere that’s not super strict about silence, because I might have to whisper with my friend about the material. Which place is better?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "quiet_study_vs_killtime",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "Mixed study + quiet talking; cafeteria is more reasonable compromise."
+        }
+    },
+    {
+        "id": "conflict_0034",
+        "query": "I want to focus 100% on writing my report and I know I’ll get distracted if I see food or hear people chatting. Please send me somewhere that’s clearly meant for concentrated work.",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "quiet_study_vs_killtime",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Concentrated work, avoids food/chat → library."
+        }
+    },
+    {
+        "id": "conflict_0035",
+        "query": "I’d like to sit in a green space where I can think about my project ideas, not necessarily study strictly, but also not be surrounded by loud conversations. Any good place on campus?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "quiet_study_vs_killtime",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Outdoor, reflective, relatively quiet → garden."
+        }
+    },
+    {
+        "id": "conflict_0036",
+        "query": "I’m feeling a bit sick but also want to stay active. I’d like to get some advice first before I decide whether it’s safe to exercise today. Where should I go?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_consult_vs_exercise",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Wants medical advice before exercise → clinic."
+        }
+    },
+    {
+        "id": "conflict_0037",
+        "query": "I’m totally fine physically and really want to work up a sweat and train my body today. Which place on campus is best for doing actual workouts?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_consult_vs_exercise",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Healthy and wants exercise → gym."
+        }
+    },
+    {
+        "id": "conflict_0038",
+        "query": "I’ve had chest pain since yesterday and I’m worried it might be serious. I’m not asking where to exercise; I want to see someone who can check my condition. Where should I go?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_consult_vs_exercise",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Serious symptoms, explicitly not exercise → clinic."
+        }
+    },
+    {
+        "id": "conflict_0039",
+        "query": "I feel a bit sluggish from sitting all day, but I don’t have any injuries or health issues. I just want a place on campus where I can move my body and exercise. Where is that?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_consult_vs_exercise",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "No health issue, wants exercise → gym."
+        }
+    },
+    {
+        "id": "conflict_0040",
+        "query": "My knee has been hurting recently, and I’m not sure if I should keep training or rest. I want professional advice first, not a place to work out. Where should I visit?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_consult_vs_exercise",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Needs medical advice, explicitly not for workout → clinic."
+        }
+    },
+    {
+        "id": "conflict_0041",
+        "query": "I already talked with a doctor and they said it’s safe to start exercising again. Now I want to go to the place on campus where I can actually do the training. Where is that?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_consult_vs_exercise",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "Consult already done; now wants exercise location → gym."
+        }
+    },
+    {
+        "id": "conflict_0042",
+        "query": "最近ちょっとめまいがして不安なんだけど、無理して運動する前に誰かに相談したい。トレーニングする場所じゃなくて、体調を診てもらえるところはどこ？",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_consult_vs_exercise",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "emotion",
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "Wants health consultation, explicitly not training → clinic."
+        }
+    },
+    {
+        "id": "conflict_0043",
+        "query": "I’d like to start exercising regularly to get in better shape, and I don’t feel sick or injured at all. Which campus facility should I use to do workouts?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_consult_vs_exercise",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Clear exercise goal, no health issues → gym."
+        }
+    },
+    {
+        "id": "conflict_0044",
+        "query": "I was planning to hit the gym, but this morning I suddenly developed a fever and I’m now worried something is wrong. I want someone to check my health first. Where should I go instead?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_consult_vs_exercise",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "plan_change",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Plan change from gym to health check → clinic."
+        }
+    },
+    {
+        "id": "conflict_0045",
+        "query": "I don’t need medicine or a diagnosis; I just want a place with equipment where I can train my muscles and get stronger. Which facility is that?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_consult_vs_exercise",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Explicitly no diagnosis/medicine, only training → gym."
+        }
+    },
+    {
+        "id": "conflict_0046",
+        "query": "I want to hear from a medical professional whether it’s safe for me to keep doing sports after a recent injury, before I decide how hard I can train. Who should I visit on campus?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_consult_vs_exercise",
+            "difficulty": "hard",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Health clearance before sports → clinic."
+        }
+    },
+    {
+        "id": "conflict_0047",
+        "query": "Right now I don’t want to talk about symptoms or get checked; I only want to run on a treadmill and maybe lift some weights. Which place matches that?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_consult_vs_exercise",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Explicitly avoids consult, purely exercise → gym."
+        }
+    },
+    {
+        "id": "conflict_0048",
+        "query": "I’m not sure if what I’m feeling is just fatigue or an actual health problem. Before doing any heavy exercise, I want someone to examine me. Where should I go on campus?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_consult_vs_exercise",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Unsure if health issue; wants exam before exercise → clinic."
+        }
+    },
+    {
+        "id": "conflict_0049",
+        "query": "I’m late for class and need to go to the place where the actual lecture is happening, not somewhere to self-study quietly on my own. Where should I rush to?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "class_vs_self_study",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Attending scheduled lecture vs self-study → lecture_hall."
+        }
+    },
+    {
+        "id": "conflict_0050",
+        "query": "I don’t have any class right now but I want a place to do my own studying and read textbooks quietly. I’m not looking for a lecture or presentation. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "class_vs_self_study",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Self-study, explicitly not a lecture → library."
+        }
+    },
+    {
+        "id": "conflict_0051",
+        "query": "I’m supposed to attend a talk that’s part of a course, where the professor will speak to a large group at once. Which place on campus is used for that kind of session?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "class_vs_self_study",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Talk/presentation for a course → lecture_hall."
+        }
+    },
+    {
+        "id": "conflict_0052",
+        "query": "I just want somewhere I can sit alone and review my lecture notes without a teacher talking in front of me. Where should I head?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "class_vs_self_study",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Wants no teacher, quiet review → library."
+        }
+    },
+    {
+        "id": "conflict_0053",
+        "query": "授業の時間に間に合いそうだから、先生の講義が行われている場所に直接向かいたい。自習室じゃなくて、講義そのものが行われているところはどこ？",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "class_vs_self_study",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "Explicitly lecture itself, not self-study room → lecture_hall."
+        }
+    },
+    {
+        "id": "conflict_0054",
+        "query": "I was going to go straight to the lecture, but I realized I’m so far behind that I’d rather quietly review the basics by myself first instead of sitting through today’s talk. Where should I go instead?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "class_vs_self_study",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "Plan change from lecture to self-study → library."
+        }
+    },
+    {
+        "id": "conflict_0055",
+        "query": "I’m not enrolled in any class right now; I just want to attend a big open talk that’s being hosted on campus in a hall. Which type of place would that be?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "class_vs_self_study",
+            "difficulty": "hard",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Big open talk in a hall → lecture_hall."
+        }
+    },
+    {
+        "id": "conflict_0056",
+        "query": "For this exam, I don’t want to sit in the room where the teacher is lecturing; I need a place to quietly work through problems on my own. Where should I choose?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "class_vs_self_study",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Avoids lecture, wants independent practice → library."
+        }
+    },
+    {
+        "id": "conflict_0057",
+        "query": "I’m confused about where to go: one friend said to go to the classroom where the professor talks, and another said to find a quiet place to study. If I want to actually attend the scheduled session, which should I pick?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "class_vs_self_study",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "Wants to attend scheduled session → lecture_hall."
+        }
+    },
+    {
+        "id": "conflict_0058",
+        "query": "I thought about sitting in on the lecture, but I realized I really need to catch up by reading the textbook slowly somewhere quiet, without a teacher speaking. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "class_vs_self_study",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "Switch from lecture attendance to quiet reading → library."
+        }
+    },
+    {
+        "id": "conflict_0059",
+        "query": "I’m not looking for a big presentation or talk; I just want a spot to spread out my notes, maybe stay for a few hours, and review the material on my own. Where’s best for that?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "class_vs_self_study",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Self-study, explicitly not big presentation → library."
+        }
+    },
+    {
+        "id": "conflict_0060",
+        "query": "There’s an important required lecture for my course starting soon, and I need to go to the place where the professor will be giving the talk to all the students at once. Where is that?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "class_vs_self_study",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Required lecture to many students at once → lecture_hall."
+        }
+    },
+    {
+        "id": "conflict_0061",
+        "query": "I need help with my course registration and I don’t know which office handles that kind of administrative procedure. Where on campus should I ask?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_vs_general_info",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Administrative procedure / registration → help_desk."
+        }
+    },
+    {
+        "id": "conflict_0062",
+        "query": "I’m not looking for a place to study or attend class; I just need someone who can answer questions about scholarships and official paperwork. Where should I go?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_vs_general_info",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Administrative questions, explicitly not study/class → help_desk."
+        }
+    },
+    {
+        "id": "conflict_0063",
+        "query": "I want to find a book on campus and learn more about a topic in depth by myself, not ask about forms or procedures. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "admin_vs_general_info",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "General learning/book search → library, contrasted with admin help."
+        }
+    },
+    {
+        "id": "conflict_0064",
+        "query": "I lost my student ID card and need to know how to get it reissued. I’m not trying to attend a lecture or borrow a book right now. Who should I talk to?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_vs_general_info",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Lost ID, admin procedure → help_desk."
+        }
+    },
+    {
+        "id": "conflict_0065",
+        "query": "授業の内容そのものについて詳しく勉強したいわけじゃなくて、履修登録の締め切りとか手続きのルールを確認したい。どこで聞けばいい？",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_vs_general_info",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "Wants rules/deadlines for registration, not studying → help_desk."
+        }
+    },
+    {
+        "id": "conflict_0066",
+        "query": "I want to look up background materials and read about the theory behind my course, rather than asking about procedures or forms. Which place should I choose?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "admin_vs_general_info",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Reading theory and materials → library."
+        }
+    },
+    {
+        "id": "conflict_0067",
+        "query": "I’m confused about whether I should go to the place where they handle lost-and-found and official inquiries, or the place where I can just quietly study. If I want to report a lost item, which one is correct?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_vs_general_info",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "Lost-and-found / official inquiries → help_desk."
+        }
+    },
+    {
+        "id": "conflict_0068",
+        "query": "I was going to head straight to the help counter, but I realized what I actually need right now is a place to read and collect sources for my essay, not ask about procedures. Where should I go instead?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "admin_vs_general_info",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "Plan change: from admin help to research reading → library."
+        }
+    },
+    {
+        "id": "conflict_0069",
+        "query": "I don’t need a quiet space to study; I specifically want to know whom to ask about how to change my registered major. Which campus place can handle that?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_vs_general_info",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Change major question → admin/help_desk."
+        }
+    },
+    {
+        "id": "conflict_0070",
+        "query": "I want to read more deeply about a topic for a report, not talk with staff about scholarships, fees, or rules. Where is the best place on campus for that?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "admin_vs_general_info",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Deep reading vs admin → library."
+        }
+    },
+    {
+        "id": "conflict_0071",
+        "query": "I’m wondering whether I should go to the information counter or to the place with all the books. If my main goal is to ask how to submit a formal complaint, where should I actually go?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "admin_vs_general_info",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "Formal complaint procedure → help_desk."
+        }
+    },
+    {
+        "id": "conflict_0072",
+        "query": "Right now I don’t care about any forms or official questions; I only want a place where I can sit down, open my laptop, and write my thesis in a quiet environment. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "admin_vs_general_info",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Explicitly not forms/official; wants quiet writing → library."
+        }
+    },
+    {
+        "id": "conflict_0073",
+        "query": "I’d like to be around people and chat casually, maybe make some new friends, rather than being completely alone and silent. Where on campus is good for that?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Wants social, chatting → cafeteria more suitable than library/garden."
+        }
+    },
+    {
+        "id": "conflict_0074",
+        "query": "I really need some time completely to myself, without anyone talking to me. I want a place where I can be quiet and not feel surrounded by conversation. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Desires solitude and quiet → library."
+        }
+    },
+    {
+        "id": "conflict_0075",
+        "query": "I don’t want to sit in a crowded, noisy place; I’d rather find a calm spot where I can think alone, maybe outside in nature. Which place matches that better?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Calm, outdoor, not crowded → garden."
+        }
+    },
+    {
+        "id": "conflict_0076",
+        "query": "友達とワイワイしゃべりながらご飯を食べたい。一人で静かにこもる場所じゃなくて、少しにぎやかなところに行きたい。どこがいい？",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "emotion",
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "Wants lively chatting while eating → cafeteria."
+        }
+    },
+    {
+        "id": "conflict_0077",
+        "query": "I was going to go somewhere social, but after today I just want to be alone and read quietly without anyone trying to talk to me. Where should I go instead?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "plan_change",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Plan change from social to quiet solitary reading → library."
+        }
+    },
+    {
+        "id": "conflict_0078",
+        "query": "I’m not looking for a place to study or work; I just want an open area where I can walk around or sit outside and clear my head by myself. Is there a spot like that?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Outdoor self-reflection, not study → garden."
+        }
+    },
+    {
+        "id": "conflict_0079",
+        "query": "I feel lonely lately and would like to be where other students naturally gather so it’s easier to strike up a conversation, even if it’s a bit noisy. Where should I go?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Seeks social contact and crowd → cafeteria."
+        }
+    },
+    {
+        "id": "conflict_0080",
+        "query": "I don’t want to be in a place where people constantly come up to chat with me; I prefer a space where the default is to stay quiet and focused. Which place fits that better?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Prefers default quiet, low social pressure → library."
+        }
+    },
+    {
+        "id": "conflict_0081",
+        "query": "I want to sit somewhere green with a friend and talk about life for a while, not necessarily eat, and I don’t want to be indoors. Where would be good?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Outdoor chatting in green space → garden."
+        }
+    },
+    {
+        "id": "conflict_0082",
+        "query": "I was thinking of going to the library, but I realized I just want to gossip and laugh with my friends, not read anything. Is there a better spot for that?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "Plan change from reading to gossiping → cafeteria."
+        }
+    },
+    {
+        "id": "conflict_0083",
+        "query": "I’m not in the mood to talk to anyone; I just want to quietly think about my plans and maybe take some notes without being disturbed. Where on campus is best for that?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Avoids conversation, wants quiet reflection → library."
+        }
+    },
+    {
+        "id": "conflict_0084",
+        "query": "I want to casually run into people I know and maybe start conversations while grabbing a drink or snack. Which place would you recommend?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Social interaction + drinks/snacks → cafeteria."
+        }
+    },
+    {
+        "id": "conflict_0085",
+        "query": "Right now I care more about being in a peaceful environment surrounded by plants than about meeting people. I’d rather sit by myself for a bit. Where should I go?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Peaceful, plant-rich, alone → garden."
+        }
+    },
+    {
+        "id": "conflict_0086",
+        "query": "I don’t want a silent study space; I want a place where talking is normal and I won’t feel guilty for chatting with friends. Where on campus fits that?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Talking is normal, not silent → cafeteria."
+        }
+    },
+    {
+        "id": "conflict_0087",
+        "query": "I was going to join my friends somewhere lively, but I changed my mind and now just want to sit quietly and read alone for an hour. Where should I go instead?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "Switch from lively social to solitary reading → library."
+        }
+    },
+    {
+        "id": "conflict_0088",
+        "query": "I don’t need to eat or drink; I simply want to stroll in a quiet outdoor area and maybe sit on a bench to think. Which place matches that?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Outdoor strolling/thinking, not eating → garden."
+        }
+    },
+    {
+        "id": "conflict_0089",
+        "query": "I’d like to be somewhere where conversation is expected and I can be part of the buzz, not a place where everyone is trying to stay absolutely silent. Where should I go?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Conversation expected vs absolute silence → cafeteria."
+        }
+    },
+    {
+        "id": "conflict_0090",
+        "query": "After a long day, I want to just sit with my thoughts and not talk to anyone, maybe with a book or my notebook, in a place that supports quiet focus. Which campus location is best?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Quiet focus, not social → library."
+        }
+    },
+    {
+        "id": "conflict_0091",
+        "query": "I need a place where I can test out a small experiment setup that uses equipment and might be a bit noisy, not just read theory about it. Where on campus should I go?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Hands-on experiment with equipment vs theory reading → research_lab."
+        }
+    },
+    {
+        "id": "conflict_0092",
+        "query": "I only need to read about the background theory for my project and collect references; I’m not actually running any experiments yet. Which place fits that better?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Background theory and references → library."
+        }
+    },
+    {
+        "id": "conflict_0093",
+        "query": "I want to use specialized lab equipment and set up my experiment, not just sit and read papers. Where on campus can I go to actually do the research work?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Uses specialized lab equipment → research_lab."
+        }
+    },
+    {
+        "id": "conflict_0094",
+        "query": "I’m at the stage where I just need more papers and textbooks to understand the topic; I’m not touching equipment or doing experiments yet. Where should I spend time?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Reading phase only → library."
+        }
+    },
+    {
+        "id": "conflict_0095",
+        "query": "I was planning to read more about my project, but now I actually want to start running the experiment with the devices and instruments. Where should I go for that?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "Switch from reading to using instruments → research_lab."
+        }
+    },
+    {
+        "id": "conflict_0096",
+        "query": "今は実験装置を触る段階じゃなくて、関連論文や教科書を読み込んでテーマの理解を深めたい。そういう下調べをする場所はどこがいい？",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "ja",
+            "notes": "Not yet using equipment; wants literature review → library."
+        }
+    },
+    {
+        "id": "conflict_0097",
+        "query": "I don’t want to sit in a quiet reading room; I specifically need a space where experimental setups are allowed and I can operate instruments for my project. Which place is appropriate?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Avoids reading room, needs experimental space → research_lab."
+        }
+    },
+    {
+        "id": "conflict_0098",
+        "query": "For now I only have to write the literature review section of my thesis, so I just need access to books, journals, and a quiet place to read. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Literature review only → library."
+        }
+    },
+    {
+        "id": "conflict_0099",
+        "query": "I’m torn between going to the place with books and the place with lab equipment. If I want to actually gather data with sensors, which one should I choose?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "omit_argument"
+            ],
+            "lang": "en",
+            "notes": "Data gathering with sensors → research_lab."
+        }
+    },
+    {
+        "id": "conflict_0100",
+        "query": "I thought about starting the experiment, but I realized I don’t understand the theory well enough yet and should read more first. Where should I go to study the background?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "Plan change from experiment to theory reading → library."
+        }
+    },
+    {
+        "id": "conflict_0101",
+        "query": "I’m confused about whether I should focus on reading or start building the prototype. For this step, I specifically want to wire up the hardware and test it. Which place should I go to?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Prototype building/testing hardware → research_lab."
+        }
+    },
+    {
+        "id": "conflict_0102",
+        "query": "Right now, I don’t want to touch equipment; I just need a quiet environment with resources so I can understand existing work and write notes. Where on campus fits that?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Avoids equipment, wants quiet resources → library."
+        }
+    },
+    {
+        "id": "conflict_0103",
+        "query": "I want to run experiments that might involve some noise and movement; reading alone won’t move the project forward at this stage. Where should I set things up?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Noise/movement from experiments → research_lab."
+        }
+    },
+    {
+        "id": "conflict_0104",
+        "query": "To draft my introduction, I mostly need access to prior work, textbooks, and articles. I’m not planning to collect any data yet. Which place should I work in?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Intro drafting, prior work reading → library."
+        }
+    },
+    {
+        "id": "conflict_0105",
+        "query": "I need to meet a friend right at the entrance to campus so we can walk in together. I don’t need a place to study or eat; I just need a clear meeting point. Where should we meet?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Meeting at campus entrance vs internal locations → main_gate."
+        }
+    },
+    {
+        "id": "conflict_0106",
+        "query": "I don’t want to wait deep inside the campus; I just need a spot right where people first come in, so it’s easy to find each other when we arrive. Which place is best?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Wants entrance, not deep inside → main_gate."
+        }
+    },
+    {
+        "id": "conflict_0107",
+        "query": "I want a central place to meet someone after they arrive on campus, rather than inside a classroom or the library. Where is a good pickup spot?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Pickup spot at entrance → main_gate."
+        }
+    },
+    {
+        "id": "conflict_0108",
+        "query": "Instead of waiting at the gate, I’d rather meet my friend directly in the place where we’ll study together. I want somewhere quiet to open our laptops right away. Where should we meet?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "Chooses to meet inside quiet study place → library."
+        }
+    },
+    {
+        "id": "conflict_0109",
+        "query": "迎えに来てもらう友達と合流したいんだけど、キャンパスの一番わかりやすい入り口のあたりで待ち合わせしたい。どこがいい？",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "ja",
+            "notes": "Clearly wants the main entrance as meeting point."
+        }
+    },
+    {
+        "id": "conflict_0110",
+        "query": "I don’t need to meet outside; I want to go straight to a place where we can grab food and sit down together once we’re both on campus. Where should we meet?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Explicitly not outside/entrance; meet at food place → cafeteria."
+        }
+    },
+    {
+        "id": "conflict_0111",
+        "query": "We’re planning to pick someone up as soon as they arrive, before they go anywhere else on campus. I want to wait at the obvious first point of entry. Where should I stand?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Pickup at first entry point → main_gate."
+        }
+    },
+    {
+        "id": "conflict_0112",
+        "query": "Rather than meeting them at the gate, I want to head directly to the hall where the talk will be held and wait there. Where should I go?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "Chooses to meet at lecture venue instead of gate → lecture_hall."
+        }
+    },
+    {
+        "id": "conflict_0113",
+        "query": "I want to meet someone as they get dropped off by car or taxi, right where they first arrive on campus, not inside any building. Where is that?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Dropoff/arrival point outdoors → main_gate."
+        }
+    },
+    {
+        "id": "conflict_0114",
+        "query": "I’d rather not stand at the entrance; I want to wait for my friend in a comfortable indoor place where we can talk as soon as we meet. Which place makes more sense?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation",
+                "emotion"
+            ],
+            "lang": "en",
+            "notes": "Prefers indoor meeting with conversation → cafeteria."
+        }
+    },
+    {
+        "id": "conflict_0115",
+        "query": "I’m not interested in books, classes, or food right now; I only need a clear spot to rendezvous with someone as soon as they come onto campus. Where should that be?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Pure rendezvous point at entry → main_gate."
+        }
+    },
+    {
+        "id": "conflict_0116",
+        "query": "I was thinking of telling my friend to meet at the gate, but actually I want to start working on our project as soon as we see each other, so it would be better to meet where we can spread out our materials. Where should that be?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "hard",
+            "tags": [
+                "conflict",
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "Plan change from gate to study space → library."
+        }
+    },
+    {
+        "id": "conflict_0117",
+        "query": "We’re planning to meet and then immediately have lunch together on campus, so I’d rather not wait at the entrance if there’s a better spot. Where should I choose?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Meeting directly at lunch place → cafeteria."
+        }
+    },
+    {
+        "id": "conflict_0118",
+        "query": "I don’t need a meeting place that’s central for everyone; I specifically want the main entry point where cars usually drop people off. Which location is that?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "negation"
+            ],
+            "lang": "en",
+            "notes": "Dropoff entry point → main_gate."
+        }
+    },
+    {
+        "id": "conflict_0119",
+        "query": "Instead of arranging to meet outside, I’d prefer a spot inside campus where it’s easy to start studying together right away. What place would work better for that?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "medium",
+            "tags": [
+                "conflict",
+                "plan_change"
+            ],
+            "lang": "en",
+            "notes": "Prefers indoor study meeting spot → library."
+        }
+    },
+    {
+        "id": "conflict_0120",
+        "query": "We want to gather everyone at a recognizable point as soon as they arrive and then walk into campus together, rather than meeting directly at a classroom or café. Where should we set the meeting spot?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Recognizable arrival point → main_gate."
+        }
+    },
+    {
+        "id": "conflict_0121",
+        "query": "I want to skim some popular novels and decide what to buy later online. For now I just want a quiet place to flip through books without purchasing anything here. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "omit_argument",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Prefers browsing and reading without purchase; conflict with bookstore."
+        }
+    },
+    {
+        "id": "conflict_0122",
+        "query": "I already bought the textbook, so I don’t need to borrow it. I just want a spot to quickly check the table of contents and maybe read the first chapter in peace. Where’s best?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "filler",
+                "omit_argument",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Reading a book they own; not a purchase nor just casual shopping."
+        }
+    },
+    {
+        "id": "conflict_0123",
+        "query": "I’m not planning to borrow anything this time, I just want to stand around and browse the new releases and maybe impulsively buy a comic if it looks good. Where should I head?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "filler",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Explicit desire to buy; not borrowing; bookstore is correct."
+        }
+    },
+    {
+        "id": "conflict_0124",
+        "query": "I need to get a specific reference book that my professor told me not to buy because the campus copy is enough. Where can I access it without purchasing?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "omit_argument",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Professor told them not to buy; use campus copy; library vs bookstore."
+        }
+    },
+    {
+        "id": "conflict_0125",
+        "query": "I’m thinking of grabbing some stationery and maybe a campus hoodie. I don’t really need to read quietly, I just want to shop a bit between classes. Where do I go?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "easy",
+            "tags": [
+                "emotion",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Shopping for goods, not reading; bookstore vs library."
+        }
+    },
+    {
+        "id": "conflict_0126",
+        "query": "I borrowed a book last month and it’s due today. I don’t want to buy anything, I just need to drop it off quickly somewhere. Where should I return it?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "easy",
+            "tags": [
+                "clean",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Pure return task; library vs bookstore."
+        }
+    },
+    {
+        "id": "conflict_0127",
+        "query": "I’m thinking about buying a guidebook for programming that I can highlight and mark up freely, instead of borrowing a copy I have to keep clean. Where should I go?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Wants own copy to annotate; purchase intention."
+        }
+    },
+    {
+        "id": "conflict_0128",
+        "query": "I’m not looking to buy novels; I just want access to older academic journals and papers for my term report. Where is the best place on campus?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Explicitly not buying; needs academic material; library."
+        }
+    },
+    {
+        "id": "conflict_0129",
+        "query": "I want to quickly pick up a brand new copy of the required textbook, so I don’t need to worry about it being checked out. Where should I buy it?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "easy",
+            "tags": [
+                "clean",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Clear purchasing; bookstore vs library."
+        }
+    },
+    {
+        "id": "conflict_0130",
+        "query": "For light reading between classes, I’d prefer a place where I can sit and read manga I buy volume by volume, not only borrow from the school. Where should I hang out?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "hard",
+            "tags": [
+                "emotion",
+                "omit_argument",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Buying manga to read; not focused on borrowing; bookstore."
+        }
+    },
+    {
+        "id": "conflict_0131",
+        "query": "I want to read some reference books that I won’t buy because I’ll only need them for this week’s assignment. Where can I access them on campus?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Temporary use; no purchase; library vs bookstore."
+        }
+    },
+    {
+        "id": "conflict_0132",
+        "query": "I’m comparing prices and covers for the same textbook before deciding whether to actually purchase it. I don’t care about borrowing it today. Where should I go?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Explicitly not borrowing; want comparison shopping; bookstore."
+        }
+    },
+    {
+        "id": "conflict_0133",
+        "query": "I lost a library book I borrowed… now I need to find someone to talk to about the fine and how to replace it properly. Where should I go first?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Problem about lost borrowed book; library vs help_desk/bookstore."
+        }
+    },
+    {
+        "id": "conflict_0134",
+        "query": "I don’t want a long-term place to study. I just want to quickly buy a magazine and maybe a snack-y item to flip through when I get home. Where should I head?",
+        "gold_node": "bookstore",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "medium",
+            "tags": [
+                "filler",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Buying magazine; bookstore."
+        }
+    },
+    {
+        "id": "conflict_0135",
+        "query": "I’m preparing for an exam and need a silent place with lots of textbooks I can use without having to purchase all of them. Where is the best spot?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "borrow_vs_buy",
+            "difficulty": "easy",
+            "tags": [
+                "emotion",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Silent space with many textbooks to use; library."
+        }
+    },
+    {
+        "id": "conflict_0136",
+        "query": "I want to read outside in the sunshine but also be close enough to grab a proper meal when I get hungry. Which place should I pick as my base?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "hard",
+            "tags": [
+                "emotion",
+                "omit_argument",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Balance between relaxing and access to food; cafeteria prioritized."
+        }
+    },
+    {
+        "id": "conflict_0137",
+        "query": "I’m starving and really need a full meal, not just a bench to sit on, even though I’d like it to be a bit relaxing if possible. Where should I go?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Food requirement dominates; cafeteria vs garden."
+        }
+    },
+    {
+        "id": "conflict_0138",
+        "query": "I already ate, so I don’t need food. I just want a calm, green place to sit and unwind for a while between classes. Where is good?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "easy",
+            "tags": [
+                "emotion",
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "No food need; wants green relaxing spot; garden."
+        }
+    },
+    {
+        "id": "conflict_0139",
+        "query": "I’m not really hungry, but I’d like a place where my friends can talk casually without disturbing people who are studying. Where should we meet?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "omit_argument",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Social chatting; cafeteria vs garden/library."
+        }
+    },
+    {
+        "id": "conflict_0140",
+        "query": "I want to eat lunch quickly and then have a short walk in a peaceful area nearby, but I care more about getting food first. Where do I start?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "filler",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Priority on food; cafeteria."
+        }
+    },
+    {
+        "id": "conflict_0141",
+        "query": "I don’t want a noisy dining hall right now, I just want to sit somewhere green and quiet, maybe with a snack I already brought. Where should I go?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "emotion",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Rejects dining hall; wants quiet green spot; garden."
+        }
+    },
+    {
+        "id": "conflict_0142",
+        "query": "I’d like to have lunch with a friend in a place where we can talk normally and not worry too much about disturbing others, even if it’s not the most peaceful. Suggestions?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "omit_argument",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Social lunch; cafeteria vs garden."
+        }
+    },
+    {
+        "id": "conflict_0143",
+        "query": "I’m not planning to eat, but I’d love a spot with trees and benches where I can just clear my head for a while. Where should I head?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "easy",
+            "tags": [
+                "negation",
+                "emotion",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "No food; seeking nature and benches; garden."
+        }
+    },
+    {
+        "id": "conflict_0144",
+        "query": "I want to quickly grab a decent hot meal on campus; I don’t care if it’s a bit noisy or crowded as long as it’s convenient. Where’s best?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "easy",
+            "tags": [
+                "emotion",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Emphasis on hot meal; cafeteria."
+        }
+    },
+    {
+        "id": "conflict_0145",
+        "query": "Rather than sitting inside with lots of people eating, I’d like a relaxing outdoor space where I can just drink some water and think. Where should I go?",
+        "gold_node": "garden",
+        "meta": {
+            "scenario": "eat_vs_relax",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "emotion",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Rejects indoor eating space; wants relaxing outdoor; garden."
+        }
+    },
+    {
+        "id": "conflict_0146",
+        "query": "My legs feel heavy and I’m short of breath after climbing the stairs. I’m not trying to get fit; I’m worried something might be wrong. Who should I see on campus?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Health concern; clinic vs gym."
+        }
+    },
+    {
+        "id": "conflict_0147",
+        "query": "I’m not sick or injured, I just want to start a regular workout routine and use proper equipment. Where should I go?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "easy",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "No illness; wants workout equipment; gym."
+        }
+    },
+    {
+        "id": "conflict_0148",
+        "query": "I’ve been feeling dizzy and getting headaches lately, and I want a professional to check whether it’s serious rather than just exercising more. Where on campus?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "omit_argument",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Needs checkup; clinic."
+        }
+    },
+    {
+        "id": "conflict_0149",
+        "query": "I want to build muscle and get stronger using weights and machines, not talk to a doctor. Where should I head?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "easy",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Opposes doctor; wants training; gym."
+        }
+    },
+    {
+        "id": "conflict_0150",
+        "query": "I twisted my ankle in PE class and it hurts to walk. I’m not looking for a workout; I need someone to check the injury. Where do I go?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "easy",
+            "tags": [
+                "emotion",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Injury; clinic vs gym."
+        }
+    },
+    {
+        "id": "conflict_0151",
+        "query": "I keep gaining weight and I want a place where I can consistently exercise and sweat, more than just getting advice. What facility should I use?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Wants facility to exercise; gym."
+        }
+    },
+    {
+        "id": "conflict_0152",
+        "query": "I’m not sure whether my back pain is just from bad posture or something more serious, so I want a medical opinion first, not just stretching instructions. Where should I go?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "negation",
+                "omit_argument",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Needs diagnosis; clinic prioritized over gym."
+        }
+    },
+    {
+        "id": "conflict_0153",
+        "query": "I already got a health check recently and I’m fine; now I want a place to do regular cardio and weight training. Which campus facility is right?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Health checked; now wants training; gym."
+        }
+    },
+    {
+        "id": "conflict_0154",
+        "query": "I just fainted this morning and my hands are shaking. I don’t think just running on a treadmill will fix this… Who should I see?",
+        "gold_node": "clinic",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "hard",
+            "tags": [
+                "emotion",
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Serious health issue; clinic vs gym."
+        }
+    },
+    {
+        "id": "conflict_0155",
+        "query": "I’m not injured or sick at all; I simply want a place to play sports and get stronger with other students. Where should I go on campus?",
+        "gold_node": "gym",
+        "meta": {
+            "scenario": "health_vs_fitness",
+            "difficulty": "easy",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Healthy; wants sports; gym."
+        }
+    },
+    {
+        "id": "conflict_0156",
+        "query": "I want to quietly review today’s lecture slides by myself, not sit in another formal class. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Self-study vs attending class; library."
+        }
+    },
+    {
+        "id": "conflict_0157",
+        "query": "I don’t need a silent place; I just want to attend the actual lecture where the professor is speaking. Where should I be?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "easy",
+            "tags": [
+                "negation",
+                "clean",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Attending lecture; lecture_hall."
+        }
+    },
+    {
+        "id": "conflict_0158",
+        "query": "Instead of going straight to the classroom, I’d like to review the textbook and take notes quietly before the lecture starts. Where should I sit?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Pre-class self study; library vs lecture_hall."
+        }
+    },
+    {
+        "id": "conflict_0159",
+        "query": "I’m late for the scheduled class and need to join where everyone is listening to the professor, not just study on my own. Where is the session?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Joining live class; lecture_hall vs library."
+        }
+    },
+    {
+        "id": "conflict_0160",
+        "query": "I want a quiet place to study for tomorrow’s exam, away from where the actual teaching is happening right now. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "easy",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Quiet self-study; library."
+        }
+    },
+    {
+        "id": "conflict_0161",
+        "query": "I don’t need a desk to study right now; I just want to find the room where the programming lecture is being held. Where is that?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "easy",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Finding lecture room; lecture_hall."
+        }
+    },
+    {
+        "id": "conflict_0162",
+        "query": "I’m skipping today’s lecture but I still want to read the material and catch up quietly on my own. Which place is better for that?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "hard",
+            "tags": [
+                "emotion",
+                "omit_argument",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Skipping class; wants quiet catch-up; library."
+        }
+    },
+    {
+        "id": "conflict_0163",
+        "query": "I want to be where the professor actually explains the content live, even if it’s a bit noisy, rather than studying from books. Where should I go?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Live explanation; lecture_hall vs library."
+        }
+    },
+    {
+        "id": "conflict_0164",
+        "query": "I already understand the lecture and just need a silent room to solve practice problems by myself. Where’s best on campus?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Self-practice; library."
+        }
+    },
+    {
+        "id": "conflict_0165",
+        "query": "I’m looking for the actual scheduled class, where attendance might be taken, not just an open study space. Where is that held?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "study_vs_class",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Class with attendance; lecture_hall."
+        }
+    },
+    {
+        "id": "conflict_0166",
+        "query": "I need access to specialized equipment and lab notebooks for my experiment, not just general reference books. Which place should I head to?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Experiment-specific; research_lab vs library."
+        }
+    },
+    {
+        "id": "conflict_0167",
+        "query": "I don’t need lab equipment, I just want to read papers and textbooks about a topic in general. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "easy",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "General reading; library."
+        }
+    },
+    {
+        "id": "conflict_0168",
+        "query": "My professor told me to go to the place where our research group actually runs experiments, not the general study area. Where is that?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Group experiments; research_lab."
+        }
+    },
+    {
+        "id": "conflict_0169",
+        "query": "I just want somewhere to quietly read about different research fields; I’m not joining a specific project or using devices. Where should I sit?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "General reading; library vs research_lab."
+        }
+    },
+    {
+        "id": "conflict_0170",
+        "query": "I need to meet with my advisor in the place where our experiments are done, not just browse books about the topic. Where do I go?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "hard",
+            "tags": [
+                "omit_argument",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Advisor meeting in lab; research_lab."
+        }
+    },
+    {
+        "id": "conflict_0171",
+        "query": "I’m not part of any research group; I just want a spot to study general materials and maybe borrow some books about AI. Where is good?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "easy",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Non-member; uses library."
+        }
+    },
+    {
+        "id": "conflict_0172",
+        "query": "I need to run measurements on devices for my project and record data, rather than read background theory. Which room should I use?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Hands-on measurements; research_lab."
+        }
+    },
+    {
+        "id": "conflict_0173",
+        "query": "I want to look up survey papers and textbooks about my thesis field in a calm environment, not actually touch lab equipment yet. Where should I be?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Background reading; library."
+        }
+    },
+    {
+        "id": "conflict_0174",
+        "query": "My supervisor told me to go back to the lab where our experimental setup is, not the general study area. Where is that research space?",
+        "gold_node": "research_lab",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "medium",
+            "tags": [
+                "omit_argument",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Research space; research_lab."
+        }
+    },
+    {
+        "id": "conflict_0175",
+        "query": "I just want to read books and articles quietly and maybe borrow them; I’m not joining an experiment or needing lab access. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "research_vs_general",
+            "difficulty": "easy",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Quiet reading; library."
+        }
+    },
+    {
+        "id": "conflict_0176",
+        "query": "I’m not sure which office handles my problem about tuition and course registration. I need a place where I can ask and be directed to the right office. Where should I start?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "omit_argument",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Admin question routing; help_desk."
+        }
+    },
+    {
+        "id": "conflict_0177",
+        "query": "I already know exactly which class I need to attend; I don’t need general guidance, just the room where the lecture happens. Where is that?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "No general guidance; go directly to lecture_hall."
+        }
+    },
+    {
+        "id": "conflict_0178",
+        "query": "I don’t know who is responsible for lost student ID cards, so I’d like to talk to someone who can tell me which office handles it. Where should I go first?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "omit_argument",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Needs routing; help_desk."
+        }
+    },
+    {
+        "id": "conflict_0179",
+        "query": "I already have all the information I need; I just want somewhere quiet to process it and think, not talk to staff. Where is good?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "No more guidance; quiet thinking; library."
+        }
+    },
+    {
+        "id": "conflict_0180",
+        "query": "I’m confused about which campus service can help with my scholarship application, so I’d like to visit a place that can direct me to the right counter. Where should I go?",
+        "gold_node": "help_desk",
+        "meta": {
+            "scenario": "info_vs_other",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Scholarship routing; help_desk."
+        }
+    },
+    {
+        "id": "conflict_0181",
+        "query": "I want to chat casually with friends over coffee and snacks; I don’t need a silent place to focus. Where should we gather?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "easy",
+            "tags": [
+                "emotion",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Social chatting; cafeteria vs library."
+        }
+    },
+    {
+        "id": "conflict_0182",
+        "query": "I’d like to read quietly alone without being surrounded by people eating and talking. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "easy",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Solo quiet reading; library."
+        }
+    },
+    {
+        "id": "conflict_0183",
+        "query": "Rather than sitting silently, I want to hang out somewhere open where I can talk with friends and maybe see people coming and going. Where is a good spot?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "hard",
+            "tags": [
+                "emotion",
+                "omit_argument",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Social & people-watching at entrance; main_gate vs other spots."
+        }
+    },
+    {
+        "id": "conflict_0184",
+        "query": "I’m not interested in chatting; I want to stay away from crowds and just concentrate on my report. Where do you recommend?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Avoid crowds; library."
+        }
+    },
+    {
+        "id": "conflict_0185",
+        "query": "I want a place where my friends and I can sit together and talk a bit louder without bothering people who need silence. Where should we go?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "social_vs_solo",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Loud social group; cafeteria."
+        }
+    },
+    {
+        "id": "conflict_0186",
+        "query": "I’m arriving from off campus and need the main spot where people usually meet up before going elsewhere. Where is that?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "easy",
+            "tags": [
+                "clean",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Meetup at main entrance; main_gate."
+        }
+    },
+    {
+        "id": "conflict_0187",
+        "query": "I’m already inside campus and don’t need the entrance; I want to know where to buy lunch here. Where should I go?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Not entrance; wants lunch; cafeteria."
+        }
+    },
+    {
+        "id": "conflict_0188",
+        "query": "My friend told me to meet at the big place where cars drop people off at the front of campus. Where is that?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "easy",
+            "tags": [
+                "omit_argument",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Dropoff/meetup; main_gate."
+        }
+    },
+    {
+        "id": "conflict_0189",
+        "query": "I don’t want to stand at the entrance; I need somewhere inside campus to sit and study quietly. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Reject entrance; wants internal quiet spot; library."
+        }
+    },
+    {
+        "id": "conflict_0190",
+        "query": "Rather than heading straight to a building, I want to wait somewhere obvious so my friend can find me as soon as they arrive on campus. Where is best?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "medium",
+            "tags": [
+                "emotion",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Obvious meeting point; main_gate."
+        }
+    },
+    {
+        "id": "conflict_0191",
+        "query": "I’m hungry and want to eat on campus; I’m not looking for a place just to stand and wait. Where should I go?",
+        "gold_node": "cafeteria",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "easy",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Food vs just standing at gate; cafeteria."
+        }
+    },
+    {
+        "id": "conflict_0192",
+        "query": "I’m meeting someone who has never been here, so I want to wait at the most obvious entry point rather than somewhere deep inside campus. Where should I stand?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "easy",
+            "tags": [
+                "omit_argument",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Obvious entry point; main_gate."
+        }
+    },
+    {
+        "id": "conflict_0193",
+        "query": "Instead of waiting at the entrance, I’d like to head straight to a quiet place inside where I can start working until my friend arrives. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Internal quiet work; library."
+        }
+    },
+    {
+        "id": "conflict_0194",
+        "query": "I want the spot where taxis usually drop students off at the front of campus; my friend will pick me up there. Where is that place?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "easy",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Taxi dropoff; main_gate."
+        }
+    },
+    {
+        "id": "conflict_0195",
+        "query": "I’m already on campus and need a building where I can attend a lecture, not the area where people just arrive. Where should I go?",
+        "gold_node": "lecture_hall",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Internal lecture; lecture_hall vs main_gate."
+        }
+    },
+    {
+        "id": "conflict_0196",
+        "query": "Rather than going inside immediately, I want to wait at the main meeting point at the entrance so my group can find me easily. Where is that?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "easy",
+            "tags": [
+                "emotion",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Main meeting point; main_gate."
+        }
+    },
+    {
+        "id": "conflict_0197",
+        "query": "I don’t need to be at the gate; I’d rather sit in a calm place on campus and read while I wait. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "medium",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Calm reading place; library."
+        }
+    },
+    {
+        "id": "conflict_0198",
+        "query": "I want to meet up where it’s obvious for someone coming from outside the campus by bus or car, before we move to another building. Where is best?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "medium",
+            "tags": [
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Obvious external meeting point; main_gate."
+        }
+    },
+    {
+        "id": "conflict_0199",
+        "query": "I’m already inside and I just want a quiet place to focus on my homework without standing near the entrance. Where should I go?",
+        "gold_node": "library",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "easy",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Quiet homework; library."
+        }
+    },
+    {
+        "id": "conflict_0200",
+        "query": "My friend will come by taxi, so I want to wait at the main dropoff area at the front gate, not inside some building. Where should I stand?",
+        "gold_node": "main_gate",
+        "meta": {
+            "scenario": "gate_vs_internal",
+            "difficulty": "easy",
+            "tags": [
+                "negation",
+                "conflict"
+            ],
+            "lang": "en",
+            "notes": "Main dropoff at gate; main_gate."
+        }
+    }
+]

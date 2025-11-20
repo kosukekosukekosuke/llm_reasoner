@@ -1,0 +1,146 @@
+[
+    {
+        "id": 1,
+        "label": "library",
+        "query": "I need a book for my class.",
+        "tags": [
+            "ambiguous",
+            "book_need"
+        ]
+    },
+    {
+        "id": 5,
+        "label": "bookstore",
+        "query": "I need a new notebook for studying.",
+        "tags": [
+            "near_miss",
+            "stationery"
+        ]
+    },
+    {
+        "id": 1,
+        "label": "library",
+        "query": "Where can I access reference materials without buying?",
+        "tags": [
+            "contrast",
+            "borrow"
+        ]
+    },
+    {
+        "id": 5,
+        "label": "bookstore",
+        "query": "Where can I buy reference materials right now?",
+        "tags": [
+            "contrast",
+            "buy"
+        ]
+    },
+    {
+        "id": 2,
+        "label": "cafeteria",
+        "query": "I'm hungry but prefer a quiet place outdoors.",
+        "tags": [
+            "ambiguous",
+            "food_vs_outdoor"
+        ]
+    },
+    {
+        "id": 8,
+        "label": "garden",
+        "query": "I want to sit outside; maybe I can snack there.",
+        "tags": [
+            "ambiguous",
+            "relax_vs_food"
+        ]
+    },
+    {
+        "id": 3,
+        "label": "clinic",
+        "query": "I need help—I'm not feeling well.",
+        "tags": [
+            "ambiguous",
+            "help_health"
+        ]
+    },
+    {
+        "id": 9,
+        "label": "security_office",
+        "query": "I need help—someone took my bag.",
+        "tags": [
+            "ambiguous",
+            "help_security"
+        ]
+    },
+    {
+        "id": 4,
+        "label": "gym",
+        "query": "Take me to the facility with equipment for training.",
+        "tags": [
+            "ambiguous",
+            "equipment"
+        ]
+    },
+    {
+        "id": 6,
+        "label": "research_lab",
+        "query": "Take me to the facility with equipment for experiments.",
+        "tags": [
+            "contrast",
+            "equipment_lab"
+        ]
+    },
+    {
+        "id": 7,
+        "label": "lecture_hall",
+        "query": "I want to attend an academic event with many people.",
+        "tags": [
+            "ambiguous",
+            "lecture_event"
+        ]
+    },
+    {
+        "id": 1,
+        "label": "library",
+        "query": "I want to study for my exam quietly.",
+        "tags": [
+            "contrast",
+            "study_quiet"
+        ]
+    },
+    {
+        "id": 0,
+        "label": "main_gate",
+        "query": "Guide me to the main place where people gather at the entrance.",
+        "tags": [
+            "ambiguous",
+            "gather_gate"
+        ]
+    },
+    {
+        "id": 9,
+        "label": "security_office",
+        "query": "I lost something at the gate—where can I report it?",
+        "tags": [
+            "contrast",
+            "lost_and_found"
+        ]
+    },
+    {
+        "id": 2,
+        "label": "cafeteria",
+        "query": "I need to get something quickly between classes; maybe a snack.",
+        "tags": [
+            "ambiguous",
+            "snack"
+        ]
+    },
+    {
+        "id": 5,
+        "label": "bookstore",
+        "query": "I need to buy course supplies between classes.",
+        "tags": [
+            "contrast",
+            "supplies"
+        ]
+    }
+]

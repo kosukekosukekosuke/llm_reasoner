@@ -1,0 +1,302 @@
+[
+    {
+        "query": "pls send me to the main gate, my friend is picking me up there",
+        "gold_node_id": 0,
+        "gold_label": "main_gate"
+    },
+    {
+        "query": "Where is the big front entrance where taxis usually stop?",
+        "gold_node_id": 0,
+        "gold_label": "main_gate"
+    },
+    {
+        "query": "I wanna cram with books in a super quiet spot, not in a cafe",
+        "gold_node_id": 1,
+        "gold_label": "library"
+    },
+    {
+        "query": "Take me to a place for studying with many books but no food around",
+        "gold_node_id": 1,
+        "gold_label": "library"
+    },
+    {
+        "query": "Need some grub lol, where is the on campus place to grab a proper lunch?",
+        "gold_node_id": 2,
+        "gold_label": "cafeteria"
+    },
+    {
+        "query": "Where can I quickly eat a meal between classes on campus?",
+        "gold_node_id": 2,
+        "gold_label": "cafeteria"
+    },
+    {
+        "query": "My stomach is upset and I feel feverish; where can a nurse check me?",
+        "gold_node_id": 3,
+        "gold_label": "clinic"
+    },
+    {
+        "query": "I twisted my ankle playing ball; I need someone to look at it",
+        "gold_node_id": 3,
+        "gold_label": "clinic"
+    },
+    {
+        "query": "I need a spot to lift weights and use the training machines",
+        "gold_node_id": 4,
+        "gold_label": "gym"
+    },
+    {
+        "query": "Where can I do some indoor cardio like treadmills or bikes?",
+        "gold_node_id": 4,
+        "gold_label": "gym"
+    },
+    {
+        "query": "I forgot to buy the textbook; where can I get a new copy to purchase?",
+        "gold_node_id": 5,
+        "gold_label": "bookstore"
+    },
+    {
+        "query": "I need pens and a notebook before class; take me to the campus shop",
+        "gold_node_id": 5,
+        "gold_label": "bookstore"
+    },
+    {
+        "query": "Guide me to the place with lab benches and experimental equipment",
+        "gold_node_id": 6,
+        "gold_label": "research_lab"
+    },
+    {
+        "query": "Take me to the robotics research room where experiments are done",
+        "gold_node_id": 6,
+        "gold_label": "research_lab"
+    },
+    {
+        "query": "I have a lecture soon; bring me to the big hall where classes are held",
+        "gold_node_id": 7,
+        "gold_label": "lecture_hall"
+    },
+    {
+        "query": "Where do large talks and seminars usually happen on campus?",
+        "gold_node_id": 7,
+        "gold_label": "lecture_hall"
+    },
+    {
+        "query": "I want a quiet green place to chill outside on a bench",
+        "gold_node_id": 8,
+        "gold_label": "garden"
+    },
+    {
+        "query": "Take me somewhere outdoors with trees where I can relax between classes",
+        "gold_node_id": 8,
+        "gold_label": "garden"
+    },
+    {
+        "query": "Where can I ask staff general questions about campus services?",
+        "gold_node_id": 9,
+        "gold_label": "help_desk"
+    },
+    {
+        "query": "Lead me to the information desk for lost and found issues",
+        "gold_node_id": 9,
+        "gold_label": "help_desk"
+    },
+    {
+        "query": "I need to pick up a package from the campus post office; where should I first ask about it?",
+        "gold_node_id": 9,
+        "gold_label": "help_desk"
+    },
+    {
+        "query": "Where can I ask about off campus housing options?",
+        "gold_node_id": 9,
+        "gold_label": "help_desk"
+    },
+    {
+        "query": "I want to buy a train pass for commuting; who on campus can I talk to?",
+        "gold_node_id": 9,
+        "gold_label": "help_desk"
+    },
+    {
+        "query": "I lost my smartphone in town, not on campus; where should I report it on campus?",
+        "gold_node_id": 9,
+        "gold_label": "help_desk"
+    },
+    {
+        "query": "How can I find out about scholarship applications; take me to the right counter",
+        "gold_node_id": 9,
+        "gold_label": "help_desk"
+    },
+    {
+        "query": "I need directions to the nearest city hospital outside campus; who can I ask?",
+        "gold_node_id": 9,
+        "gold_label": "help_desk"
+    },
+    {
+        "query": "I am looking for the car parking lot; where can someone guide me about that?",
+        "gold_node_id": 9,
+        "gold_label": "help_desk"
+    },
+    {
+        "query": "Where can I complain about a broken vending machine on campus?",
+        "gold_node_id": 9,
+        "gold_label": "help_desk"
+    },
+    {
+        "query": "I want to reserve a room for an event; who handles reservations on campus?",
+        "gold_node_id": 9,
+        "gold_label": "help_desk"
+    },
+    {
+        "query": "I lost my student ID yesterday in the city; where on campus can I get it reissued?",
+        "gold_node_id": 9,
+        "gold_label": "help_desk"
+    },
+    {
+        "query": "I am heading home; guide me to the place where taxis usually wait to pick people up",
+        "gold_node_id": 0,
+        "gold_label": "main_gate"
+    },
+    {
+        "query": "Take me to the spot where delivery drivers normally drop things off at campus",
+        "gold_node_id": 0,
+        "gold_label": "main_gate"
+    },
+    {
+        "query": "I am meeting someone arriving from outside; bring me to the usual pickup point",
+        "gold_node_id": 0,
+        "gold_label": "main_gate"
+    },
+    {
+        "query": "Where can rideshare drivers easily find me when I want to leave campus?",
+        "gold_node_id": 0,
+        "gold_label": "main_gate"
+    },
+    {
+        "query": "I want to call a friend to pick me up by car; take me to the obvious pickup location",
+        "gold_node_id": 0,
+        "gold_label": "main_gate"
+    },
+    {
+        "query": "Lead me to the main exit so I can leave the campus",
+        "gold_node_id": 0,
+        "gold_label": "main_gate"
+    },
+    {
+        "query": "I want a place with lots of books where I can sit and read, but I absolutely do not want to buy anything",
+        "gold_node_id": 1,
+        "gold_label": "library"
+    },
+    {
+        "query": "I need to buy a new textbook, not borrow; where should I go?",
+        "gold_node_id": 5,
+        "gold_label": "bookstore"
+    },
+    {
+        "query": "I feel dizzy and my heart is racing after running; I need medical help, not more exercise",
+        "gold_node_id": 3,
+        "gold_label": "clinic"
+    },
+    {
+        "query": "My muscles feel weak and I want to strengthen them with a workout program",
+        "gold_node_id": 4,
+        "gold_label": "gym"
+    },
+    {
+        "query": "I want to eat lunch indoors, not in a classroom; where can I grab food and sit down?",
+        "gold_node_id": 2,
+        "gold_label": "cafeteria"
+    },
+    {
+        "query": "I want to eat the lunch I brought from home on a bench outside in a quiet green place",
+        "gold_node_id": 8,
+        "gold_label": "garden"
+    },
+    {
+        "query": "I am confused about which research lab to join; where on campus can I ask for guidance about that?",
+        "gold_node_id": 9,
+        "gold_label": "help_desk"
+    },
+    {
+        "query": "I want to do experiments with equipment, not just listen to lectures; take me there",
+        "gold_node_id": 6,
+        "gold_label": "research_lab"
+    },
+    {
+        "query": "I want to listen to a talk about research results, not run experiments myself; where should I go?",
+        "gold_node_id": 7,
+        "gold_label": "lecture_hall"
+    },
+    {
+        "query": "I lost my notebook during a seminar; I want to ask if anyone turned it in",
+        "gold_node_id": 9,
+        "gold_label": "help_desk"
+    },
+    {
+        "query": "I hurt my knee playing sports; where can I get it checked by a professional?",
+        "gold_node_id": 3,
+        "gold_label": "clinic"
+    },
+    {
+        "query": "I want to watch a sports game and cheer for players, not exercise myself",
+        "gold_node_id": 4,
+        "gold_label": "gym"
+    },
+    {
+        "query": "I need a very quiet place to read research papers without any smell of food",
+        "gold_node_id": 1,
+        "gold_label": "library"
+    },
+    {
+        "query": "I want a casual place where I can chat with friends over lunch, not study seriously",
+        "gold_node_id": 2,
+        "gold_label": "cafeteria"
+    },
+    {
+        "query": "図書館みたいなところでテキストを読んで静かに勉強したいんだけど、連れてって",
+        "gold_node_id": 1,
+        "gold_label": "library"
+    },
+    {
+        "query": "お腹すいたから、キャンパスの食堂に案内してほしい",
+        "gold_node_id": 2,
+        "gold_label": "cafeteria"
+    },
+    {
+        "query": "頭痛がひどいので、medic や nurse がいる場所に行きたい",
+        "gold_node_id": 3,
+        "gold_label": "clinic"
+    },
+    {
+        "query": "筋トレしたいから、gym みたいな場所に連れてって",
+        "gold_node_id": 4,
+        "gold_label": "gym"
+    },
+    {
+        "query": "ロボットの実験ができるロボ研みたいなラボに行きたい",
+        "gold_node_id": 6,
+        "gold_label": "research_lab"
+    },
+    {
+        "query": "今日の講義がある大きな lecture hall に案内して",
+        "gold_node_id": 7,
+        "gold_label": "lecture_hall"
+    },
+    {
+        "query": "外のベンチでまったりできる、緑のある場所に連れてって",
+        "gold_node_id": 8,
+        "gold_label": "garden"
+    },
+    {
+        "query": "学生証をなくしたっぽいので、どこで相談すればいいか案内してほしい",
+        "gold_node_id": 9,
+        "gold_label": "help_desk"
+    },
+    {
+        "query": "メインの入り口の main gate に友達が迎えに来るから、そこまで案内して",
+        "gold_node_id": 0,
+        "gold_label": "main_gate"
+    },
+    {
+        "query": "教科書やノートを買える campus shop みたいな場所に行きたい",
+        "gold_node_id": 5,
+        "gold_label": "bookstore"
+    }
+]

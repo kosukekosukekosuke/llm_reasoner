@@ -1,0 +1,272 @@
+[
+    {
+        "id": 0,
+        "label": "main_gate",
+        "query": "Meet me at the main entrance.",
+        "tags": [
+            "easy",
+            "gate"
+        ]
+    },
+    {
+        "id": 0,
+        "label": "main_gate",
+        "query": "Go to the campus entry gate.",
+        "tags": [
+            "paraphrase",
+            "gate"
+        ]
+    },
+    {
+        "id": 0,
+        "label": "main_gate",
+        "query": "Head to the outdoor meeting point near the gate.",
+        "tags": [
+            "context",
+            "gate"
+        ]
+    },
+    {
+        "id": 1,
+        "label": "library",
+        "query": "I want to return a book.",
+        "tags": [
+            "easy",
+            "books"
+        ]
+    },
+    {
+        "id": 1,
+        "label": "library",
+        "query": "Where can I study quietly?",
+        "tags": [
+            "paraphrase",
+            "study"
+        ]
+    },
+    {
+        "id": 1,
+        "label": "library",
+        "query": "Find a place with academic resources.",
+        "tags": [
+            "context",
+            "study"
+        ]
+    },
+    {
+        "id": 2,
+        "label": "cafeteria",
+        "query": "I want to eat lunch.",
+        "tags": [
+            "easy",
+            "food"
+        ]
+    },
+    {
+        "id": 2,
+        "label": "cafeteria",
+        "query": "Where can I get a meal on campus?",
+        "tags": [
+            "paraphrase",
+            "food"
+        ]
+    },
+    {
+        "id": 2,
+        "label": "cafeteria",
+        "query": "Take me to the dining place.",
+        "tags": [
+            "context",
+            "food"
+        ]
+    },
+    {
+        "id": 3,
+        "label": "clinic",
+        "query": "I need first aid.",
+        "tags": [
+            "easy",
+            "health"
+        ]
+    },
+    {
+        "id": 3,
+        "label": "clinic",
+        "query": "Where can I get medical support?",
+        "tags": [
+            "paraphrase",
+            "health"
+        ]
+    },
+    {
+        "id": 3,
+        "label": "clinic",
+        "query": "I feel sick. Take me to the clinic.",
+        "tags": [
+            "context",
+            "health"
+        ]
+    },
+    {
+        "id": 4,
+        "label": "gym",
+        "query": "I want to exercise.",
+        "tags": [
+            "easy",
+            "fitness"
+        ]
+    },
+    {
+        "id": 4,
+        "label": "gym",
+        "query": "Where can I do fitness training?",
+        "tags": [
+            "paraphrase",
+            "fitness"
+        ]
+    },
+    {
+        "id": 4,
+        "label": "gym",
+        "query": "Bring me to the sports facility.",
+        "tags": [
+            "context",
+            "fitness"
+        ]
+    },
+    {
+        "id": 5,
+        "label": "bookstore",
+        "query": "I want to buy a book.",
+        "tags": [
+            "easy",
+            "purchase"
+        ]
+    },
+    {
+        "id": 5,
+        "label": "bookstore",
+        "query": "Where can I purchase stationery?",
+        "tags": [
+            "paraphrase",
+            "purchase"
+        ]
+    },
+    {
+        "id": 5,
+        "label": "bookstore",
+        "query": "Take me to the shop for books.",
+        "tags": [
+            "context",
+            "purchase"
+        ]
+    },
+    {
+        "id": 6,
+        "label": "research_lab",
+        "query": "I need to run an experiment.",
+        "tags": [
+            "easy",
+            "lab"
+        ]
+    },
+    {
+        "id": 6,
+        "label": "research_lab",
+        "query": "Take me to the research laboratory.",
+        "tags": [
+            "paraphrase",
+            "lab"
+        ]
+    },
+    {
+        "id": 6,
+        "label": "research_lab",
+        "query": "I want to use scientific equipment.",
+        "tags": [
+            "context",
+            "lab"
+        ]
+    },
+    {
+        "id": 7,
+        "label": "lecture_hall",
+        "query": "I have a lecture now.",
+        "tags": [
+            "easy",
+            "lecture"
+        ]
+    },
+    {
+        "id": 7,
+        "label": "lecture_hall",
+        "query": "Take me to the auditorium.",
+        "tags": [
+            "paraphrase",
+            "lecture"
+        ]
+    },
+    {
+        "id": 7,
+        "label": "lecture_hall",
+        "query": "Where is the large hall for presentations?",
+        "tags": [
+            "context",
+            "lecture"
+        ]
+    },
+    {
+        "id": 8,
+        "label": "garden",
+        "query": "I want to relax in nature.",
+        "tags": [
+            "easy",
+            "relax"
+        ]
+    },
+    {
+        "id": 8,
+        "label": "garden",
+        "query": "Take me to the resting area outside.",
+        "tags": [
+            "paraphrase",
+            "relax"
+        ]
+    },
+    {
+        "id": 8,
+        "label": "garden",
+        "query": "Bring me to the garden.",
+        "tags": [
+            "context",
+            "relax"
+        ]
+    },
+    {
+        "id": 9,
+        "label": "security_office",
+        "query": "I lost my wallet. Where can I get help?",
+        "tags": [
+            "easy",
+            "security"
+        ]
+    },
+    {
+        "id": 9,
+        "label": "security_office",
+        "query": "Take me to the campus security.",
+        "tags": [
+            "paraphrase",
+            "security"
+        ]
+    },
+    {
+        "id": 9,
+        "label": "security_office",
+        "query": "Where is the assistance office for lost and found?",
+        "tags": [
+            "context",
+            "security"
+        ]
+    }
+]

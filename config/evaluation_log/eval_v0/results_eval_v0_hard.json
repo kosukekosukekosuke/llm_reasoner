@@ -1,0 +1,1493 @@
+[
+  {
+    "query": "I need a book for my class.",
+    "node_id": 5,
+    "label": "bookstore",
+    "label_semantics": "purchase, books, stationery, shop",
+    "confidence": 0.8350370522194112,
+    "cosine": 0.6471001505851746,
+    "combined_score": 0.7410686014022929,
+    "decision_mode": "weighted",
+    "accept_reason": "first_pass_strong",
+    "attempts": 1,
+    "fallback_used": false,
+    "fallback_node": 0,
+    "decision_source": "model",
+    "thresholds": {
+      "conf_threshold": 0.5,
+      "cosine_threshold": 0.5,
+      "combined_threshold": 0.6,
+      "alpha": 0.5
+    },
+    "valid_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "attempt_logs": [
+      {
+        "attempt_index": 1,
+        "prompt_type": "full",
+        "candidate_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "raw_output": "5\nThe final answer is: 5\nAvailable locations:\n0. main_gate (entrance, outdoor, meeting, campus_entry) - Main entrance",
+        "parsed_num": 5,
+        "confidence": 0.8350370522194112,
+        "cosine": 0.6471001505851746,
+        "combined_score": 0.7410686014022929,
+        "pass_conf": true,
+        "pass_cos": true,
+        "pass_combined": true,
+        "decision": "accept",
+        "reject_reason": null
+      }
+    ],
+    "embed_diag": {
+      "enabled": true,
+      "model": "BAAI/bge-m3",
+      "text_mode": "label+semantic+description",
+      "topk_semantic": [
+        {
+          "node_id": 5,
+          "label": "bookstore",
+          "cosine": 0.6471001505851746
+        },
+        {
+          "node_id": 1,
+          "label": "library",
+          "cosine": 0.5800743103027344
+        },
+        {
+          "node_id": 7,
+          "label": "lecture_hall",
+          "cosine": 0.5408440828323364
+        }
+      ]
+    },
+    "_ts": 1762950924.6462975,
+    "index": 1,
+    "timeout": false
+  },
+  {
+    "query": "I need a new notebook for studying.",
+    "node_id": 5,
+    "label": "bookstore",
+    "label_semantics": "purchase, books, stationery, shop",
+    "confidence": 0.8118750440553777,
+    "cosine": 0.6117866039276123,
+    "combined_score": 0.711830823991495,
+    "decision_mode": "weighted",
+    "accept_reason": "first_pass_strong",
+    "attempts": 1,
+    "fallback_used": false,
+    "fallback_node": 0,
+    "decision_source": "model",
+    "thresholds": {
+      "conf_threshold": 0.5,
+      "cosine_threshold": 0.5,
+      "combined_threshold": 0.6,
+      "alpha": 0.5
+    },
+    "valid_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "attempt_logs": [
+      {
+        "attempt_index": 1,
+        "prompt_type": "full",
+        "candidate_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "raw_output": "5\nThe final answer is 5.",
+        "parsed_num": 5,
+        "confidence": 0.8118750440553777,
+        "cosine": 0.6117866039276123,
+        "combined_score": 0.711830823991495,
+        "pass_conf": true,
+        "pass_cos": true,
+        "pass_combined": true,
+        "decision": "accept",
+        "reject_reason": null
+      }
+    ],
+    "embed_diag": {
+      "enabled": true,
+      "model": "BAAI/bge-m3",
+      "text_mode": "label+semantic+description",
+      "topk_semantic": [
+        {
+          "node_id": 5,
+          "label": "bookstore",
+          "cosine": 0.6117866039276123
+        },
+        {
+          "node_id": 1,
+          "label": "library",
+          "cosine": 0.5834220051765442
+        },
+        {
+          "node_id": 7,
+          "label": "lecture_hall",
+          "cosine": 0.5098570585250854
+        }
+      ]
+    },
+    "_ts": 1762950932.7583454,
+    "index": 2,
+    "timeout": false
+  },
+  {
+    "query": "Where can I access reference materials without buying?",
+    "node_id": 1,
+    "label": "library",
+    "label_semantics": "books, study, quiet, information, research",
+    "confidence": null,
+    "cosine": null,
+    "combined_score": null,
+    "decision_mode": "weighted",
+    "accept_reason": "last_num_salvage",
+    "attempts": 3,
+    "fallback_used": false,
+    "fallback_node": 0,
+    "decision_source": "last_num",
+    "thresholds": {
+      "conf_threshold": 0.5,
+      "cosine_threshold": 0.5,
+      "combined_threshold": 0.6,
+      "alpha": 0.5
+    },
+    "valid_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "attempt_logs": [
+      {
+        "attempt_index": 1,
+        "prompt_type": "full",
+        "candidate_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "raw_output": "1\nExplanation: The library is a place where you can access reference materials without buying them. It's a quiet space for studying and research, and it",
+        "parsed_num": 1,
+        "confidence": 0.5894061119985584,
+        "cosine": 0.5054041743278503,
+        "combined_score": 0.5474051431632043,
+        "pass_conf": true,
+        "pass_cos": true,
+        "pass_combined": false,
+        "decision": "retry",
+        "reject_reason": "low_combined"
+      },
+      {
+        "attempt_index": 2,
+        "prompt_type": "refine",
+        "candidate_ids": [
+          1,
+          5,
+          6
+        ],
+        "raw_output": "1\nExplanation: The user task is to access reference materials without buying. The library is a place where one can access reference materials without having to purchase them",
+        "parsed_num": 1,
+        "confidence": 0.6137362856139851,
+        "cosine": 0.5054041743278503,
+        "combined_score": 0.5595702299709178,
+        "pass_conf": true,
+        "pass_cos": true,
+        "pass_combined": false,
+        "decision": "retry",
+        "reject_reason": "low_combined"
+      },
+      {
+        "attempt_index": 3,
+        "prompt_type": "refine",
+        "candidate_ids": [
+          1,
+          5,
+          6
+        ],
+        "raw_output": "1\nExplanation: The user task is to access reference materials without buying. The library is a place where one can access reference materials without having to purchase them",
+        "parsed_num": 1,
+        "confidence": 0.6110311640585288,
+        "cosine": 0.5054041743278503,
+        "combined_score": 0.5582176691931895,
+        "pass_conf": true,
+        "pass_cos": true,
+        "pass_combined": false,
+        "decision": "retry",
+        "reject_reason": "low_combined"
+      }
+    ],
+    "embed_diag": {
+      "enabled": true,
+      "model": "BAAI/bge-m3",
+      "text_mode": "label+semantic+description",
+      "topk_semantic": [
+        {
+          "node_id": 5,
+          "label": "bookstore",
+          "cosine": 0.540802001953125
+        },
+        {
+          "node_id": 1,
+          "label": "library",
+          "cosine": 0.5054041743278503
+        },
+        {
+          "node_id": 6,
+          "label": "research_lab",
+          "cosine": 0.3841220736503601
+        }
+      ]
+    },
+    "_ts": 1762950967.1808648,
+    "index": 3,
+    "timeout": false
+  },
+  {
+    "query": "Where can I buy reference materials right now?",
+    "node_id": 5,
+    "label": "bookstore",
+    "label_semantics": "purchase, books, stationery, shop",
+    "confidence": 0.7290090004100044,
+    "cosine": 0.5549807548522949,
+    "combined_score": 0.6419948776311497,
+    "decision_mode": "weighted",
+    "accept_reason": "first_pass_strong",
+    "attempts": 1,
+    "fallback_used": false,
+    "fallback_node": 0,
+    "decision_source": "model",
+    "thresholds": {
+      "conf_threshold": 0.5,
+      "cosine_threshold": 0.5,
+      "combined_threshold": 0.6,
+      "alpha": 0.5
+    },
+    "valid_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "attempt_logs": [
+      {
+        "attempt_index": 1,
+        "prompt_type": "full",
+        "candidate_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "raw_output": "5\nThe final answer is 5.",
+        "parsed_num": 5,
+        "confidence": 0.7290090004100044,
+        "cosine": 0.5549807548522949,
+        "combined_score": 0.6419948776311497,
+        "pass_conf": true,
+        "pass_cos": true,
+        "pass_combined": true,
+        "decision": "accept",
+        "reject_reason": null
+      }
+    ],
+    "embed_diag": {
+      "enabled": true,
+      "model": "BAAI/bge-m3",
+      "text_mode": "label+semantic+description",
+      "topk_semantic": [
+        {
+          "node_id": 5,
+          "label": "bookstore",
+          "cosine": 0.5549807548522949
+        },
+        {
+          "node_id": 1,
+          "label": "library",
+          "cosine": 0.47456997632980347
+        },
+        {
+          "node_id": 6,
+          "label": "research_lab",
+          "cosine": 0.39866697788238525
+        }
+      ]
+    },
+    "_ts": 1762950983.6625645,
+    "index": 4,
+    "timeout": false
+  },
+  {
+    "query": "I'm hungry but prefer a quiet place outdoors.",
+    "node_id": 8,
+    "label": "garden",
+    "label_semantics": "nature, garden, rest, relax",
+    "confidence": 0.8326241647015028,
+    "cosine": 0.6057312488555908,
+    "combined_score": 0.7191777067785468,
+    "decision_mode": "weighted",
+    "accept_reason": "first_pass_strong",
+    "attempts": 1,
+    "fallback_used": false,
+    "fallback_node": 0,
+    "decision_source": "model",
+    "thresholds": {
+      "conf_threshold": 0.5,
+      "cosine_threshold": 0.5,
+      "combined_threshold": 0.6,
+      "alpha": 0.5
+    },
+    "valid_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "attempt_logs": [
+      {
+        "attempt_index": 1,
+        "prompt_type": "full",
+        "candidate_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "raw_output": "8\nThe final answer is: 8\nAvailable locations:\n0. main_gate (entrance, outdoor, meeting, campus_entry) - Main entrance",
+        "parsed_num": 8,
+        "confidence": 0.8326241647015028,
+        "cosine": 0.6057312488555908,
+        "combined_score": 0.7191777067785468,
+        "pass_conf": true,
+        "pass_cos": true,
+        "pass_combined": true,
+        "decision": "accept",
+        "reject_reason": null
+      }
+    ],
+    "embed_diag": {
+      "enabled": true,
+      "model": "BAAI/bge-m3",
+      "text_mode": "label+semantic+description",
+      "topk_semantic": [
+        {
+          "node_id": 8,
+          "label": "garden",
+          "cosine": 0.6057312488555908
+        },
+        {
+          "node_id": 2,
+          "label": "cafeteria",
+          "cosine": 0.554783821105957
+        },
+        {
+          "node_id": 1,
+          "label": "library",
+          "cosine": 0.5216642618179321
+        }
+      ]
+    },
+    "_ts": 1762950997.5812976,
+    "index": 5,
+    "timeout": false
+  },
+  {
+    "query": "I want to sit outside; maybe I can snack there.",
+    "node_id": 8,
+    "label": "garden",
+    "label_semantics": "nature, garden, rest, relax",
+    "confidence": 0.7737511186180016,
+    "cosine": 0.6751505732536316,
+    "combined_score": 0.7244508459358165,
+    "decision_mode": "weighted",
+    "accept_reason": "refine_strong",
+    "attempts": 2,
+    "fallback_used": false,
+    "fallback_node": 0,
+    "decision_source": "model",
+    "thresholds": {
+      "conf_threshold": 0.5,
+      "cosine_threshold": 0.5,
+      "combined_threshold": 0.6,
+      "alpha": 0.5
+    },
+    "valid_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "attempt_logs": [
+      {
+        "attempt_index": 1,
+        "prompt_type": "full",
+        "candidate_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "raw_output": "0\nThe final answer is: 0\nExplanation: The user wants to sit outside and snack, which is best achieved at the main gate (0",
+        "parsed_num": 0,
+        "confidence": 0.5893300330403781,
+        "cosine": 0.48773857951164246,
+        "combined_score": 0.5385343062760103,
+        "pass_conf": true,
+        "pass_cos": false,
+        "pass_combined": false,
+        "decision": "retry",
+        "reject_reason": "low_combined"
+      },
+      {
+        "attempt_index": 2,
+        "prompt_type": "refine",
+        "candidate_ids": [
+          8,
+          0,
+          2,
+          4
+        ],
+        "raw_output": "8. garden (nature, garden, rest, relax) - Outdoor garden and resting area\nThe user wants to sit outside and snack. The garden is",
+        "parsed_num": 8,
+        "confidence": 0.7737511186180016,
+        "cosine": 0.6751505732536316,
+        "combined_score": 0.7244508459358165,
+        "pass_conf": true,
+        "pass_cos": true,
+        "pass_combined": true,
+        "decision": "accept",
+        "reject_reason": null
+      }
+    ],
+    "embed_diag": {
+      "enabled": true,
+      "model": "BAAI/bge-m3",
+      "text_mode": "label+semantic+description",
+      "topk_semantic": [
+        {
+          "node_id": 8,
+          "label": "garden",
+          "cosine": 0.6751505732536316
+        },
+        {
+          "node_id": 2,
+          "label": "cafeteria",
+          "cosine": 0.641051709651947
+        },
+        {
+          "node_id": 4,
+          "label": "gym",
+          "cosine": 0.5499860048294067
+        }
+      ]
+    },
+    "_ts": 1762951023.8690317,
+    "index": 6,
+    "timeout": false
+  },
+  {
+    "query": "I need help—I'm not feeling well.",
+    "node_id": 3,
+    "label": "clinic",
+    "label_semantics": "medical, health, first_aid",
+    "confidence": 0.8597531052654106,
+    "cosine": 0.5079813003540039,
+    "combined_score": 0.6838672028097073,
+    "decision_mode": "weighted",
+    "accept_reason": "refine_strong",
+    "attempts": 2,
+    "fallback_used": false,
+    "fallback_node": 0,
+    "decision_source": "model",
+    "thresholds": {
+      "conf_threshold": 0.5,
+      "cosine_threshold": 0.5,
+      "combined_threshold": 0.6,
+      "alpha": 0.5
+    },
+    "valid_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "attempt_logs": [
+      {
+        "attempt_index": 1,
+        "prompt_type": "full",
+        "candidate_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "raw_output": "3\nThe final answer is: 3\nExplanation: The user is expressing a need for medical assistance, which is best addressed by visiting the campus clinic",
+        "parsed_num": 3,
+        "confidence": 0.6142859374458189,
+        "cosine": 0.5079813003540039,
+        "combined_score": 0.5611336188999114,
+        "pass_conf": true,
+        "pass_cos": true,
+        "pass_combined": false,
+        "decision": "retry",
+        "reject_reason": "low_combined"
+      },
+      {
+        "attempt_index": 2,
+        "prompt_type": "refine",
+        "candidate_ids": [
+          8,
+          2,
+          3
+        ],
+        "raw_output": "3\nThe best answer is 3. 3. clinic (medical, health, first_aid) - Campus medical clinic for health support and first",
+        "parsed_num": 3,
+        "confidence": 0.8597531052654106,
+        "cosine": 0.5079813003540039,
+        "combined_score": 0.6838672028097073,
+        "pass_conf": true,
+        "pass_cos": true,
+        "pass_combined": true,
+        "decision": "accept",
+        "reject_reason": null
+      }
+    ],
+    "embed_diag": {
+      "enabled": true,
+      "model": "BAAI/bge-m3",
+      "text_mode": "label+semantic+description",
+      "topk_semantic": [
+        {
+          "node_id": 3,
+          "label": "clinic",
+          "cosine": 0.5079813003540039
+        },
+        {
+          "node_id": 8,
+          "label": "garden",
+          "cosine": 0.5020201802253723
+        },
+        {
+          "node_id": 2,
+          "label": "cafeteria",
+          "cosine": 0.49405190348625183
+        }
+      ]
+    },
+    "_ts": 1762951055.5848453,
+    "index": 7,
+    "timeout": false
+  },
+  {
+    "query": "I need help—someone took my bag.",
+    "node_id": 9,
+    "label": "security_office",
+    "label_semantics": "safety, assistance, lost_and_found, security",
+    "confidence": 0.8204940258053751,
+    "cosine": 0.5443508625030518,
+    "combined_score": 0.6824224441542135,
+    "decision_mode": "weighted",
+    "accept_reason": "first_pass_strong",
+    "attempts": 1,
+    "fallback_used": false,
+    "fallback_node": 0,
+    "decision_source": "model",
+    "thresholds": {
+      "conf_threshold": 0.5,
+      "cosine_threshold": 0.5,
+      "combined_threshold": 0.6,
+      "alpha": 0.5
+    },
+    "valid_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "attempt_logs": [
+      {
+        "attempt_index": 1,
+        "prompt_type": "full",
+        "candidate_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "raw_output": "9\nThe final answer is: 9\nAvailable locations:\n0. main_gate (entrance, outdoor, meeting, campus_entry) - Main entrance",
+        "parsed_num": 9,
+        "confidence": 0.8204940258053751,
+        "cosine": 0.5443508625030518,
+        "combined_score": 0.6824224441542135,
+        "pass_conf": true,
+        "pass_cos": true,
+        "pass_combined": true,
+        "decision": "accept",
+        "reject_reason": null
+      }
+    ],
+    "embed_diag": {
+      "enabled": true,
+      "model": "BAAI/bge-m3",
+      "text_mode": "label+semantic+description",
+      "topk_semantic": [
+        {
+          "node_id": 9,
+          "label": "security_office",
+          "cosine": 0.5443508625030518
+        },
+        {
+          "node_id": 5,
+          "label": "bookstore",
+          "cosine": 0.5383766889572144
+        },
+        {
+          "node_id": 8,
+          "label": "garden",
+          "cosine": 0.49037548899650574
+        }
+      ]
+    },
+    "_ts": 1762951093.219388,
+    "index": 8,
+    "timeout": false
+  },
+  {
+    "query": "Take me to the facility with equipment for training.",
+    "node_id": 4,
+    "label": "gym",
+    "label_semantics": "sports, exercise, fitness",
+    "confidence": 0.846340192534221,
+    "cosine": 0.6501280069351196,
+    "combined_score": 0.7482340997346704,
+    "decision_mode": "weighted",
+    "accept_reason": "first_pass_strong",
+    "attempts": 1,
+    "fallback_used": false,
+    "fallback_node": 0,
+    "decision_source": "model",
+    "thresholds": {
+      "conf_threshold": 0.5,
+      "cosine_threshold": 0.5,
+      "combined_threshold": 0.6,
+      "alpha": 0.5
+    },
+    "valid_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "attempt_logs": [
+      {
+        "attempt_index": 1,
+        "prompt_type": "full",
+        "candidate_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "raw_output": "4\nThe final answer is: 4\nAvailable locations:\n0. main_gate (entrance, outdoor, meeting, campus_entry) - Main entrance",
+        "parsed_num": 4,
+        "confidence": 0.846340192534221,
+        "cosine": 0.6501280069351196,
+        "combined_score": 0.7482340997346704,
+        "pass_conf": true,
+        "pass_cos": true,
+        "pass_combined": true,
+        "decision": "accept",
+        "reject_reason": null
+      }
+    ],
+    "embed_diag": {
+      "enabled": true,
+      "model": "BAAI/bge-m3",
+      "text_mode": "label+semantic+description",
+      "topk_semantic": [
+        {
+          "node_id": 4,
+          "label": "gym",
+          "cosine": 0.6501280069351196
+        },
+        {
+          "node_id": 5,
+          "label": "bookstore",
+          "cosine": 0.5880952477455139
+        },
+        {
+          "node_id": 3,
+          "label": "clinic",
+          "cosine": 0.572300136089325
+        }
+      ]
+    },
+    "_ts": 1762951129.097297,
+    "index": 9,
+    "timeout": false
+  },
+  {
+    "query": "Take me to the facility with equipment for experiments.",
+    "node_id": 6,
+    "label": "research_lab",
+    "label_semantics": "research, experiment, equipment",
+    "confidence": 0.842358828648452,
+    "cosine": 0.6737918853759766,
+    "combined_score": 0.7580753570122143,
+    "decision_mode": "weighted",
+    "accept_reason": "first_pass_strong",
+    "attempts": 1,
+    "fallback_used": false,
+    "fallback_node": 0,
+    "decision_source": "model",
+    "thresholds": {
+      "conf_threshold": 0.5,
+      "cosine_threshold": 0.5,
+      "combined_threshold": 0.6,
+      "alpha": 0.5
+    },
+    "valid_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "attempt_logs": [
+      {
+        "attempt_index": 1,
+        "prompt_type": "full",
+        "candidate_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "raw_output": "6\nThe final answer is: 6\nAvailable locations:\n0. main_gate (entrance, outdoor, meeting, campus_entry) - Main entrance",
+        "parsed_num": 6,
+        "confidence": 0.842358828648452,
+        "cosine": 0.6737918853759766,
+        "combined_score": 0.7580753570122143,
+        "pass_conf": true,
+        "pass_cos": true,
+        "pass_combined": true,
+        "decision": "accept",
+        "reject_reason": null
+      }
+    ],
+    "embed_diag": {
+      "enabled": true,
+      "model": "BAAI/bge-m3",
+      "text_mode": "label+semantic+description",
+      "topk_semantic": [
+        {
+          "node_id": 6,
+          "label": "research_lab",
+          "cosine": 0.6737918853759766
+        },
+        {
+          "node_id": 4,
+          "label": "gym",
+          "cosine": 0.5698060393333435
+        },
+        {
+          "node_id": 5,
+          "label": "bookstore",
+          "cosine": 0.5565156936645508
+        }
+      ]
+    },
+    "_ts": 1762951144.7468,
+    "index": 10,
+    "timeout": false
+  },
+  {
+    "query": "I want to attend an academic event with many people.",
+    "node_id": 7,
+    "label": "lecture_hall",
+    "label_semantics": "lecture, education, auditorium",
+    "confidence": 0.7172174156328363,
+    "cosine": 0.6362255811691284,
+    "combined_score": 0.6767214984009824,
+    "decision_mode": "weighted",
+    "accept_reason": "first_pass_strong",
+    "attempts": 1,
+    "fallback_used": false,
+    "fallback_node": 0,
+    "decision_source": "model",
+    "thresholds": {
+      "conf_threshold": 0.5,
+      "cosine_threshold": 0.5,
+      "combined_threshold": 0.6,
+      "alpha": 0.5
+    },
+    "valid_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "attempt_logs": [
+      {
+        "attempt_index": 1,
+        "prompt_type": "full",
+        "candidate_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "raw_output": "7\nThe final answer is 7.",
+        "parsed_num": 7,
+        "confidence": 0.7172174156328363,
+        "cosine": 0.6362255811691284,
+        "combined_score": 0.6767214984009824,
+        "pass_conf": true,
+        "pass_cos": true,
+        "pass_combined": true,
+        "decision": "accept",
+        "reject_reason": null
+      }
+    ],
+    "embed_diag": {
+      "enabled": true,
+      "model": "BAAI/bge-m3",
+      "text_mode": "label+semantic+description",
+      "topk_semantic": [
+        {
+          "node_id": 7,
+          "label": "lecture_hall",
+          "cosine": 0.6362255811691284
+        },
+        {
+          "node_id": 1,
+          "label": "library",
+          "cosine": 0.5792791843414307
+        },
+        {
+          "node_id": 5,
+          "label": "bookstore",
+          "cosine": 0.5628548264503479
+        }
+      ]
+    },
+    "_ts": 1762951153.1722713,
+    "index": 11,
+    "timeout": false
+  },
+  {
+    "query": "I want to study for my exam quietly.",
+    "node_id": 1,
+    "label": "library",
+    "label_semantics": "books, study, quiet, information, research",
+    "confidence": 0.8205478721788214,
+    "cosine": 0.5906774401664734,
+    "combined_score": 0.7056126561726475,
+    "decision_mode": "weighted",
+    "accept_reason": "first_pass_strong",
+    "attempts": 1,
+    "fallback_used": false,
+    "fallback_node": 0,
+    "decision_source": "model",
+    "thresholds": {
+      "conf_threshold": 0.5,
+      "cosine_threshold": 0.5,
+      "combined_threshold": 0.6,
+      "alpha": 0.5
+    },
+    "valid_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "attempt_logs": [
+      {
+        "attempt_index": 1,
+        "prompt_type": "full",
+        "candidate_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "raw_output": "1\nThe best answer is 1.  # Available locations:\n0. main_gate (entrance, outdoor, meeting, campus_entry) - Main",
+        "parsed_num": 1,
+        "confidence": 0.8205478721788214,
+        "cosine": 0.5906774401664734,
+        "combined_score": 0.7056126561726475,
+        "pass_conf": true,
+        "pass_cos": true,
+        "pass_combined": true,
+        "decision": "accept",
+        "reject_reason": null
+      }
+    ],
+    "embed_diag": {
+      "enabled": true,
+      "model": "BAAI/bge-m3",
+      "text_mode": "label+semantic+description",
+      "topk_semantic": [
+        {
+          "node_id": 1,
+          "label": "library",
+          "cosine": 0.5906774401664734
+        },
+        {
+          "node_id": 8,
+          "label": "garden",
+          "cosine": 0.4731258153915405
+        },
+        {
+          "node_id": 7,
+          "label": "lecture_hall",
+          "cosine": 0.46571114659309387
+        }
+      ]
+    },
+    "_ts": 1762951166.8705506,
+    "index": 12,
+    "timeout": false
+  },
+  {
+    "query": "Guide me to the main place where people gather at the entrance.",
+    "node_id": 0,
+    "label": "main_gate",
+    "label_semantics": "entrance, outdoor, meeting, campus_entry",
+    "confidence": 0.8466691353046351,
+    "cosine": 0.6358126997947693,
+    "combined_score": 0.7412409175497021,
+    "decision_mode": "weighted",
+    "accept_reason": "first_pass_strong",
+    "attempts": 1,
+    "fallback_used": false,
+    "fallback_node": 0,
+    "decision_source": "model",
+    "thresholds": {
+      "conf_threshold": 0.5,
+      "cosine_threshold": 0.5,
+      "combined_threshold": 0.6,
+      "alpha": 0.5
+    },
+    "valid_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "attempt_logs": [
+      {
+        "attempt_index": 1,
+        "prompt_type": "full",
+        "candidate_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "raw_output": "0\nThe final answer is: 0. main_gate (entrance, outdoor, meeting, campus_entry) - Main entrance of the campus and meeting",
+        "parsed_num": 0,
+        "confidence": 0.8466691353046351,
+        "cosine": 0.6358126997947693,
+        "combined_score": 0.7412409175497021,
+        "pass_conf": true,
+        "pass_cos": true,
+        "pass_combined": true,
+        "decision": "accept",
+        "reject_reason": null
+      }
+    ],
+    "embed_diag": {
+      "enabled": true,
+      "model": "BAAI/bge-m3",
+      "text_mode": "label+semantic+description",
+      "topk_semantic": [
+        {
+          "node_id": 0,
+          "label": "main_gate",
+          "cosine": 0.6358126997947693
+        },
+        {
+          "node_id": 2,
+          "label": "cafeteria",
+          "cosine": 0.5649151802062988
+        },
+        {
+          "node_id": 7,
+          "label": "lecture_hall",
+          "cosine": 0.5542618632316589
+        }
+      ]
+    },
+    "_ts": 1762951180.843599,
+    "index": 13,
+    "timeout": false
+  },
+  {
+    "query": "I lost something at the gate—where can I report it?",
+    "node_id": 9,
+    "label": "security_office",
+    "label_semantics": "safety, assistance, lost_and_found, security",
+    "confidence": null,
+    "cosine": null,
+    "combined_score": null,
+    "decision_mode": "weighted",
+    "accept_reason": "last_num_salvage",
+    "attempts": 3,
+    "fallback_used": false,
+    "fallback_node": 0,
+    "decision_source": "last_num",
+    "thresholds": {
+      "conf_threshold": 0.5,
+      "cosine_threshold": 0.5,
+      "combined_threshold": 0.6,
+      "alpha": 0.5
+    },
+    "valid_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "attempt_logs": [
+      {
+        "attempt_index": 1,
+        "prompt_type": "full",
+        "candidate_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "raw_output": "9\nExplanation: The user is looking for a place to report a lost item, which is related to the security office. The correct answer is the security",
+        "parsed_num": 9,
+        "confidence": 0.5892780144883495,
+        "cosine": 0.5478718280792236,
+        "combined_score": 0.5685749212837865,
+        "pass_conf": true,
+        "pass_cos": true,
+        "pass_combined": false,
+        "decision": "retry",
+        "reject_reason": "low_combined"
+      },
+      {
+        "attempt_index": 2,
+        "prompt_type": "refine",
+        "candidate_ids": [
+          0,
+          9,
+          5
+        ],
+        "raw_output": "9\nExplanation: The security office is the best place to report lost items. The main gate is the location where the item was lost, but it is",
+        "parsed_num": 9,
+        "confidence": 0.606110480257166,
+        "cosine": 0.5478718280792236,
+        "combined_score": 0.5769911541681948,
+        "pass_conf": true,
+        "pass_cos": true,
+        "pass_combined": false,
+        "decision": "retry",
+        "reject_reason": "low_combined"
+      },
+      {
+        "attempt_index": 3,
+        "prompt_type": "refine",
+        "candidate_ids": [
+          0,
+          9,
+          5
+        ],
+        "raw_output": "9\nExplanation: The security office is the best place to report lost items. The main gate is the location where the item was lost, but it is",
+        "parsed_num": 9,
+        "confidence": 0.6105323608386958,
+        "cosine": 0.5478718280792236,
+        "combined_score": 0.5792020944589598,
+        "pass_conf": true,
+        "pass_cos": true,
+        "pass_combined": false,
+        "decision": "retry",
+        "reject_reason": "low_combined"
+      }
+    ],
+    "embed_diag": {
+      "enabled": true,
+      "model": "BAAI/bge-m3",
+      "text_mode": "label+semantic+description",
+      "topk_semantic": [
+        {
+          "node_id": 9,
+          "label": "security_office",
+          "cosine": 0.5478718280792236
+        },
+        {
+          "node_id": 0,
+          "label": "main_gate",
+          "cosine": 0.5052582025527954
+        },
+        {
+          "node_id": 5,
+          "label": "bookstore",
+          "cosine": 0.4895614683628082
+        }
+      ]
+    },
+    "_ts": 1762951215.1167161,
+    "index": 14,
+    "timeout": false
+  },
+  {
+    "query": "I need to get something quickly between classes; maybe a snack.",
+    "node_id": 2,
+    "label": "cafeteria",
+    "label_semantics": "food, meal, dining, social",
+    "confidence": 0.8231017684917801,
+    "cosine": 0.6038365960121155,
+    "combined_score": 0.7134691822519478,
+    "decision_mode": "weighted",
+    "accept_reason": "first_pass_strong",
+    "attempts": 1,
+    "fallback_used": false,
+    "fallback_node": 0,
+    "decision_source": "model",
+    "thresholds": {
+      "conf_threshold": 0.5,
+      "cosine_threshold": 0.5,
+      "combined_threshold": 0.6,
+      "alpha": 0.5
+    },
+    "valid_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "attempt_logs": [
+      {
+        "attempt_index": 1,
+        "prompt_type": "full",
+        "candidate_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "raw_output": "2\nThe final answer is: 2\nAvailable locations:\n0. main_gate (entrance, outdoor, meeting, campus_entry) - Main entrance",
+        "parsed_num": 2,
+        "confidence": 0.8231017684917801,
+        "cosine": 0.6038365960121155,
+        "combined_score": 0.7134691822519478,
+        "pass_conf": true,
+        "pass_cos": true,
+        "pass_combined": true,
+        "decision": "accept",
+        "reject_reason": null
+      }
+    ],
+    "embed_diag": {
+      "enabled": true,
+      "model": "BAAI/bge-m3",
+      "text_mode": "label+semantic+description",
+      "topk_semantic": [
+        {
+          "node_id": 2,
+          "label": "cafeteria",
+          "cosine": 0.6038365960121155
+        },
+        {
+          "node_id": 5,
+          "label": "bookstore",
+          "cosine": 0.5945332050323486
+        },
+        {
+          "node_id": 1,
+          "label": "library",
+          "cosine": 0.5427494049072266
+        }
+      ]
+    },
+    "_ts": 1762951235.831467,
+    "index": 15,
+    "timeout": false
+  },
+  {
+    "query": "I need to buy course supplies between classes.",
+    "node_id": 5,
+    "label": "bookstore",
+    "label_semantics": "purchase, books, stationery, shop",
+    "confidence": 0.8466481659821253,
+    "cosine": 0.63417649269104,
+    "combined_score": 0.7404123293365827,
+    "decision_mode": "weighted",
+    "accept_reason": "first_pass_strong",
+    "attempts": 1,
+    "fallback_used": false,
+    "fallback_node": 0,
+    "decision_source": "model",
+    "thresholds": {
+      "conf_threshold": 0.5,
+      "cosine_threshold": 0.5,
+      "combined_threshold": 0.6,
+      "alpha": 0.5
+    },
+    "valid_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "attempt_logs": [
+      {
+        "attempt_index": 1,
+        "prompt_type": "full",
+        "candidate_ids": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "raw_output": "5\nThe final answer is: 5\nAvailable locations:\n0. main_gate (entrance, outdoor, meeting, campus_entry) - Main entrance",
+        "parsed_num": 5,
+        "confidence": 0.8466481659821253,
+        "cosine": 0.63417649269104,
+        "combined_score": 0.7404123293365827,
+        "pass_conf": true,
+        "pass_cos": true,
+        "pass_combined": true,
+        "decision": "accept",
+        "reject_reason": null
+      }
+    ],
+    "embed_diag": {
+      "enabled": true,
+      "model": "BAAI/bge-m3",
+      "text_mode": "label+semantic+description",
+      "topk_semantic": [
+        {
+          "node_id": 5,
+          "label": "bookstore",
+          "cosine": 0.63417649269104
+        },
+        {
+          "node_id": 7,
+          "label": "lecture_hall",
+          "cosine": 0.48967885971069336
+        },
+        {
+          "node_id": 1,
+          "label": "library",
+          "cosine": 0.4806784689426422
+        }
+      ]
+    },
+    "_ts": 1762951249.6048374,
+    "index": 16,
+    "timeout": false
+  }
+]

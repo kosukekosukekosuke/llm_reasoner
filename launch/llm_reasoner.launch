@@ -3,11 +3,12 @@
     <!-- LLM model file (under llm_reasoner/scripts/llama.cpp/models) -->
     <arg name="model_name" default="Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf" />
     <!-- Map (semantic graph) -->
-    <arg name="map_yaml"   default="$(find rover_navigator)/map/graph/ikuta_graph_eval_v0.yaml" />
+    <arg name="map_yaml"   default="$(find rover_navigator)/map/graph/ikuta_graph_eval_v1.yaml" />
     <!-- Decision mode: "and" or "weighted" -->
     <arg name="decision_mode" default="weighted" />
     <!-- Max extra attempts (so total calls = max_retries + 1) -->
-    <arg name="max_retries" default="2" />
+    <arg name="max_retries" default="0" />
+    <!-- <arg name="max_retries" default="2" /> -->
     <!-- Embedding model name -->
     <arg name="embed_model_name" default="BAAI/bge-m3" />
 
@@ -19,7 +20,7 @@
         <!-- LLM generation -->
         <param name="ctx_size"   value="2048" />
         <param name="threads"    value="4" />
-        <param name="temperature" value="0.0" />
+        <param name="temperature" value="0.1" />
         <param name="top_k"      value="10" />
         <param name="top_p"      value="0.0" />
         <param name="max_tokens" value="32" />
@@ -27,9 +28,12 @@
         <!-- Decision / trust -->
         <param name="decision_mode"      value="$(arg decision_mode)" />
         <param name="max_retries"        value="$(arg max_retries)" />
-        <param name="conf_threshold"     value="0.5" />
+        <param name="conf_threshold"     value="0.0" />
+        <param name="cosine_threshold"   value="0.0" />
+        <param name="combined_threshold" value="0.0" />
+        <!-- <param name="conf_threshold"     value="0.5" />
         <param name="cosine_threshold"   value="0.5" />
-        <param name="combined_threshold" value="0.6" />
+        <param name="combined_threshold" value="0.6" /> -->
         <param name="alpha"              value="0.5" />
         <param name="fallback_node"      value="0" />
 

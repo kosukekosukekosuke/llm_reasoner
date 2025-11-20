@@ -1,0 +1,11 @@
+query,gold_node_id,gold_label,node_id,label,confidence,cosine,combined_score,decision_mode,accept_reason,attempts,timeout,is_correct,topk_ids,topk_labels
+Find a place to have dinner at 9 PM on Sunday.,2,cafeteria,2,cafeteria,0.7915537765572178,0.5118374228477478,0.6516955997024828,weighted,refine_strong,2,False,1,"2,8,5","cafeteria,garden,bookstore"
+Take me to the robotics club workshop.,6,research_lab,6,research_lab,0.8029929859246571,0.49451231956481934,0.6487526527447383,weighted,first_pass_strong,1,False,1,"4,5,6","gym,bookstore,research_lab"
+Bring me to the film theater on campus.,7,lecture_hall,7,lecture_hall,,,,weighted,last_num_salvage,3,False,1,"5,0,3","bookstore,main_gate,clinic"
+I want a lakeside bench to watch the sunset.,8,garden,8,garden,0.8454643671789216,0.603397011756897,0.7244306894679093,weighted,first_pass_strong,1,False,1,"8,2,4","garden,cafeteria,gym"
+Where can I renew my parking permit?,9,security_office,9,security_office,,,,weighted,last_num_salvage,3,False,1,"8,5,4","garden,bookstore,gym"
+I need a COVID PCR test station.,3,clinic,3,clinic,,,,weighted,last_num_salvage,3,False,1,"5,6,3","bookstore,research_lab,clinic"
+Lead me to the visitor information center before entering the campus.,0,main_gate,0,main_gate,0.7970622540983258,0.6170627474784851,0.7070625007884055,weighted,first_pass_strong,1,False,1,"0,5,3","main_gate,bookstore,clinic"
+I want to buy a laptop.,5,bookstore,5,bookstore,0.7880521687249603,0.5877419710159302,0.6878970698704452,weighted,first_pass_strong,1,False,1,"5,1,8","bookstore,library,garden"
+Direct me to the digital archive terminal.,1,library,1,library,,,,weighted,last_num_salvage,3,False,1,"5,1,8","bookstore,library,garden"
+Go to the swimming pool.,4,gym,4,gym,0.8310298567117632,0.5644750595092773,0.6977524581105203,weighted,first_pass_strong,1,False,1,"4,8,2","gym,garden,cafeteria"
