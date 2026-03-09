@@ -1,0 +1,2 @@
+scenario,n_ok_total,n_ok_in,in_coverage,in_selective_risk,n_ok_oom,oom_false_accept_rate,oom_true_reject_rate
+core,90,90,0.7555555555555555,0.0,0,,

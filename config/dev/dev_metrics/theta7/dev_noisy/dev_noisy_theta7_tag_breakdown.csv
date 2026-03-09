@@ -1,0 +1,8 @@
+tag,n_ok_total,n_ok_in,in_coverage,in_selective_risk,n_ok_oom,oom_false_accept_rate,oom_true_reject_rate
+filler,47,47,0.723404255319149,0.0,0,,
+function,45,45,0.7555555555555555,0.0,0,,
+name,29,29,0.8275862068965517,0.0,0,,
+emotion,14,14,0.9285714285714286,0.0,0,,
+typo_asr,14,14,0.7142857142857143,0.0,0,,
+attribute,10,10,0.7,0.0,0,,
+code_switch,9,9,0.8888888888888888,0.0,0,,

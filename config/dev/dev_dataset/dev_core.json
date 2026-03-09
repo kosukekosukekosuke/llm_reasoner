@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "dev_core_0001",
+    "q": "Is the main gate far from here?",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0002",
+    "q": "I'd like to head to the main gate.",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0003",
+    "q": "How do I get to the main gate from here?",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0004",
+    "q": "How do I get to the front gate from here?",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0005",
+    "q": "Where should I go if I want to start my walk from the entrance?",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0006",
+    "q": "I need a place to meet a friend. Where should I go?",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0007",
+    "q": "I want a place that feels easy to spot as a landmark. Which spot fits best?",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0008",
+    "q": "ここからメインゲートに行くにはどうすればいい？",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0009",
+    "q": "ここから正門に行くにはどうすればいい？",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0010",
+    "q": "人を待ちたいです。どこに行けばいいですか？",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0011",
+    "q": "Is the main library far from here?",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0012",
+    "q": "Where can I find the library?",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0013",
+    "q": "Could you guide me to the main library?",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0014",
+    "q": "Is the main library far from here? right now",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0015",
+    "q": "I’m looking for somewhere to read books.",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0016",
+    "q": "I need a place to do research on a computer. Where should I go?",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0017",
+    "q": "Which area is best if I want something good for reading?",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0018",
+    "q": "ここからメイン図書館に行くにはどうすればいい？",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0019",
+    "q": "ここから図書館に行くにはどうすればいい？",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0020",
+    "q": "静かに勉強できる場所を探しています。どこ？",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0021",
+    "q": "Is the cafeteria far from here?",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0022",
+    "q": "Where can I find the dining hall?",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0023",
+    "q": "Is the campus cafeteria far from here?",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0024",
+    "q": "Is the campus cafeteria far from here? right now",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0025",
+    "q": "Where should I go if I want to have a quick meal?",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0026",
+    "q": "I’m looking for somewhere to have a quick meal.",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0027",
+    "q": "Which area is best if I want something casual and social?",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0028",
+    "q": "食堂はどこにありますか？",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0029",
+    "q": "学食に行きたいです。案内してもらえますか？",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0030",
+    "q": "ご飯を食べられる場所を探しています。どこ？",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0031",
+    "q": "Could you point me toward the campus clinic?",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0032",
+    "q": "I want to go to the clinic. right now",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0033",
+    "q": "Is the clinic far from here?",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0034",
+    "q": "I want to go to the clinic right away.",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0035",
+    "q": "I need a place to get first aid. Where should I go?",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0036",
+    "q": "I need a place to see a doctor. Where should I go?",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0037",
+    "q": "I want a place that feels helpful when you feel sick. Which spot fits best?",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0038",
+    "q": "保健センターまでの行き方を教えてください。",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0039",
+    "q": "保健センターまでの行き方を教えてください。 今すぐ",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0040",
+    "q": "体調相談できる場所を探しています。どこ？",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0041",
+    "q": "Is the campus gym far from here?",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0042",
+    "q": "Where can I find the training room?",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0043",
+    "q": "Could you guide me to the campus gym?",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0044",
+    "q": "Is the training room far from here?",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0045",
+    "q": "I’m looking for somewhere to train indoors.",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0046",
+    "q": "Where should I go if I want to use exercise equipment?",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0047",
+    "q": "Which area is best if I want something indoors and active?",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0048",
+    "q": "ジムの場所を教えてください。",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0049",
+    "q": "ジムまでの行き方を教えてください。",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0050",
+    "q": "運動したいです。どこに行けばいいですか？",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0051",
+    "q": "Could you guide me to the campus store?",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0052",
+    "q": "How do I get to the shop from here?",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0053",
+    "q": "Is the campus store far from here?",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0054",
+    "q": "Could you guide me to the campus store? right now",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0055",
+    "q": "I’m looking for somewhere to purchase stationery.",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0056",
+    "q": "Where should I go if I want to purchase stationery?",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0057",
+    "q": "I want a place that feels practical for shopping. Which spot fits best?",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0058",
+    "q": "購買までの行き方を教えてください。",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0059",
+    "q": "キャンパスストアはどこにありますか？",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0060",
+    "q": "文房具を買える場所を探しています。どこ？",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0061",
+    "q": "I want to go to the research lab.",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0062",
+    "q": "Is the research lab far from here?",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0063",
+    "q": "How do I get to the lab building from here?",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0064",
+    "q": "Is the research lab far from here? right now",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0065",
+    "q": "I need a place to go to the lab office. Where should I go?",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0066",
+    "q": "I need a place to meet my lab mates. Where should I go?",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0067",
+    "q": "I want a place that feels for research activities. Which spot fits best?",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0068",
+    "q": "研究室はどこにありますか？",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0069",
+    "q": "研究棟までの行き方を教えてください。",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0070",
+    "q": "研究できる場所を探しています。どこ？",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0071",
+    "q": "How do I get to the lecture building from here?",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0072",
+    "q": "Could you guide me to the lecture hall?",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0073",
+    "q": "Where can I find the classroom building?",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0074",
+    "q": "Where can I find the lecture building?",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0075",
+    "q": "I’m looking for somewhere to attend a lecture.",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0076",
+    "q": "Where should I go if I want to attend a lecture?",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0077",
+    "q": "Which area is best if I want something class-focused?",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0078",
+    "q": "講義室までの行き方を教えてください。",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0079",
+    "q": "ここから講義室に行くにはどうすればいい？",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0080",
+    "q": "講義したいです。どこに行けばいいですか？",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0081",
+    "q": "Is the garden far from here?",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0082",
+    "q": "I want to go to the garden.",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0083",
+    "q": "Where can I find the garden?",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0084",
+    "q": "Could you guide me to the courtyard?",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0085",
+    "q": "I need a place to relax in a green space. Where should I go?",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0086",
+    "q": "I need a place to relax in a green space. Where should I go? right now",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0087",
+    "q": "I want a place that feels outdoors. Which spot fits best?",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0088",
+    "q": "中庭までの行き方を教えてください。",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0089",
+    "q": "庭園までの行き方を教えてください。",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0090",
+    "q": "外で休憩できる場所を探しています。どこ？",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0091",
+    "q": "Is the vending area far from here?",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0092",
+    "q": "Where can I find the vending machines?",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0093",
+    "q": "Where can I find the vending area?",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0094",
+    "q": "I want to go to the vending area.",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0095",
+    "q": "I need a place to grab a snack. Where should I go?",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0096",
+    "q": "I’m looking for somewhere to get coffee quickly.",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0097",
+    "q": "I want a place that feels for snacks and drinks. Which spot fits best?",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "dev_core_0098",
+    "q": "自販機コーナーはどこにありますか？",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0099",
+    "q": "自販機コーナーまでの行き方を教えてください。",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "dev_core_0100",
+    "q": "コーヒーを買いたいです。どこに行けばいいですか？",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  }
+]

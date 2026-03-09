@@ -1,0 +1,4 @@
+tag,n_ok_total,n_ok_in,in_coverage,in_selective_risk,n_ok_oom,oom_false_accept_rate,oom_true_reject_rate
+name,54,54,0.9074074074074074,0.0,0,,
+function,24,24,0.9583333333333334,0.043478260869565216,0,,
+attribute,9,9,0.8888888888888888,0.0,0,,

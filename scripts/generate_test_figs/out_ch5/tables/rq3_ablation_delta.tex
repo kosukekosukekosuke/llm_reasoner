@@ -1,0 +1,32 @@
+\begin{table}[t]
+\centering
+\begin{tabular}{rllrrrrrr}
+\toprule
+theta & method & dataset & abstain & acc_in & acc_oom & exrate_total & oom_fa & selrisk \\
+\midrule
+301 & Ablate: no OoM-gate & test_conflict & -0.206 & 0.000 & NaN & 0.050 & NaN & -0.003 \\
+301 & Ablate: no OoM-gate & test_core & -0.204 & 0.000 & NaN & 0.040 & NaN & 0.000 \\
+301 & Ablate: no OoM-gate & test_noisy & -0.252 & 0.000 & NaN & 0.050 & NaN & 0.023 \\
+301 & Ablate: no OoM-gate & test_oom & NaN & NaN & -0.280 & 0.380 & 0.280 & NaN \\
+302 & Ablate: no retry & test_conflict & 0.057 & 0.000 & NaN & -0.045 & NaN & 0.000 \\
+302 & Ablate: no retry & test_core & 0.059 & 0.000 & NaN & -0.035 & NaN & 0.000 \\
+302 & Ablate: no retry & test_noisy & 0.053 & 0.000 & NaN & -0.025 & NaN & 0.000 \\
+302 & Ablate: no retry & test_oom & NaN & NaN & 0.012 & -0.140 & -0.012 & NaN \\
+303 & Ablate: no abstain-gate & test_conflict & -0.050 & 0.000 & NaN & -0.045 & NaN & 0.073 \\
+303 & Ablate: no abstain-gate & test_core & -0.024 & 0.000 & NaN & -0.035 & NaN & 0.065 \\
+303 & Ablate: no abstain-gate & test_noisy & -0.033 & 0.000 & NaN & -0.025 & NaN & 0.112 \\
+303 & Ablate: no abstain-gate & test_oom & NaN & NaN & -0.178 & -0.140 & 0.178 & NaN \\
+304 & Ablate: conf-only & test_conflict & 0.521 & 0.000 & NaN & 0.360 & NaN & 0.115 \\
+304 & Ablate: conf-only & test_core & 0.602 & 0.000 & NaN & 0.395 & NaN & 0.105 \\
+304 & Ablate: conf-only & test_noisy & 0.447 & 0.000 & NaN & 0.390 & NaN & 0.107 \\
+304 & Ablate: conf-only & test_oom & NaN & NaN & 0.000 & 0.000 & 0.000 & NaN \\
+305 & Ablate: cos-only & test_conflict & -0.008 & 0.000 & NaN & -0.010 & NaN & 0.007 \\
+305 & Ablate: cos-only & test_core & 0.000 & 0.000 & NaN & 0.000 & NaN & 0.000 \\
+305 & Ablate: cos-only & test_noisy & -0.002 & 0.000 & NaN & -0.005 & NaN & 0.000 \\
+305 & Ablate: cos-only & test_oom & NaN & NaN & -0.011 & -0.010 & 0.011 & NaN \\
+\bottomrule
+\end{tabular}
+
+\caption{RQ3: アブレーションの効果（基準=提案法 $\theta^*$，差分=各条件−基準）}
+\label{tab:rq3_ablation_delta}
+\end{table}

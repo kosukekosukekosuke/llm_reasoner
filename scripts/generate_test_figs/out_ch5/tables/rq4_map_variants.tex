@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\begin{tabular}{rllrrrrrrr}
+\toprule
+theta & method & dataset & acc_in & abstain & selrisk & exrate_total & oom_fa & acc_oom & exrate_total \\
+\midrule
+201 & Proposed ($\theta^\ast$) & test_core & 0.000 & 0.220 & 0.000 & 0.070 & NaN & NaN & 0.070 \\
+201 & Proposed ($\theta^\ast$) & test_conflict & 0.000 & 0.260 & 0.015 & 0.115 & NaN & NaN & 0.115 \\
+201 & Proposed ($\theta^\ast$) & test_noisy & 0.000 & 0.307 & 0.000 & 0.040 & NaN & NaN & 0.040 \\
+201 & Proposed ($\theta^\ast$) & test_oom & NaN & NaN & NaN & 0.140 & 0.012 & 0.988 & 0.140 \\
+401 & Map variant: $M_{LS}$ & test_core & 0.000 & 1.000 & NaN & 0.000 & NaN & NaN & 0.000 \\
+401 & Map variant: $M_{LS}$ & test_conflict & 0.000 & 1.000 & NaN & 0.000 & NaN & NaN & 0.000 \\
+401 & Map variant: $M_{LS}$ & test_noisy & 0.000 & 1.000 & NaN & 0.000 & NaN & NaN & 0.000 \\
+401 & Map variant: $M_{LS}$ & test_oom & NaN & NaN & NaN & 0.000 & 0.000 & 1.000 & 0.000 \\
+402 & Map variant: $M_{L}$ & test_core & 0.000 & 1.000 & NaN & 0.000 & NaN & NaN & 0.000 \\
+402 & Map variant: $M_{L}$ & test_conflict & 0.000 & 1.000 & NaN & 0.000 & NaN & NaN & 0.000 \\
+402 & Map variant: $M_{L}$ & test_noisy & 0.000 & 1.000 & NaN & 0.000 & NaN & NaN & 0.000 \\
+402 & Map variant: $M_{L}$ & test_oom & NaN & NaN & NaN & 0.000 & 0.000 & 1.000 & 0.000 \\
+\bottomrule
+\end{tabular}
+
+\caption{RQ4: 地図側意味情報の設計差（$M_{LSD}$ vs $M_{LS}$ vs $M_L$）による Test 最終評価（主要指標）}
+\label{tab:rq4_map_variants}
+\end{table}

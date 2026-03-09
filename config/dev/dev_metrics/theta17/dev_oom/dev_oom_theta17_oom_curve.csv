@@ -1,0 +1,4 @@
+tau,true_reject_rate,false_accept_rate,n_ok,n_accept
+-1e-12,1.0,0.0,48,0
+0.0,1.0,0.0,48,0
+1e-12,1.0,0.0,48,0

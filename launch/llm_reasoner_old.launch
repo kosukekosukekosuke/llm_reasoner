@@ -1,0 +1,61 @@
+<launch>
+    <!-- ===== Args you typically change per experiment ===== -->
+    <arg name="model_name" default="Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf" />
+    <arg name="map_yaml"   default="$(find rover_navigator)/map/graph/ikuta_graph_eval_v2.yaml" />
+    <arg name="embed_model_name" default="BAAI/bge-m3" />
+    <!-- Decision mode: "and" or "weighted" -->
+    <arg name="decision_mode" default="weighted" />
+    <arg name="max_retries" default="2" />
+
+    <node pkg="llm_reasoner" type="llm_reasoner_old_10.py" name="llm_reasoner" output="screen">
+        <!-- Paths -->
+        <param name="model_path"     value="$(find llm_reasoner)/scripts/llama.cpp/models/$(arg model_name)" />
+        <param name="map_yaml_path"  value="$(arg map_yaml)" />
+
+        <!-- LLM generation -->
+        <param name="ctx_size"   value="2048" />
+        <param name="threads"    value="4" />
+        <param name="temperature" value="0.1" />
+        <param name="top_k"      value="10" />
+        <param name="top_p"      value="0.0" />
+        <param name="max_tokens" value="2" />
+
+        <!-- Decision / trust -->
+        <param name="decision_mode"      value="$(arg decision_mode)" />
+        <param name="max_retries"        value="$(arg max_retries)" />
+        <param name="conf_threshold"     value="0.5" />
+        <param name="cosine_threshold"   value="0.5" />
+        <param name="combined_threshold" value="0.6" />
+        <param name="alpha"              value="0.5" />
+
+        <!-- abstain(-1) / OOD ゲート用パラメータ -->
+        <param name="abstain_node_id" value="-1" />
+        <param name="ood_max_cos_threshold" value="0.50" />
+        <param name="ood_margin_threshold" value="0.0" />
+
+        <!-- cos の相対化モード: "none" or "minmax" or "zscore"-->
+        <param name="cosine_norm_mode" value="zscore" />
+
+        <!-- cos 成分重み (初回試行の基準値) -->
+        <param name="cos_w_label_base" value="0.3" />
+        <param name="cos_w_sem_base"   value="0.4" />
+        <param name="cos_w_desc_base"  value="0.3" />
+
+        <!-- 再試行時の自動重み調整 -->
+        <param name="cos_adapt_enable"   value="true" />
+        <param name="cos_adapt_strength" value="0.7" />
+        <param name="cos_adapt_tau"      value="1.0" />
+
+        <!-- Embedding -->
+        <param name="use_embedding"    value="true" />
+        <param name="embed_model_name" value="$(arg embed_model_name)" />
+        <param name="topk_semantic"    value="3" />
+
+        <!-- Topics (keep default names for consistency) -->
+        <param name="sub_query" value="/llm_reasoner/query" />
+        <param name="pub_node"  value="/llm_reasoner/chosen_node_id" />
+        <param name="pub_conf"  value="/llm_reasoner/confidence" />
+        <param name="pub_cos"   value="/llm_reasoner/cosine" />
+        <param name="pub_meta"  value="/llm_reasoner/meta" />
+    </node>
+</launch>

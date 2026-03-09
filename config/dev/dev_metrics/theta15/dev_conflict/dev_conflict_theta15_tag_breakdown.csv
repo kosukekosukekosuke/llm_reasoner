@@ -1,0 +1,6 @@
+tag,n_ok_total,n_ok_in,in_coverage,in_selective_risk,n_ok_oom,oom_false_accept_rate,oom_true_reject_rate
+multiple_intents,22,22,0.6818181818181818,0.2,0,,
+ambiguous,18,18,0.5,0.0,0,,
+comparative,17,17,0.7647058823529411,0.15384615384615385,0,,
+negation,16,16,0.6875,0.0,0,,
+omit_argument,9,9,0.4444444444444444,0.0,0,,

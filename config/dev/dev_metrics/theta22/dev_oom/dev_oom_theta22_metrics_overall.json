@@ -1,0 +1,83 @@
+{
+  "exrate": {
+    "n_total": 50,
+    "n_fail": 7,
+    "exrate_total": 0.14,
+    "n_in": 0,
+    "n_fail_in": 0,
+    "exrate_in": NaN,
+    "n_oom": 50,
+    "n_fail_oom": 7,
+    "exrate_oom": 0.14
+  },
+  "exrate_breakdown": {
+    "overall": {
+      "n_total": 50,
+      "n_ok": 43,
+      "exrate": 0.14,
+      "by_status": {
+        "ok": {
+          "count": 43,
+          "rate": 0.86
+        },
+        "timeout": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "parse_error": {
+          "count": 7,
+          "rate": 0.14
+        },
+        "out_of_set": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "exception": {
+          "count": 0,
+          "rate": 0.0
+        }
+      }
+    },
+    "in_map": {
+      "n_total": 0,
+      "n_ok": 0,
+      "exrate": NaN,
+      "by_status": {}
+    },
+    "oom": {
+      "n_total": 50,
+      "n_ok": 43,
+      "exrate": 0.14,
+      "by_status": {
+        "ok": {
+          "count": 43,
+          "rate": 0.86
+        },
+        "timeout": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "parse_error": {
+          "count": 7,
+          "rate": 0.14
+        },
+        "out_of_set": {
+          "count": 0,
+          "rate": 0.0
+        },
+        "exception": {
+          "count": 0,
+          "rate": 0.0
+        }
+      }
+    }
+  },
+  "operating_point": {
+    "in_n_ok": 0,
+    "in_coverage": NaN,
+    "in_selective_risk": NaN,
+    "oom_n_ok": 43,
+    "oom_false_accept_rate": 0.023255813953488372,
+    "oom_true_reject_rate": 0.9767441860465116
+  }
+}

@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "oom_0001",
+    "q": "マクドナルド（学外）に行きたい。",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0002",
+    "q": "Where is the parking lot?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_out_of_map"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0003",
+    "q": "Can you guide me to laundromat?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0004",
+    "q": "Please take me to the movie theater around here.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0005",
+    "q": "Can you guide me to a hotel?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0006",
+    "q": "コンビニ（学外）まで案内して。",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0007",
+    "q": "Please take me to the city hall near campus.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0008",
+    "q": "I want to go to a train station today.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0009",
+    "q": "Please take me to a pharmacy.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0010",
+    "q": "Where is the airport shuttle?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0011",
+    "q": "薬局（学外）まで案内して。",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0012",
+    "q": "Can you guide me to a bank (outside campus)?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0013",
+    "q": "Please take me to the laundromat around here.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0014",
+    "q": "スタバ（学外）に行きたい。",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0015",
+    "q": "Where is a police station this morning?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0016",
+    "q": "I want to go to Tokyo Station (outside campus).",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0017",
+    "q": "空港シャトル今日まで案内して。",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0018",
+    "q": "Take me to the career center.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_out_of_map"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0019",
+    "q": "How do I get to Tokyo Station (outside campus)?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0020",
+    "q": "Please take me to the shopping mall.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0021",
+    "q": "Where is Shinjuku Station?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0022",
+    "q": "Take me to the security office nearby.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_out_of_map"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0023",
+    "q": "東京駅今日ってどこ？",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0024",
+    "q": "ホテルってどこ？",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0025",
+    "q": "銀行まで案内して。",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0026",
+    "q": "Please take me to the nearest supermarket (outside campus).",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0027",
+    "q": "Can you guide me to Tokyo Station off-campus?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0028",
+    "q": "Can you guide me to ATM today?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0029",
+    "q": "Please take me to a post office this morning.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0030",
+    "q": "薬局まで案内して。",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0031",
+    "q": "Please take me to the barber asap.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0032",
+    "q": "Please take me to the laundromat.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0033",
+    "q": "郵便局ってどこ？",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0034",
+    "q": "Can you guide me to a post office off-campus?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0035",
+    "q": "羽田空港まで案内して。",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0036",
+    "q": "Do you know where the airport shuttle?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0037",
+    "q": "I need to go to barber around here.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0038",
+    "q": "映画館の近くに連れて行って。",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0039",
+    "q": "I need the security office.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_out_of_map"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0040",
+    "q": "バス停（学内）はどこ？",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_out_of_map"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0041",
+    "q": "Where is the laundromat?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0042",
+    "q": "Please take me to a pharmacy off-campus.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0043",
+    "q": "How do I get to the nearest supermarket?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0044",
+    "q": "東京駅（学外）に行きたい。",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0045",
+    "q": "Please take me to a police station.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0046",
+    "q": "コンビニ（キャンパス外）に連れて行って。",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0047",
+    "q": "Can you guide me to movie theater today?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0048",
+    "q": "Can you guide me to a bank (off campus)?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0049",
+    "q": "Where is the lost and found in a bit?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_out_of_map"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0050",
+    "q": "Where is a hotel off-campus?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0051",
+    "q": "羽田空港これからってどこ？",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0052",
+    "q": "I need to go to shopping mall around here.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0053",
+    "q": "I need the parking lot this morning.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_out_of_map"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0054",
+    "q": "Please take me to the museum.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0055",
+    "q": "東京駅に連れて行って。",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0056",
+    "q": "ATM（学内）まで案内して。",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_out_of_map"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0057",
+    "q": "Could you tell me please take me to a post office this morning.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0058",
+    "q": "Can you guide me to the security office nearby?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_out_of_map"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0059",
+    "q": "Where is a taxi stand (outside campus)?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0060",
+    "q": "理髪店に行きたい。",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0061",
+    "q": "キャンパス内のプラネタリウムに行きたい。",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_out_of_map"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0062",
+    "q": "Could you tell me i need the security office.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_out_of_map"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0063",
+    "q": "Can you guide me to the post office today?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_out_of_map"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0064",
+    "q": "空港シャトルあたりに行きたい。",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0065",
+    "q": "ATMの近くはどこ？",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0066",
+    "q": "銀行さっきからに行きたい。",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0067",
+    "q": "タクシー乗り場（キャンパス外）に連れて行って。",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0068",
+    "q": "Where is a bank asap?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0069",
+    "q": "Can you guide me to ATM near campus?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0070",
+    "q": "成田空港（キャンパス外）ってどこ？",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0071",
+    "q": "Where is the dormitory nearby?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_out_of_map"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0072",
+    "q": "Take me to the post office asap.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_out_of_map"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0073",
+    "q": "ホテルこれからってどこ？",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0074",
+    "q": "ATMまで案内して。",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0075",
+    "q": "I want to go to Tokyo Station right now.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0076",
+    "q": "Where is the bus stop right now?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_out_of_map"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0077",
+    "q": "Can you guide me to the parking lot?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_out_of_map"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0078",
+    "q": "Where is a McDonald's?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0079",
+    "q": "Where is the lost and found asap?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_out_of_map"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0080",
+    "q": "Can you guide me to Tokyo Station (outside campus)?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0081",
+    "q": "I need the lost and found asap.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_out_of_map"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0082",
+    "q": "成田空港（キャンパス外）に連れて行って。",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0083",
+    "q": "How do I get to a Starbucks today?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0084",
+    "q": "Do you know where a taxi stand (outside campus)?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0085",
+    "q": "Can you guide me to a Starbucks asap?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0086",
+    "q": "Take me to the lost and found today.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_out_of_map"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0087",
+    "q": "I want to go to Shinjuku Station (outside campus).",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0088",
+    "q": "Can you guide me to the planetarium on campus?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_out_of_map"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0089",
+    "q": "How do I get to a hotel asap?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0090",
+    "q": "成田空港急いでってどこ？",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "oom_0091",
+    "q": "Please take me to the ATM around here.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0092",
+    "q": "Where is the kindergarten around here?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0093",
+    "q": "Where is the laundromat near campus?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0094",
+    "q": "I want to go to a McDonald's (outside campus).",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0095",
+    "q": "Where is the museum near campus?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0096",
+    "q": "Can you take me to a police station.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0097",
+    "q": "Please take me to the nearest supermarket in a bit.",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0098",
+    "q": "Where is the shopping mall?",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_missing_node"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0099",
+    "q": "Please take me to the closest supermarket (outside campus).",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_external"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "oom_0100",
+    "q": "ATM近くのまで案内して。",
+    "y": -1,
+    "scenario": "OoM",
+    "tags": [
+      "oom_out_of_map"
+    ],
+    "lang": "jp"
+  }
+]

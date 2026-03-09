@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "dev_total": 350,
+    "test_total": 700
+  },
+  "internal_dups": {
+    "dev_canonical_dup_count": 0,
+    "test_canonical_dup_count": 0
+  },
+  "overlap": {
+    "dev_test_canonical_overlap_count": 0
+  },
+  "near_duplicates": {
+    "threshold": 0.92,
+    "candidate_pair_count": 0,
+    "topk": 20,
+    "candidate_pairs_topk": []
+  }
+}

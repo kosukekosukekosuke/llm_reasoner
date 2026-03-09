@@ -1,0 +1,2002 @@
+[
+  {
+    "id": "core_0001",
+    "q": "メイン図書館はどこですか？",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0002",
+    "q": "Could you point me to the central garden?",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0003",
+    "q": "ブックストアに行きたいです。案内してもらえますか？",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0004",
+    "q": "How do I get to the garden?",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0005",
+    "q": "Where should I go to visit my supervisor's office?",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0006",
+    "q": "How do I get to the campus gym?",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0007",
+    "q": "I need to get lunch. Where should I go?",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0008",
+    "q": "I want to go to the vending machine corner.",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0009",
+    "q": "I want to print something. Which place is that?",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0010",
+    "q": "Could you point me to the front gate?",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0011",
+    "q": "Where can I find the vending machine spot on campus?",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0012",
+    "q": "学食に向かいたいです。",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0013",
+    "q": "Where is the medical office?",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0014",
+    "q": "運動できる設備に行きたいです。どこですか？",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0015",
+    "q": "I need to sit in the garden. Where should I go?",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0016",
+    "q": "Could you point me to the library?",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0017",
+    "q": "Could you point me to the research office?",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0018",
+    "q": "気分転換したいです。どこですか？",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0019",
+    "q": "I want to go to the canteen.",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0020",
+    "q": "Please guide me to the vending machines.",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0021",
+    "q": "Could you point me to the classroom building?",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0022",
+    "q": "Is there a place to buy textbooks on campus? Where should I head?",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0023",
+    "q": "Please guide me to the lecture building.",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0024",
+    "q": "レクチャーホールに行きたいです。案内してもらえますか？",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0025",
+    "q": "研究設備の場所ってどこ？",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0026",
+    "q": "Where can I find the lecture room?",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0027",
+    "q": "購買に行きたいです。案内してもらえますか？",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0028",
+    "q": "I want to go to the classroom building.",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0029",
+    "q": "How do I get to the central garden?",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0030",
+    "q": "How do I get to the front gate?",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0031",
+    "q": "I want to find the campus entrance. Which place is that?",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0032",
+    "q": "Where is the bookstore?",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0033",
+    "q": "I want the main campus entrance. Where is the best place for that?",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0034",
+    "q": "外で休憩したいです。どこですか？",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0035",
+    "q": "I want stationery and supplies. Where is the best place for that?",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0036",
+    "q": "How do I get to the campus garden?",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0037",
+    "q": "Is there medical help on campus? Where should I head?",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0038",
+    "q": "I have to get lunch. Where should I head?",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0039",
+    "q": "I'm trying to meet my advisor. Where should I head?",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0040",
+    "q": "何か食べたいんですが、どこに行けばいい？",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0041",
+    "q": "Could you point me to the canteen?",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0042",
+    "q": "トレーニングルームに行きたいです。案内してもらえますか？",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0043",
+    "q": "ヘルスセンターに行きたいです。案内してもらえますか？",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0044",
+    "q": "I want to go to the campus store.",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0045",
+    "q": "Where can I borrow a book?",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0046",
+    "q": "I want to go to the campus garden.",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0047",
+    "q": "I'm looking for a place to work out. Which place should I go to?",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0048",
+    "q": "I want to meet someone at the entrance. Which place is that?",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0049",
+    "q": "I need to meet my advisor. Where should I go?",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0050",
+    "q": "Is there my supervisor's office on campus? Where should I head?",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0051",
+    "q": "Where is the shop?",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0052",
+    "q": "I need to meet someone at the entrance. Where should I go?",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0053",
+    "q": "Where can I grab something to eat?",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0054",
+    "q": "Please guide me to the campus gym.",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0055",
+    "q": "入口はどこですか？",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0056",
+    "q": "Where can I enter campus?",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0057",
+    "q": "Is there the main campus entrance on campus? Where should I head?",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0058",
+    "q": "Where can I get some fresh air?",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0059",
+    "q": "Where should I go to enter campus from the front entrance?",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0060",
+    "q": "Could you point me to the health center?",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0061",
+    "q": "Please take me to the lecture room.",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0062",
+    "q": "中庭に向かいたいです。",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0063",
+    "q": "I'm trying to get a notebook. Where should I head?",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0064",
+    "q": "静かな自習スペースの場所ってどこ？",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0065",
+    "q": "Where should I go to get something to eat?",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0066",
+    "q": "Please guide me to the dining hall.",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0067",
+    "q": "Could you point me to the laboratory?",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0068",
+    "q": "I'm looking for a place with vending machines. Where should I go?",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0069",
+    "q": "I'm looking for classrooms for lectures. Which place should I go to?",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0070",
+    "q": "教科書を買いたいです。どこに行けばいいですか？",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0071",
+    "q": "I want to go to the bookstore.",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0072",
+    "q": "ヘルスセンターまで連れて行ってください。",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0073",
+    "q": "Could you point me to the lecture hall?",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0074",
+    "q": "I want to go to the shop.",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0075",
+    "q": "応急処置をしてもらうのはどこがいいですか？",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0076",
+    "q": "How do I get to the library?",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0077",
+    "q": "Where are the vending machines on campus? Where should I head?",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0078",
+    "q": "How do I get to the lab building?",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0079",
+    "q": "I want to go to the lecture hall.",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0080",
+    "q": "I need to enter campus. Where should I go?",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0081",
+    "q": "Could you point me to the dining hall?",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0082",
+    "q": "Please guide me to the lecture hall.",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0083",
+    "q": "I want to go to the campus main entrance.",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0084",
+    "q": "安い昼食の場所ってどこ？",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0085",
+    "q": "ランニングしたいです。どこですか？",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0086",
+    "q": "I'm looking for my supervisor's office. Which place should I go to?",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0087",
+    "q": "食堂はどこですか？",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0088",
+    "q": "ジュースをサッと買いたいです。どこに行けばいい？",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0089",
+    "q": "保健室に向かいたいです。",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0090",
+    "q": "Where is the main library?",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0091",
+    "q": "I'm looking for the front entrance. Which place should I go to?",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0092",
+    "q": "I need to borrow a book. Where should I go?",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0093",
+    "q": "I need to borrow a book. Which place is that?",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0094",
+    "q": "Where is the lab building?",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0095",
+    "q": "Where should I go for medical help?",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0096",
+    "q": "Please guide me to the fitness center.",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0097",
+    "q": "How do I get to the health center?",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0098",
+    "q": "Please guide me to the campus garden.",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0099",
+    "q": "ラボの場所を教えてください。",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0100",
+    "q": "安い昼食を探しています。どこに行けばいいですか？",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0101",
+    "q": "How do I get to the campus store?",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0102",
+    "q": "トレーニングルームの場所を教えてください。",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0103",
+    "q": "正門の入口に行きたいです。どこですか？",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0104",
+    "q": "Could you point me to the lecture building?",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0105",
+    "q": "I need to buy a soft drink. Where should I go?",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0106",
+    "q": "Is there books and study desks on campus? Where should I head?",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0107",
+    "q": "I want to go to the vending machine corner, please.",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0108",
+    "q": "自動販売機のところまで連れて行ってください。",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0109",
+    "q": "応急処置をしてほしい。どこに行けばいいですか？",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0110",
+    "q": "Please guide me to the lecture building. Please.",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0111",
+    "q": "ライブラリはどこですか？",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0112",
+    "q": "自販機の場所に行きたいです。案内してもらえますか？",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0113",
+    "q": "教室に行きたいんですが、どこに行けばいい？",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0114",
+    "q": "Could you point me to the gym?",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0115",
+    "q": "中庭まで連れて行ってください。",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0116",
+    "q": "Please guide me to the garden.",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0117",
+    "q": "Is there exercise equipment on campus? Where should I head?",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0118",
+    "q": "Please take me to the shop.",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0119",
+    "q": "I want to go to the main gate.",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0120",
+    "q": "I want a green relaxing area. Where is the best place for that?",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0121",
+    "q": "I want to go to the campus gym.",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0122",
+    "q": "I want books and study desks. Where is the best place for that?",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0123",
+    "q": "メイン図書館に行きたいです。案内してもらえますか？",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0124",
+    "q": "How do I get to the garden on campus?",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0125",
+    "q": "I need to buy a meal. Where should I go?",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0126",
+    "q": "Where is the gym?",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0127",
+    "q": "I need to get first aid. Where should I go?",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0128",
+    "q": "診察を受けるのはどこがいいですか？",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0129",
+    "q": "応急処置を探しています。どこに行けばいいですか？",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0130",
+    "q": "I want research equipment. Where is the best place for that?",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0131",
+    "q": "ラボはどこですか？",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0132",
+    "q": "Where should I go to buy textbooks?",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0133",
+    "q": "I want a place to work out. Where is the best place for that?",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0134",
+    "q": "気分転換したいので、案内してください。",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0135",
+    "q": "Which place is the front gate?",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0136",
+    "q": "I'm looking for cheap lunch. Which place should I go to?",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0137",
+    "q": "Where should I go to work out?",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0138",
+    "q": "Where can I go to class?",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0139",
+    "q": "Where is the hall for lectures?",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0140",
+    "q": "I need to buy a canned coffee. Where should I go?",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0141",
+    "q": "指導教員に会うのはどこがいいですか？",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0142",
+    "q": "屋外の中庭に行きたいです。どこですか？",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0143",
+    "q": "静かに勉強するのはどこがいいですか？",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0144",
+    "q": "正門に行く。どこに行けばいいですか？",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0145",
+    "q": "I want to go to the library.",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0146",
+    "q": "Where is the library?",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0147",
+    "q": "ジムはどこにありますか？",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0148",
+    "q": "実験作業をしたいです。どこですか？",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0149",
+    "q": "I'm not feeling well. Where should I go?",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0150",
+    "q": "Please guide me to the clinic.",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0151",
+    "q": "Could you guide me to the campus library?",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0152",
+    "q": "講義室はどこですか？",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0153",
+    "q": "研究棟に行きたいです。案内してもらえますか？",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0154",
+    "q": "フィットネスセンターに行きたいです。案内してもらえますか？",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0155",
+    "q": "売店の場所を教えてください。",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0156",
+    "q": "Could you point me to the garden?",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0157",
+    "q": "Is there a vending area on campus? Where should I head?",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0158",
+    "q": "Where is the campus main entrance?",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0159",
+    "q": "実験作業をしたいんですが、どこに行けばいい？",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0160",
+    "q": "Please guide me to the gym.",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0161",
+    "q": "Where can I get a sports drink quickly?",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0162",
+    "q": "Could you point me to the hall for lectures?",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0163",
+    "q": "I want to go to the dining hall.",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0164",
+    "q": "I need to talk to the nurse. Where should I go?",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0165",
+    "q": "Where can I get a sports drink quickly on campus?",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0166",
+    "q": "Where is the vending machines area?",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0167",
+    "q": "Please take me to the library.",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0168",
+    "q": "I'm trying to buy a snack from a vending machine. Where should I head?",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0169",
+    "q": "研究ラボまで連れて行ってください。",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0170",
+    "q": "緑がある休憩場所の場所ってどこ？",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0171",
+    "q": "Please guide me to the vending area.",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0172",
+    "q": "I want to talk to the nurse. Which place is that?",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0173",
+    "q": "I want to go to the campus cafeteria.",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0174",
+    "q": "Please guide me to the campus cafeteria.",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0175",
+    "q": "本を借りたいんですが、どこに行けばいい？",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0176",
+    "q": "Where is the campus cafeteria?",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0177",
+    "q": "Please guide me to the laboratory.",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0178",
+    "q": "Where is the lecture building?",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0179",
+    "q": "医療的な相談に行きたいです。どこですか？",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0180",
+    "q": "Where can I find the campus entrance?",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0181",
+    "q": "I want to go to the campus bookstore.",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0182",
+    "q": "I want to go to the training room.",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0183",
+    "q": "研究室まで連れて行ってください。",
+    "y": 6,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0184",
+    "q": "入口（正門）に行きたいです。場所を教えてください。",
+    "y": 0,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0185",
+    "q": "I want to go to the canteen. If possible.",
+    "y": 2,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0186",
+    "q": "Where is the vending machine spot?",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0187",
+    "q": "自販機コーナーまで連れて行ってください。",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0188",
+    "q": "Where can I take a break outside?",
+    "y": 8,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0189",
+    "q": "キャンパスストアに向かいたいです。",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0190",
+    "q": "I need to buy stationery. Where should I go?",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0191",
+    "q": "講義を受けたいので、案内してください。",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0192",
+    "q": "I want to go to the gym.",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0193",
+    "q": "Where is the vending machine area on campus? Where should I head?",
+    "y": 9,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0194",
+    "q": "Could you guide me to the health center?",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0195",
+    "q": "I need to buy textbooks. Where should I go?",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0196",
+    "q": "レクチャーホールまで連れて行ってください。",
+    "y": 7,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0197",
+    "q": "Which place is a place for first aid?",
+    "y": 3,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0198",
+    "q": "I'm looking for a quiet study place with books. Where should I go?",
+    "y": 1,
+    "scenario": "core",
+    "tags": [
+      "attribute"
+    ],
+    "lang": "en"
+  },
+  {
+    "id": "core_0199",
+    "q": "教科書を買いたいんですが、どこに行けばいい？",
+    "y": 5,
+    "scenario": "core",
+    "tags": [
+      "function"
+    ],
+    "lang": "jp"
+  },
+  {
+    "id": "core_0200",
+    "q": "Could you point me to the training room?",
+    "y": 4,
+    "scenario": "core",
+    "tags": [
+      "name"
+    ],
+    "lang": "en"
+  }
+]

@@ -1,0 +1,11 @@
+subset,status,count,rate_of_subset,n_total_subset
+overall,ok,97,0.97,100
+overall,timeout,0,0.0,100
+overall,parse_error,3,0.03,100
+overall,out_of_set,0,0.0,100
+overall,exception,0,0.0,100
+in_map,ok,97,0.97,100
+in_map,timeout,0,0.0,100
+in_map,parse_error,3,0.03,100
+in_map,out_of_set,0,0.0,100
+in_map,exception,0,0.0,100

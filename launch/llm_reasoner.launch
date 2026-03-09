@@ -1,52 +1,121 @@
 <launch>
-    <!-- ===== Args you typically change per experiment ===== -->
-    <!-- LLM model file (under llm_reasoner/scripts/llama.cpp/models) -->
-    <arg name="model_name" default="Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf" />
-    <!-- Map (semantic graph) -->
-    <arg name="map_yaml"   default="$(find rover_navigator)/map/graph/ikuta_graph_eval_v1.yaml" />
-    <!-- Decision mode: "and" or "weighted" -->
-    <arg name="decision_mode" default="weighted" />
-    <!-- Max extra attempts (so total calls = max_retries + 1) -->
-    <arg name="max_retries" default="0" />
-    <!-- <arg name="max_retries" default="2" /> -->
-    <!-- Embedding model name -->
-    <arg name="embed_model_name" default="BAAI/bge-m3" />
+  <!--
+    llm_reasoner.launch
+    Spec-faithful ROS launch for llm_reasoner.py
+  -->
 
-    <node pkg="llm_reasoner" type="llm_reasoner.py" name="llm_reasoner" output="screen">
-        <!-- Paths -->
-        <param name="model_path"     value="$(find llm_reasoner)/scripts/llama.cpp/models/$(arg model_name)" />
-        <param name="map_yaml_path"  value="$(arg map_yaml)" />
+  <!-- Map -->
+  <arg name="map_yaml_path" default="$(find rover_navigator)/map/graph/ikuta_graph_eval.yaml" />
+  <!-- Map info ablation: M_L / M_LS / M_LSD -->
+  <arg name="map_info_variant" default="M_L" />
 
-        <!-- LLM generation -->
-        <param name="ctx_size"   value="2048" />
-        <param name="threads"    value="4" />
-        <param name="temperature" value="0.1" />
-        <param name="top_k"      value="10" />
-        <param name="top_p"      value="0.0" />
-        <param name="max_tokens" value="32" />
+  <!-- Embedding -->
+  <arg name="use_embedding" default="true" />
+  <arg name="embedding_model_name" default="BAAI/bge-m3" />
+  <!-- cosine_norm_mode: none / minmax / zscore -->
+  <arg name="cosine_norm_mode" default="minmax" />
 
-        <!-- Decision / trust -->
-        <param name="decision_mode"      value="$(arg decision_mode)" />
-        <param name="max_retries"        value="$(arg max_retries)" />
-        <param name="conf_threshold"     value="0.0" />
-        <param name="cosine_threshold"   value="0.0" />
-        <param name="combined_threshold" value="0.0" />
-        <!-- <param name="conf_threshold"     value="0.5" />
-        <param name="cosine_threshold"   value="0.5" />
-        <param name="combined_threshold" value="0.6" /> -->
-        <param name="alpha"              value="0.5" />
-        <param name="fallback_node"      value="0" />
+  <!-- LLM runtime -->
+  <arg name="llama_model_path" default="$(find llm_reasoner)/scripts/llama.cpp/models/Meta-Llama-3.1-8B-Instruct-Q5_K_M.gguf" />
+  <arg name="ctx_size" default="4096" />
+  <arg name="threads" default="8" />
+  <arg name="gpu_layers" default="0" />
+  <arg name="batch_size" default="512" />
 
-        <!-- Embedding -->
-        <param name="use_embedding"    value="true" />
-        <param name="embed_model_name" value="$(arg embed_model_name)" />
-        <param name="topk_semantic"    value="3" />
+  <!-- Generation -->
+  <arg name="temperature" default="0.0" />
+  <arg name="top_p" default="1.0" />
+  <arg name="max_tokens" default="32" />
+  <arg name="timeout_sec" default="60.0" />
 
-        <!-- Topics (keep default names for consistency) -->
-        <param name="sub_query" value="/llm_reasoner/query" />
-        <param name="pub_node"  value="/llm_reasoner/chosen_node_id" />
-        <param name="pub_conf"  value="/llm_reasoner/confidence" />
-        <param name="pub_cos"   value="/llm_reasoner/cosine" />
-        <param name="pub_meta"  value="/llm_reasoner/meta" />
-    </node>
+  <!-- Run mode -->
+  <!-- run_mode: reasoner / baseline_ap / baseline_r -->
+  <arg name="run_mode" default="reasoner" />
+  <!-- decision_mode is spec-fixed to weighted -->
+  <arg name="decision_mode" default="weighted" />
+
+  <!-- Retry / candidate filtering -->
+  <arg name="max_retries" default="1" />
+  <arg name="topk_semantic" default="5" />
+
+  <!-- OoM gate (pre-LLM abstain) -->
+  <arg name="oom_max_cos_threshold" default="0.54" />
+  <arg name="oom_margin_threshold" default="0.0" />
+
+  <!-- Accept decision (combined) -->
+  <arg name="combined_threshold" default="0.80" />
+  <arg name="alpha" default="0.30" />
+
+  <!-- Baseline-R accept threshold -->
+  <arg name="conf_threshold" default="0.0" />
+
+  <!-- Cos weighting -->
+  <arg name="cos_w_label" default="0.3333333333" />
+  <arg name="cos_w_sem" default="0.3333333333" />
+  <arg name="cos_w_desc" default="0.3333333333" />
+
+  <!-- cos_adapt -->
+  <arg name="cos_adapt" default="false" />
+  <arg name="cos_adapt_strength" default="1.0" />
+  <arg name="cos_adapt_tau" default="1.0" />
+
+  <!-- Output -->
+  <!-- Spec: abstain is fixed to -1 -->
+  <arg name="abstain_node_id" default="-1" />
+
+  <node pkg="llm_reasoner" type="llm_reasoner.py" name="llm_reasoner" output="screen">
+    <!-- Map -->
+    <param name="map_yaml_path" value="$(arg map_yaml_path)" />
+    <param name="map_info_variant" value="$(arg map_info_variant)" />
+
+    <!-- Embedding -->
+    <param name="use_embedding" value="$(arg use_embedding)" />
+    <param name="embedding_model_name" value="$(arg embedding_model_name)" />
+    <param name="cosine_norm_mode" value="$(arg cosine_norm_mode)" />
+
+    <!-- LLM runtime -->
+    <param name="llama_model_path" value="$(arg llama_model_path)" />
+    <param name="ctx_size" value="$(arg ctx_size)" />
+    <param name="threads" value="$(arg threads)" />
+    <param name="gpu_layers" value="$(arg gpu_layers)" />
+    <param name="batch_size" value="$(arg batch_size)" />
+
+    <!-- Generation -->
+    <param name="temperature" value="$(arg temperature)" />
+    <param name="top_p" value="$(arg top_p)" />
+    <param name="max_tokens" value="$(arg max_tokens)" />
+    <param name="timeout_sec" value="$(arg timeout_sec)" />
+
+    <!-- Run mode -->
+    <param name="run_mode" value="$(arg run_mode)" />
+    <param name="decision_mode" value="$(arg decision_mode)" />
+
+    <!-- Retry / candidate filtering -->
+    <param name="max_retries" value="$(arg max_retries)" />
+    <param name="topk_semantic" value="$(arg topk_semantic)" />
+
+    <!-- OoM gate -->
+    <param name="oom_max_cos_threshold" value="$(arg oom_max_cos_threshold)" />
+    <param name="oom_margin_threshold" value="$(arg oom_margin_threshold)" />
+
+    <!-- Accept decision -->
+    <param name="combined_threshold" value="$(arg combined_threshold)" />
+    <param name="alpha" value="$(arg alpha)" />
+
+    <!-- Baseline-R -->
+    <param name="conf_threshold" value="$(arg conf_threshold)" />
+
+    <!-- Cos weighting -->
+    <param name="cos_w_label" value="$(arg cos_w_label)" />
+    <param name="cos_w_sem" value="$(arg cos_w_sem)" />
+    <param name="cos_w_desc" value="$(arg cos_w_desc)" />
+
+    <!-- cos_adapt -->
+    <param name="cos_adapt" value="$(arg cos_adapt)" />
+    <param name="cos_adapt_strength" value="$(arg cos_adapt_strength)" />
+    <param name="cos_adapt_tau" value="$(arg cos_adapt_tau)" />
+
+    <!-- Output -->
+    <param name="abstain_node_id" value="$(arg abstain_node_id)" />
+  </node>
 </launch>
